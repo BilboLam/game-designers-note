@@ -1,0 +1,37 @@
+/**
+ * Static design tokens (not theme-dependent).
+ * Theme colors are injected at runtime via ThemeColorRoot (see app/ThemeColorRoot.jsx).
+ */
+:root {
+  --font-serif: "Lora", Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-panel: 9px;
+  --radius-dropdown: 10px;
+
+  --space-xs: 4px;
+  --space-sm: 6px;
+  --space-md: 12px;
+  --space-lg: 16px;
+  --space-xl: 22px;
+  --space-2xl: 28px;
+  --space-3xl: 40px;
+  --space-4xl: 52px;
+  --space-5xl: 56px;
+
+  --size-header: 50px;
+  --width-sidebar: 260px;
+  --width-reading: 720px;
+  --width-search-max: 320px;
+
+  --z-overlay: 90;
+  --z-sidebar: 95;
+  --z-header: 100;
+  --z-search-results: 300;
+
+  --shadow-dropdown: 0 8px 28px rgba(0, 0, 0, 0.15);
+  --overlay-scrim: rgba(0, 0, 0, 0.4);
+}

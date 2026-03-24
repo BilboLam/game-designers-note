@@ -1,0 +1,50 @@
+.row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-lg);
+  cursor: pointer;
+  font-size: 13px;
+  color: var(--color-muted);
+  font-weight: 400;
+  background: transparent;
+  border-left: 2px solid transparent;
+  transition: color 0.15s, background 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.rowDepthRoot {
+  font-size: 13.5px;
+}
+
+.rowCurrent {
+  color: var(--color-accent);
+  font-weight: 500;
+  background: var(--color-accent-bg);
+  border-left-color: var(--color-accent);
+}
+
+.rowPlain:hover {
+  color: var(--color-text);
+  background: var(--color-accent-bg);
+}
+
+.rootIcon {
+  font-size: 13px;
+}
+
+.label {
+  flex: 1;
+  line-height: 1.4;
+}
+
+.expandToggle {
+  font-size: 9px;
+  opacity: 0.5;
+  padding: 2px var(--space-xs);
+  transition: transform 0.2s;
+}
+
+.expandToggleOpen {
+  transform: rotate(90deg);
+}
