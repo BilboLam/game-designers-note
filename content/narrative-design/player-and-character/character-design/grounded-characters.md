@@ -1,5 +1,5 @@
 ---
-title: "Grounded Characters | Game Designer&#x27;s Note"
+title: "Grounded Characters | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/player-and-character/character-design/grounded-characters
 path: narrative-design/player-and-character/character-design/grounded-characters
 ---

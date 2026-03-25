@@ -1,11 +1,19 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { NAV } from '@/config/nav.js';
+import { Breadcrumb, H1, InternalLink } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
+  const section = NAV.find((n) => n.id === 'level-design');
+  const children = section?.children ?? [];
   return (
     <div>
-      <H1>{"Level Design"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb auto go={go} />
+      <H1>Level Design</H1>
+      {children.map((item) => (
+        <h4 key={item.id} style={{ fontSize: 17, fontWeight: 600, color: 'var(--text)', marginTop: 16, marginBottom: 8 }}>
+          <InternalLink id={item.id} go={go}>{item.label}</InternalLink>
+        </h4>
+      ))}
     </div>
   );
 }

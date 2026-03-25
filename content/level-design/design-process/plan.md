@@ -1,5 +1,5 @@
 ---
-title: "Plan | Game Designer&#x27;s Note"
+title: "Plan | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/design-process/plan
 path: level-design/design-process/plan
 ---

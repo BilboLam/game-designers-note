@@ -1,5 +1,5 @@
 ---
-title: "Lock &amp; Key | Game Designer&#x27;s Note"
+title: "Lock &amp; Key | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/reward-and-exploration/lock-and-key
 path: level-design/reward-and-exploration/lock-and-key
 ---

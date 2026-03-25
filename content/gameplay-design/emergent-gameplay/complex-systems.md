@@ -1,5 +1,5 @@
 ---
-title: "Complex Systems | Game Designer&#x27;s Note"
+title: "Complex Systems | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/emergent-gameplay/complex-systems
 path: gameplay-design/emergent-gameplay/complex-systems
 ---

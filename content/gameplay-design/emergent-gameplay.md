@@ -1,5 +1,5 @@
 ---
-title: "Emergent Gameplay | Game Designer&#x27;s Note"
+title: "Emergent Gameplay | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/emergent-gameplay
 path: gameplay-design/emergent-gameplay
 ---

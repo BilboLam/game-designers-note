@@ -1,5 +1,5 @@
 ---
-title: "End-turn Resolution | Game Designer&#x27;s Note"
+title: "End-turn Resolution | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/card-games/end-turn-resolution
 path: gameplay-design/specific-systems/core-systems/card-games/end-turn-resolution
 ---

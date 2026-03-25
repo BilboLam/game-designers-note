@@ -1,5 +1,5 @@
 ---
-title: "Game Designers&#x27; Note | Game Designer&#x27;s Note"
+title: "Game Designers&#x27; Note | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note
 path: /
 ---

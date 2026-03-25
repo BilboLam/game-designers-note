@@ -1,5 +1,5 @@
 ---
-title: "Open world | Game Designer&#x27;s Note"
+title: "Open world | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/game-beat/open-world
 path: level-design/pacing/game-beat/open-world
 ---

@@ -1,12 +1,19 @@
 import React from 'react';
-import { Breadcrumb, H1, P } from '@/components/ui.jsx';
+import { NAV } from '@/config/nav.js';
+import { Breadcrumb, H1, InternalLink } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
+  const section = NAV.find((n) => n.id === 'narrative-design');
+  const children = section?.children ?? [];
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Narrative Design</H1>
-      <P>World Building | Game Designer's Note</P>
+      {children.map((item) => (
+        <h4 key={item.id} style={{ fontSize: 17, fontWeight: 600, color: 'var(--text)', marginTop: 16, marginBottom: 8 }}>
+          <InternalLink id={item.id} go={go}>{item.label}</InternalLink>
+        </h4>
+      ))}
     </div>
   );
 }

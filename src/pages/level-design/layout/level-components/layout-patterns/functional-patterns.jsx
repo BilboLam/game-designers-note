@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
+import { Annotation, Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -22,7 +22,17 @@ export default function Page({ go }) {
       <H3 id="pace-breaking">Pace-breaking</H3>
       <Blockquote>Changing the dramatic arc</Blockquote>
       <H3 id="create-your-layout-modules">Create Your Layout Modules</H3>
-      <Blockquote>The Left 4 Dead 2 team analyzed playtests of the original game, identifying fun gameplay modules like Capillaries and<strong> </strong>Crescendo Event. You can also identify the layout modules of your game and reuse them.</Blockquote>
+      <Blockquote>
+        The Left 4 Dead 2 team analyzed playtests of the original game, identifying fun gameplay modules like
+        {' '}
+        <Annotation note="Side paths off the main flow. Useful for item placement.">Capillaries</Annotation>
+        {' '}
+        and
+        <strong> </strong>
+        <Annotation note="High intensity combat challenge.">Crescendo</Annotation>
+        {' '}
+        Event. You can also identify the layout modules of your game and reuse them.
+      </Blockquote>
     </div>
   );
 }

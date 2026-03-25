@@ -1,5 +1,5 @@
 ---
-title: "Common Beat Elements | Game Designer&#x27;s Note"
+title: "Common Beat Elements | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/game-beat/common-beat-elements
 path: level-design/pacing/game-beat/common-beat-elements
 ---

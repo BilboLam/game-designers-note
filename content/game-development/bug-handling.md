@@ -1,5 +1,5 @@
 ---
-title: "Bug Handling | Game Designer&#x27;s Note"
+title: "Bug Handling | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-development/bug-handling
 path: game-development/bug-handling
 ---

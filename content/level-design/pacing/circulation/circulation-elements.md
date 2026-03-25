@@ -1,5 +1,5 @@
 ---
-title: "Circulation Elements | Game Designer&#x27;s Note"
+title: "Circulation Elements | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/circulation/circulation-elements
 path: level-design/pacing/circulation/circulation-elements
 ---

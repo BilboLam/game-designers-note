@@ -1,5 +1,5 @@
 ---
-title: "Depth of Gameplay | Game Designer&#x27;s Note"
+title: "Depth of Gameplay | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/challenge/depth-of-gameplay
 path: game-experience/8-funs/challenge/depth-of-gameplay
 ---

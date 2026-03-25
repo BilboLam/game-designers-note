@@ -1,5 +1,5 @@
 ---
-title: "Game Beat Examples | Game Designer&#x27;s Note"
+title: "Game Beat Examples | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/game-beat/game-beat-examples
 path: level-design/pacing/game-beat/game-beat-examples
 ---

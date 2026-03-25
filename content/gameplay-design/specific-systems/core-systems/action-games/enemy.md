@@ -1,5 +1,5 @@
 ---
-title: "Enemy | Game Designer&#x27;s Note"
+title: "Enemy | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy
 path: gameplay-design/specific-systems/core-systems/action-games/enemy
 ---

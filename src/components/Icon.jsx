@@ -1,11 +1,11 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCat } from '@fortawesome/free-solid-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 import { far } from '@fortawesome/free-regular-svg-icons';
 import { resolveIconName } from '@/utils/icon-resolve.js';
 
-library.add(far, faCat);
+library.add(fas, far);
 
 export function Icon({ name, className, style }) {
   if (!name) return null;
@@ -16,3 +16,5 @@ export function Icon({ name, className, style }) {
     return null;
   }
 }
+
+

@@ -1,5 +1,5 @@
 ---
-title: "Engineering System | Game Designer&#x27;s Note"
+title: "Engineering System | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/more-systems/engineering-system
 path: gameplay-design/specific-systems/more-systems/engineering-system
 ---

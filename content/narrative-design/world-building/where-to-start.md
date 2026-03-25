@@ -1,5 +1,5 @@
 ---
-title: "Where to Start | Game Designer&#x27;s Note"
+title: "Where to Start | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/world-building/where-to-start
 path: narrative-design/world-building/where-to-start
 ---

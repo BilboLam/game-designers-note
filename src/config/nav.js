@@ -3,14 +3,14 @@ import { pickIconForNavNode } from './nav-icon-policy.js';
 const NAV_SOURCE = [
   {
     "id": "home",
-    "label": "Game Designer's Note",
+    "label": "Game Designers' Note",
     "icon": "far:house"
   },
   {
     "id": "gameplay-design",
     "label": "Gameplay Design",
     "path": "gameplay-design",
-    "icon": "diagram-project",
+    "icon": "fas:gamepad",
     "children": [
       {
         "id": "emergent-gameplay",
@@ -293,7 +293,7 @@ const NAV_SOURCE = [
     "id": "game-experience",
     "label": "Game Experience",
     "path": "game-experience",
-    "icon": "far:face-grin-hearts",
+    "icon": "eye",
     "children": [
       {
         "id": "8-funs",
@@ -542,7 +542,7 @@ const NAV_SOURCE = [
         "id": "bug-handling",
         "label": "Bug Handling",
         "path": "game-development/bug-handling",
-        "icon": "spider"
+        "icon": "fas:bug"
       },
       {
         "id": "structure",
@@ -975,11 +975,6 @@ const NAV_SOURCE = [
         "icon": "screwdriver-wrench"
       }
     ]
-  },
-  {
-    "id": "celeste-and-forgiveness",
-    "label": "Celeste And Forgiveness",
-    "path": "celeste-and-forgiveness"
   }
 ];
 
@@ -1001,7 +996,7 @@ export const NAV = decorateNavTree(NAV_SOURCE);
 export const SEARCH_INDEX = [
   {
     "id": "home",
-    "title": "Game Designer's Note",
+    "title": "Game Designers' Note",
     "text": "personal knowledge base game design level design book notes compiled structured"
   },
   {
@@ -1103,11 +1098,6 @@ export const SEARCH_INDEX = [
     "id": "card-games",
     "title": "Card Games",
     "text": "lore define physics world duels emergent narrative"
-  },
-  {
-    "id": "celeste-and-forgiveness",
-    "title": "Celeste And Forgiveness",
-    "text": "celeste and forgiveness"
   },
   {
     "id": "challenge",
@@ -1818,3 +1808,8 @@ function buildPaths(nodes) {
 }
 
 export const { idToPath, pathToId } = buildPaths(NAV);
+
+
+
+
+

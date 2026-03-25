@@ -1,5 +1,5 @@
 ---
-title: "Design Beat by Need | Game Designer&#x27;s Note"
+title: "Design Beat by Need | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/game-beat/design-beat-by-need
 path: level-design/pacing/game-beat/design-beat-by-need
 ---

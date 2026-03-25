@@ -1,5 +1,5 @@
 ---
-title: "Emotional Link | Game Designer&#x27;s Note"
+title: "Emotional Link | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/player-and-character/character-design/emotional-link
 path: narrative-design/player-and-character/character-design/emotional-link
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Rewards | Game Designer&#x27;s Note"
+title: "Rewards | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/reward-and-exploration/rewards
 path: level-design/reward-and-exploration/rewards
 ---

@@ -1,5 +1,5 @@
 ---
-title: "How our Brain Works | Game Designer&#x27;s Note"
+title: "How our Brain Works | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/challenge/how-difficult/how-our-brain-works
 path: game-experience/8-funs/challenge/how-difficult/how-our-brain-works
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Death System | Game Designer&#x27;s Note"
+title: "Death System | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/supporting-systems/death-system
 path: gameplay-design/specific-systems/supporting-systems/death-system
 ---

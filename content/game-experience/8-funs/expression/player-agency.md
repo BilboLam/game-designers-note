@@ -1,5 +1,5 @@
 ---
-title: "Player Agency | Game Designer&#x27;s Note"
+title: "Player Agency | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/expression/player-agency
 path: game-experience/8-funs/expression/player-agency
 ---

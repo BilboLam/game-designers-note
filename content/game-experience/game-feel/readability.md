@@ -1,5 +1,5 @@
 ---
-title: "Readability | Game Designer&#x27;s Note"
+title: "Readability | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game-feel/readability
 path: game-experience/game-feel/readability
 ---

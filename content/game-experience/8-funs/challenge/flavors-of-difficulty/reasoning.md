@@ -1,5 +1,5 @@
 ---
-title: "Reasoning | Game Designer&#x27;s Note"
+title: "Reasoning | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/challenge/flavors-of-difficulty/reasoning
 path: game-experience/8-funs/challenge/flavors-of-difficulty/reasoning
 ---

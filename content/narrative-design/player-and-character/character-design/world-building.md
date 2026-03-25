@@ -1,5 +1,5 @@
 ---
-title: "World Building | Game Designer&#x27;s Note"
+title: "World Building | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/player-and-character/character-design/world-building
 path: narrative-design/player-and-character/character-design/world-building
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Horror &amp; Discomfort | Game Designer&#x27;s Note"
+title: "Horror &amp; Discomfort | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/other-experience/horror-and-discomfort
 path: game-experience/other-experience/horror-and-discomfort
 ---

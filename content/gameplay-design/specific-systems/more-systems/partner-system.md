@@ -1,5 +1,5 @@
 ---
-title: "Partner System | Game Designer&#x27;s Note"
+title: "Partner System | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/more-systems/partner-system
 path: gameplay-design/specific-systems/more-systems/partner-system
 ---

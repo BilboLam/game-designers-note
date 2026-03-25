@@ -1,5 +1,5 @@
 ---
-title: "Detective Games | Game Designer&#x27;s Note"
+title: "Detective Games | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/detective-games
 path: gameplay-design/specific-systems/core-systems/detective-games
 ---

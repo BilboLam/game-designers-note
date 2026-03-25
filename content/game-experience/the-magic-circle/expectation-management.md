@@ -1,5 +1,5 @@
 ---
-title: "Expectation Management | Game Designer&#x27;s Note"
+title: "Expectation Management | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/the-magic-circle/expectation-management
 path: game-experience/the-magic-circle/expectation-management
 ---

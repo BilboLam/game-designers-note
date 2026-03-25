@@ -1,5 +1,5 @@
 ---
-title: "Multiplayer | Game Designer&#x27;s Note"
+title: "Multiplayer | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/more-systems/multiplayer
 path: gameplay-design/specific-systems/more-systems/multiplayer
 ---

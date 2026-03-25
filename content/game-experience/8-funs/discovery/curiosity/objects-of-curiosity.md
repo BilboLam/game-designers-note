@@ -1,5 +1,5 @@
 ---
-title: "Objects of Curiosity | Game Designer&#x27;s Note"
+title: "Objects of Curiosity | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/discovery/curiosity/objects-of-curiosity
 path: game-experience/8-funs/discovery/curiosity/objects-of-curiosity
 ---

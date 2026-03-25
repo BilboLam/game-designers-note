@@ -1,5 +1,5 @@
 ---
-title: "Progression System | Game Designer&#x27;s Note"
+title: "Progression System | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/supporting-systems/progression-system
 path: gameplay-design/specific-systems/supporting-systems/progression-system
 ---

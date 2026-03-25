@@ -1,5 +1,5 @@
 ---
-title: "Self-check | Game Designer&#x27;s Note"
+title: "Self-check | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/system-review/self-check
 path: gameplay-design/system-review/self-check
 ---

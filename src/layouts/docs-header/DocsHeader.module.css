@@ -54,7 +54,7 @@
 }
 
 .brandIcon {
-  font-size: 20px;
+  font-size: 24px;
   color: var(--color-muted);
   flex-shrink: 0;
 }
@@ -127,3 +127,4 @@
   composes: iconButton;
   font-size: 14px;
 }
+

@@ -1,5 +1,5 @@
 ---
-title: "Layout Patterns | Game Designer&#x27;s Note"
+title: "Layout Patterns | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/level-components/layout-patterns
 path: level-design/layout/level-components/layout-patterns
 ---

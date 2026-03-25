@@ -1,5 +1,5 @@
 ---
-title: "Game Vision | Game Designer&#x27;s Note"
+title: "Game Vision | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/game-vision
 path: gameplay-design/game-vision
 ---

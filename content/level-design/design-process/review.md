@@ -1,5 +1,5 @@
 ---
-title: "Review | Game Designer&#x27;s Note"
+title: "Review | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/design-process/review
 path: level-design/design-process/review
 ---

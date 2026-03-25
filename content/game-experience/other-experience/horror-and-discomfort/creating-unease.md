@@ -1,5 +1,5 @@
 ---
-title: "Creating Unease | Game Designer&#x27;s Note"
+title: "Creating Unease | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/other-experience/horror-and-discomfort/creating-unease
 path: game-experience/other-experience/horror-and-discomfort/creating-unease
 ---

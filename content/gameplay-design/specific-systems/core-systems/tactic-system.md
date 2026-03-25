@@ -1,5 +1,5 @@
 ---
-title: "Tactic System | Game Designer&#x27;s Note"
+title: "Tactic System | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/tactic-system
 path: gameplay-design/specific-systems/core-systems/tactic-system
 ---

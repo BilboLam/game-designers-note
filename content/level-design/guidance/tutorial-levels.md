@@ -1,5 +1,5 @@
 ---
-title: "Tutorial Levels | Game Designer&#x27;s Note"
+title: "Tutorial Levels | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/guidance/tutorial-levels
 path: level-design/guidance/tutorial-levels
 ---

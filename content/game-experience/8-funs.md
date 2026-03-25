@@ -1,5 +1,5 @@
 ---
-title: "8 Funs | Game Designer&#x27;s Note"
+title: "8 Funs | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs
 path: game-experience/8-funs
 ---

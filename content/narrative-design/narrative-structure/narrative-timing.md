@@ -1,5 +1,5 @@
 ---
-title: "Narrative Timing | Game Designer&#x27;s Note"
+title: "Narrative Timing | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/narrative-structure/narrative-timing
 path: narrative-design/narrative-structure/narrative-timing
 ---

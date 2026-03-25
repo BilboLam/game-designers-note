@@ -1,5 +1,5 @@
 ---
-title: "Dice System | Game Designer&#x27;s Note"
+title: "Dice System | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/more-systems/dice-system
 path: gameplay-design/specific-systems/more-systems/dice-system
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Uncanny Valley | Game Designer&#x27;s Note"
+title: "Uncanny Valley | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/other-experience/horror-and-discomfort/creating-unease/uncanny-valley
 path: game-experience/other-experience/horror-and-discomfort/creating-unease/uncanny-valley
 ---

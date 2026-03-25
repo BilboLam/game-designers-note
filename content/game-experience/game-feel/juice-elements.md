@@ -1,5 +1,5 @@
 ---
-title: "Juice Elements | Game Designer&#x27;s Note"
+title: "Juice Elements | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game-feel/juice-elements
 path: game-experience/game-feel/juice-elements
 ---

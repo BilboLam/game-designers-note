@@ -1,5 +1,5 @@
 ---
-title: "Level Design | Game Designer&#x27;s Note"
+title: "Level Design | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/world-building/level-design
 path: narrative-design/world-building/level-design
 ---

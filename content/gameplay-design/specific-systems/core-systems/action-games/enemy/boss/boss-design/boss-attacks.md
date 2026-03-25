@@ -1,5 +1,5 @@
 ---
-title: "Boss Attacks | Game Designer&#x27;s Note"
+title: "Boss Attacks | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/boss/boss-design/boss-attacks
 path: gameplay-design/specific-systems/core-systems/action-games/enemy/boss/boss-design/boss-attacks
 ---

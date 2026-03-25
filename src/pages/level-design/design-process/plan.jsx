@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, CheckItem, CheckList, ExtLink, H1, H3, P } from '@/components/ui.jsx';
+import { Annotation, Blockquote, Breadcrumb, CheckItem, CheckList, ExtLink, H1, H3, P } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -9,7 +9,7 @@ export default function Page({ go }) {
       <P>At the planning stage, don't rush into anything yet. Before you start, help yourself shape the level concept.</P>
       <H3 id="minimal-checklists">Minimal Checklists</H3>
       <CheckList>
-        <CheckItem>Level Concept. What's the core concept of your levels?</CheckItem>
+        <CheckItem><Annotation note="Level concept can be conveying interesting mechanisms, stories, emotions, interactions, or layouts, or challenging players (a way to make the core mechanics more enjoyable for the player rather than punishing.)">Level Concept</Annotation>. What's the core concept of your levels?</CheckItem>
         <CheckItem>Platform. What engine and tools will you use?</CheckItem>
       </CheckList>
       <H3 id="basic-checklists">Basic Checklists</H3>

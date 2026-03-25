@@ -1,5 +1,5 @@
 ---
-title: "Pace Control | Game Designer&#x27;s Note"
+title: "Pace Control | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/circulation/pace-control
 path: level-design/pacing/circulation/pace-control
 ---

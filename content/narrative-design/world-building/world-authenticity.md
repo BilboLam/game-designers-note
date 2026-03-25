@@ -1,5 +1,5 @@
 ---
-title: "World Authenticity | Game Designer&#x27;s Note"
+title: "World Authenticity | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/world-building/world-authenticity
 path: narrative-design/world-building/world-authenticity
 ---

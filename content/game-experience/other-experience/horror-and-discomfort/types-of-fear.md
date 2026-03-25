@@ -1,5 +1,5 @@
 ---
-title: "Types of Fear | Game Designer&#x27;s Note"
+title: "Types of Fear | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/other-experience/horror-and-discomfort/types-of-fear
 path: game-experience/other-experience/horror-and-discomfort/types-of-fear
 ---

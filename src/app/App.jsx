@@ -76,7 +76,7 @@ export default function App() {
   const PageComponent = pages[currentId] || pages.home;
   const { prevId, prevLabel, nextId, nextLabel } = getPageNeighbors(currentId, NAV);
   const navMeta = getNavNodeById(NAV, currentId);
-  const showTitleIcon = !!(navMeta && navMeta.depth <= 2);
+  const showTitleIcon = !!(navMeta && navMeta.depth <= 2 && currentId !== 'home');
   const titleIconName = showTitleIcon
     ? (navMeta.node.icon || pickIconForNavNode(navMeta.node, navMeta.depth))
     : null;

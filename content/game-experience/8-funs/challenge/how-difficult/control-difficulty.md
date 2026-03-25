@@ -1,5 +1,5 @@
 ---
-title: "Control Difficulty | Game Designer&#x27;s Note"
+title: "Control Difficulty | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/challenge/how-difficult/control-difficulty
 path: game-experience/8-funs/challenge/how-difficult/control-difficulty
 ---

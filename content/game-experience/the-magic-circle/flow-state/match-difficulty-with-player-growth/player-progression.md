@@ -1,5 +1,5 @@
 ---
-title: "Player Progression | Game Designer&#x27;s Note"
+title: "Player Progression | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/the-magic-circle/flow-state/match-difficulty-with-player-growth/player-progression
 path: game-experience/the-magic-circle/flow-state/match-difficulty-with-player-growth/player-progression
 ---

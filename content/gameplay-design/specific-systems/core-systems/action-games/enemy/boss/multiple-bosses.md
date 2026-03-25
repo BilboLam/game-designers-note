@@ -1,5 +1,5 @@
 ---
-title: "Multiple Bosses | Game Designer&#x27;s Note"
+title: "Multiple Bosses | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/boss/multiple-bosses
 path: gameplay-design/specific-systems/core-systems/action-games/enemy/boss/multiple-bosses
 ---

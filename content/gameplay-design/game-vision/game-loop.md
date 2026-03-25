@@ -1,5 +1,5 @@
 ---
-title: "Game Loop | Game Designer&#x27;s Note"
+title: "Game Loop | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/game-vision/game-loop
 path: gameplay-design/game-vision/game-loop
 ---

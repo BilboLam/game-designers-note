@@ -1,5 +1,5 @@
 ---
-title: "Collectibles | Game Designer&#x27;s Note"
+title: "Collectibles | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/reward-and-exploration/collectibles
 path: level-design/reward-and-exploration/collectibles
 ---

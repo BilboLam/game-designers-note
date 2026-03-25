@@ -1,5 +1,5 @@
 ---
-title: "Sketch | Game Designer&#x27;s Note"
+title: "Sketch | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/design-process/sketch
 path: level-design/design-process/sketch
 ---

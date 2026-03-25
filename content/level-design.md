@@ -1,7 +1,7 @@
 ---
-title: "Design Process | Game Designer&#x27;s Note"
+title: "Design Process | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design
 path: level-design
 ---
 
-Design Process | Game Designer&#x27;s Note
+Design Process | Game Designers&#x27; Note

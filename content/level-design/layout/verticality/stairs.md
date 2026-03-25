@@ -1,5 +1,5 @@
 ---
-title: "Stairs | Game Designer&#x27;s Note"
+title: "Stairs | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/verticality/stairs
 path: level-design/layout/verticality/stairs
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Intuitive Design | Game Designer&#x27;s Note"
+title: "Intuitive Design | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/system-review/intuitive-design
 path: gameplay-design/system-review/intuitive-design
 ---

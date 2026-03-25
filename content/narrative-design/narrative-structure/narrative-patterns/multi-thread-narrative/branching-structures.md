@@ -1,5 +1,5 @@
 ---
-title: "Branching Structures | Game Designer&#x27;s Note"
+title: "Branching Structures | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/narrative-structure/narrative-patterns/multi-thread-narrative/branching-structures
 path: narrative-design/narrative-structure/narrative-patterns/multi-thread-narrative/branching-structures
 ---

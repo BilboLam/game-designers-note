@@ -1,5 +1,5 @@
 ---
-title: "Guidance | Game Designer&#x27;s Note"
+title: "Guidance | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/guidance
 path: level-design/guidance
 ---

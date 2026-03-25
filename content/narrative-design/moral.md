@@ -1,5 +1,5 @@
 ---
-title: "Moral | Game Designer&#x27;s Note"
+title: "Moral | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/moral
 path: narrative-design/moral
 ---

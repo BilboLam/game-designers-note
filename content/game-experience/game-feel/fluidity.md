@@ -1,5 +1,5 @@
 ---
-title: "Fluidity | Game Designer&#x27;s Note"
+title: "Fluidity | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game-feel/fluidity
 path: game-experience/game-feel/fluidity
 ---

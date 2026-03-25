@@ -1,5 +1,5 @@
 ---
-title: "Verticality | Game Designer&#x27;s Note"
+title: "Verticality | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/verticality
 path: level-design/layout/verticality
 ---

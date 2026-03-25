@@ -1,5 +1,5 @@
 ---
-title: "Narrative Patterns | Game Designer&#x27;s Note"
+title: "Narrative Patterns | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/narrative-structure/narrative-patterns
 path: narrative-design/narrative-structure/narrative-patterns
 ---

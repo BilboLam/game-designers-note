@@ -1,5 +1,5 @@
 ---
-title: "Card Design | Game Designer&#x27;s Note"
+title: "Card Design | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/core-systems/card-games/card-design
 path: gameplay-design/specific-systems/core-systems/card-games/card-design
 ---

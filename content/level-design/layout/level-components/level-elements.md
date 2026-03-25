@@ -1,5 +1,5 @@
 ---
-title: "Level Elements | Game Designer&#x27;s Note"
+title: "Level Elements | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/level-components/level-elements
 path: level-design/layout/level-components/level-elements
 ---

@@ -20,10 +20,15 @@ export function DocsHeader({
         <Icon name="bars" />
       </button>
       <span className={styles.brandTitle} onClick={onBrandClick}>
-        🎮 Game Designer's Note
+        <span className={styles.brandInner}>
+          <Icon name="clone" className={styles.brandIcon} />
+          <span>Game Designers' Note</span>
+        </span>
       </span>
       <div className={styles.searchRegion} ref={searchRef}>
-        <span className={styles.searchGlyph}>🔍</span>
+        <span className={styles.searchGlyph}>
+          <Icon name="magnifying-glass" className={styles.searchGlyphIcon} />
+        </span>
         <input
           className={styles.searchField}
           value={search}
@@ -32,7 +37,7 @@ export function DocsHeader({
             setSearchOpen(true);
           }}
           onFocus={() => setSearchOpen(true)}
-          placeholder="Search… (press /)"
+          placeholder="Search…"
           onKeyDown={(e) => {
             if (e.key === 'Escape') {
               setSearch('');

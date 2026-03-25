@@ -1,5 +1,5 @@
 ---
-title: "Multi-thread Narrative | Game Designer&#x27;s Note"
+title: "Multi-thread Narrative | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/narrative-structure/narrative-patterns/multi-thread-narrative
 path: narrative-design/narrative-structure/narrative-patterns/multi-thread-narrative
 ---

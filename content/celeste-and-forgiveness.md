@@ -1,5 +1,5 @@
 ---
-title: "Celeste &amp; Forgiveness | Game Designer&#x27;s Note"
+title: "Celeste &amp; Forgiveness | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/celeste-and-forgiveness
 path: celeste-and-forgiveness
 ---

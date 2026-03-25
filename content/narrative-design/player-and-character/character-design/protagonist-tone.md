@@ -1,5 +1,5 @@
 ---
-title: "Protagonist Tone | Game Designer&#x27;s Note"
+title: "Protagonist Tone | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/player-and-character/character-design/protagonist-tone
 path: narrative-design/player-and-character/character-design/protagonist-tone
 ---

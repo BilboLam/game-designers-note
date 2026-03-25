@@ -1,5 +1,5 @@
 ---
-title: "Exposition Through Dialogue | Game Designer&#x27;s Note"
+title: "Exposition Through Dialogue | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/player-and-character/character-design/grounded-characters/dialogue/exposition-through-dialogue
 path: narrative-design/player-and-character/character-design/grounded-characters/dialogue/exposition-through-dialogue
 ---

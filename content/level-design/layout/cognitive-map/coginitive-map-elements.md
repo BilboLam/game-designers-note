@@ -1,5 +1,5 @@
 ---
-title: "Coginitive Map Elements | Game Designer&#x27;s Note"
+title: "Coginitive Map Elements | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/cognitive-map/coginitive-map-elements
 path: level-design/layout/cognitive-map/coginitive-map-elements
 ---

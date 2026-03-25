@@ -1,5 +1,5 @@
 ---
-title: "The Magic Circle | Game Designer&#x27;s Note"
+title: "The Magic Circle | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/the-magic-circle
 path: game-experience/the-magic-circle
 ---

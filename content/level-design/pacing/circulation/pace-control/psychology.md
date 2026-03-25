@@ -1,5 +1,5 @@
 ---
-title: "Psychology | Game Designer&#x27;s Note"
+title: "Psychology | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/circulation/pace-control/psychology
 path: level-design/pacing/circulation/pace-control/psychology
 ---

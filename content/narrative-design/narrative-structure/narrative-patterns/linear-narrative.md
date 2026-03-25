@@ -1,5 +1,5 @@
 ---
-title: "Linear Narrative | Game Designer&#x27;s Note"
+title: "Linear Narrative | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/narrative-structure/narrative-patterns/linear-narrative
 path: narrative-design/narrative-structure/narrative-patterns/linear-narrative
 ---

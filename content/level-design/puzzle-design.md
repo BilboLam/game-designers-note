@@ -1,5 +1,5 @@
 ---
-title: "Puzzle Design | Game Designer&#x27;s Note"
+title: "Puzzle Design | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/puzzle-design
 path: level-design/puzzle-design
 ---

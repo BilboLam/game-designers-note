@@ -1,5 +1,5 @@
 ---
-title: "Violence | Game Designer&#x27;s Note"
+title: "Violence | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/moral/violence
 path: narrative-design/moral/violence
 ---

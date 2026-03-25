@@ -1,5 +1,5 @@
 ---
-title: "Narrative Elements | Game Designer&#x27;s Note"
+title: "Narrative Elements | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/narrative-structure/narrative-elements
 path: narrative-design/narrative-structure/narrative-elements
 ---

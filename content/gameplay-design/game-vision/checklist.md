@@ -1,5 +1,5 @@
 ---
-title: "Checklist | Game Designer&#x27;s Note"
+title: "Checklist | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/game-vision/checklist
 path: gameplay-design/game-vision/checklist
 ---

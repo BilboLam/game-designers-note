@@ -1,5 +1,5 @@
 ---
-title: "Tools | Game Designer&#x27;s Note"
+title: "Tools | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/appendix/tools
 path: appendix/tools
 ---

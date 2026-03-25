@@ -1,5 +1,5 @@
 ---
-title: "Parallel Presence | Game Designer&#x27;s Note"
+title: "Parallel Presence | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/specific-systems/more-systems/partner-system/parallel-presence
 path: gameplay-design/specific-systems/more-systems/partner-system/parallel-presence
 ---

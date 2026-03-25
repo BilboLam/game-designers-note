@@ -1,5 +1,5 @@
 ---
-title: "Game Feel | Game Designer&#x27;s Note"
+title: "Game Feel | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game-feel
 path: game-experience/game-feel
 ---

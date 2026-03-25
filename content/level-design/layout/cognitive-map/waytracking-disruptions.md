@@ -1,5 +1,5 @@
 ---
-title: "Waytracking Disruptions | Game Designer&#x27;s Note"
+title: "Waytracking Disruptions | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/cognitive-map/waytracking-disruptions
 path: level-design/layout/cognitive-map/waytracking-disruptions
 ---

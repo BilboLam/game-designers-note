@@ -1,5 +1,5 @@
 ---
-title: "Input &amp; Controls | Game Designer&#x27;s Note"
+title: "Input &amp; Controls | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game-feel/fluidity/input-and-controls
 path: game-experience/game-feel/fluidity/input-and-controls
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Blockout | Game Designer&#x27;s Note"
+title: "Blockout | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/design-process/blockout
 path: level-design/design-process/blockout
 ---

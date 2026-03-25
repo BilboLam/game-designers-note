@@ -1,5 +1,5 @@
 ---
-title: "Physical | Game Designer&#x27;s Note"
+title: "Physical | Game Designers&#x27; Note"
 gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-funs/challenge/flavors-of-difficulty/physical
 path: game-experience/8-funs/challenge/flavors-of-difficulty/physical
 ---

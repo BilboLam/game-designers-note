@@ -181,3 +181,5 @@ export function InternalLink({ id, children, go }) {
 export function HR() {
   return <hr style={{ border:"none", borderTop:"1px solid var(--border)", margin:"28px 0" }} />;
 }
+
+export { Annotation } from './Annotation.jsx';
