@@ -4,7 +4,7 @@ import { Breadcrumb, Callout, H1, H3, InternalLink, P } from '@/components/ui.js
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Narrative Structure', id: 'narrative-structure' }, { label: 'Narrative Patterns' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Multi-thread Narrative</H1>
       <P>Multiple threads can reveal different parts of the world, while a single thread can't show the full picture.</P>
       <Callout type="info">

@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Discovery', id: 'discovery' }, { label: 'Curiosity' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Objects of Curiosity</H1>
       <H3 id="lore">Lore</H3>
       <Blockquote>Not just lore, but lore should tied to player experience — otherwise it's like a museum biography</Blockquote>

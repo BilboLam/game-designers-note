@@ -4,7 +4,7 @@ import { Breadcrumb, ExtLink, H1, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Layout', id: 'layout' }, { label: 'Level Components' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Level Elements</H1>
       <P>Below are common elements that are present in levels across multiple games; consider using them when you get lost.</P>
       <P>NameDefinitionAvatar</P>

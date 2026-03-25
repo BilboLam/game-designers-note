@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, CheckItem, CheckList, ExtLink, H1, H3, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Design Process' }]} go={go} />
-      <H1><Icon name="clipboard-list" className="page-icon" />Plan</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Plan</H1>
       <P>At the planning stage, don't rush into anything yet. Before you start, help yourself shape the level concept.</P>
       <H3 id="minimal-checklists">Minimal Checklists</H3>
       <CheckList>

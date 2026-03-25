@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, Callout, H1, H3, P } from '@/components/ui.jsx'
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Narrative Structure', id: 'narrative-structure' }, { label: 'Narrative Patterns', id: 'narrative-patterns' }, { label: 'Multi-thread Narrative' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Branching Structures</H1>
       <H3 id="shrub">Shrub</H3>
       <Blockquote>E.g. Detroit</Blockquote>

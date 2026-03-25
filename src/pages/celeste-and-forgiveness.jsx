@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Celeste &amp; Forgiveness</H1>
       <P>This was originally a short Twitter thread about some Celeste game-feel tricks. I don’t think that we invented any of these techniques, but they are important parts of the moment-to-moment experience of Celeste.</P>
       <P>1</P>

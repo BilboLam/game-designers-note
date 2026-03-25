@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Layout', id: 'layout' }, { label: 'Level Components', id: 'level-components' }, { label: 'Layout Patterns' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Functional Patterns</H1>
       <H3 id="guidance">Guidance</H3>
       <H3 id="preview">Preview</H3>

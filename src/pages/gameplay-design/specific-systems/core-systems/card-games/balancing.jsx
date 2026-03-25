@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, Callout, H1, H3, LI, UL } from '@/components/ui
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Card Games' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Balancing</H1>
       <H3 id="power-sorting">Power Sorting</H3>
       <UL>

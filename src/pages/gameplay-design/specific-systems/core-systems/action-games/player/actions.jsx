@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Action Games', id: 'action-games' }, { label: 'Player' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Actions</H1>
       <H3 id="active-inputs">Active Inputs</H3>
       <P>Action games can be placed on a spectrum defined by the amount of active input performance available to the player.</P>

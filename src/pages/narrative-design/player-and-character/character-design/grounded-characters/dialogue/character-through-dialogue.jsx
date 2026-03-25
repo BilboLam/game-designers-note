@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, InternalLink } from '@/components/ui.js
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Player & Character', id: 'player-and-character' }, { label: 'Character Design', id: 'character-design' }, { label: 'Grounded Characters', id: 'grounded-characters' }, { label: 'Dialogue' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Character Through Dialogue</H1>
       <H3 id="speech-patterns-and-accent">Speech patterns &amp; accent</H3>
       <Blockquote>Combine with character behavior or world-view</Blockquote>

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, ExtLink, H1, H2, H3, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Appendix' }]} go={go} />
-      <H1><Icon name="screwdriver-wrench" className="page-icon" />Tools</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Tools</H1>
       <H2 id="level-design-tools">Level Design Tools</H2>
       <H3 id="planning-tools">Planning Tools</H3>
       <P><ExtLink href="https://floorplanner.com/">Floorplanner</ExtLink>: An online tool for drawing floor plans.</P>

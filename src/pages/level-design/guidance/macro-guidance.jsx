@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, H1, H3, InternalLink } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Guidance' }]} go={go} />
-      <H1><Icon name="compass" className="page-icon" />Macro Guidance</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Macro Guidance</H1>
       <H3 id="landmark">Landmark</H3>
       <H3 id="experience-guidance">Experience guidance</H3>
       <H3 id="numeric-guidance">Numeric guidance</H3>

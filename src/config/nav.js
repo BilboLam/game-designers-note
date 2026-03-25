@@ -1,13 +1,16 @@
-export const NAV = [
+import { pickIconForNavNode } from './nav-icon-policy.js';
+
+const NAV_SOURCE = [
   {
     "id": "home",
     "label": "Game Designer's Note",
-    "icon": "🎮"
+    "icon": "far:house"
   },
   {
     "id": "gameplay-design",
     "label": "Gameplay Design",
     "path": "gameplay-design",
+    "icon": "diagram-project",
     "children": [
       {
         "id": "emergent-gameplay",
@@ -18,10 +21,10 @@ export const NAV = [
             "id": "complex-systems",
             "label": "Complex Systems",
             "path": "gameplay-design/emergent-gameplay/complex-systems",
-            "icon": "stars"
+            "icon": "star"
           }
         ],
-        "icon": "paintbrush-pencil"
+        "icon": "paintbrush"
       },
       {
         "id": "game-vision",
@@ -38,7 +41,7 @@ export const NAV = [
             "id": "game-loop",
             "label": "Game Loop",
             "path": "gameplay-design/game-vision/game-loop",
-            "icon": "arrow-progress"
+            "icon": "bars-progress"
           }
         ],
         "icon": "bullseye"
@@ -290,11 +293,13 @@ export const NAV = [
     "id": "game-experience",
     "label": "Game Experience",
     "path": "game-experience",
+    "icon": "far:face-grin-hearts",
     "children": [
       {
         "id": "8-funs",
         "label": "8 Funs",
         "path": "game-experience/8-funs",
+        "icon": "far:face-laugh",
         "children": [
           {
             "id": "challenge",
@@ -394,7 +399,7 @@ export const NAV = [
                 "path": "game-experience/8-funs/expression/player-agency"
               }
             ],
-            "icon": "paintbrush-pencil"
+            "icon": "paintbrush"
           },
           {
             "id": "sensation",
@@ -501,7 +506,7 @@ export const NAV = [
             "id": "feedback-loops",
             "label": "Feedback Loops",
             "path": "game-experience/the-magic-circle/feedback-loops",
-            "icon": "arrow-progress"
+            "icon": "bars-progress"
           },
           {
             "id": "flow-state",
@@ -537,7 +542,7 @@ export const NAV = [
         "id": "bug-handling",
         "label": "Bug Handling",
         "path": "game-development/bug-handling",
-        "icon": "spider-black-widow"
+        "icon": "spider"
       },
       {
         "id": "structure",
@@ -551,6 +556,7 @@ export const NAV = [
     "id": "level-design",
     "label": "Level Design",
     "path": "level-design",
+    "icon": "map-location-dot",
     "children": [
       {
         "id": "design-process",
@@ -582,7 +588,7 @@ export const NAV = [
             "icon": "pencil"
           }
         ],
-        "icon": "arrow-progress"
+        "icon": "bars-progress"
       },
       {
         "id": "guidance",
@@ -784,6 +790,7 @@ export const NAV = [
     "id": "narrative-design",
     "label": "Narrative Design",
     "path": "narrative-design",
+    "icon": "book-open-reader",
     "children": [
       {
         "id": "moral",
@@ -953,6 +960,7 @@ export const NAV = [
     "id": "appendix",
     "label": "Appendix",
     "path": "appendix",
+    "icon": "book-open",
     "children": [
       {
         "id": "books-to-read",
@@ -974,6 +982,22 @@ export const NAV = [
     "path": "celeste-and-forgiveness"
   }
 ];
+
+function decorateNavTree(nodes, depth = 0) {
+  return nodes.map((n) => {
+    const o = { ...n };
+    if (depth > 2) {
+      delete o.icon;
+    } else if (!o.icon) {
+      o.icon = pickIconForNavNode(o, depth);
+    }
+    if (o.children) o.children = decorateNavTree(o.children, depth + 1);
+    return o;
+  });
+}
+
+export const NAV = decorateNavTree(NAV_SOURCE);
+
 export const SEARCH_INDEX = [
   {
     "id": "home",

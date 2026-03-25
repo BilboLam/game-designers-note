@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, ExtLink, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Reward & Exploration' }]} go={go} />
-      <H1><Icon name="coins" className="page-icon" />Collectibles</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Collectibles</H1>
       <H3 id="design-level-around-secrets-not-secrets-into-levels">Design level around secrets, not secrets into levels</H3>
       <H3 id="dont-let-finding-rewards-be-a-task">Don't let finding rewards be a task</H3>
       <Blockquote>Korok mask, helps you know where has a collectible, which is great. But showing the total collectibles of 1000 Koroks doesn't motivate players at all.</Blockquote>

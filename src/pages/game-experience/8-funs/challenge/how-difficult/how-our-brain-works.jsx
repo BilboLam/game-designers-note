@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H2, H3, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Challenge', id: 'challenge' }, { label: 'How Difficult' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>How our Brain Works</H1>
       <H2 id="brain-cognitive-levels">Brain cognitive levels</H2>
       <H3 id="integrative-associative-intuitive">Integrative → associative → intuitive</H3>

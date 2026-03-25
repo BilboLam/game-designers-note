@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Card Games' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Card Design</H1>
       <H3 id="categorize-cards">Categorize cards</H3>
       <P>Give cards type labels internally (no need to show the player); this helps players understand the game systematically and helps designers avoid confusion</P>

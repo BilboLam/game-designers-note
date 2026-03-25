@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Card Games</H1>
       <H3 id="lore">Lore</H3>
       <Blockquote>Define the physics of the world in which duels take place and form a world to explore.</Blockquote>

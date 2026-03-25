@@ -1,7 +1,9 @@
 import React from 'react';
 import { Icon } from '@/components/Icon.jsx';
+import { usePageChrome } from '@/context/PageChromeContext.jsx';
+import uiStyles from './ui.module.css';
 
-const CALLOUT_ICONS = { info: "circle-info", warn: "triangle-exclamation", tip: "lightbulb" };
+const CALLOUT_ICONS = { info: 'circle-question', warn: 'triangle-exclamation', tip: 'lightbulb' };
 
 export function Callout({ type = "info", label, children }) {
   const icon = CALLOUT_ICONS[type] || CALLOUT_ICONS.info;
@@ -45,7 +47,7 @@ export function LinkedItem({ label, desc, onClick }) {
         <div style={{ fontWeight:500, fontSize:14, color:"var(--text)" }}>{label}</div>
         {desc && <div style={{ fontSize:12.5, color:"var(--muted)", marginTop:2 }}>{desc}</div>}
       </div>
-      <span style={{ color:"var(--hint)", fontSize:12 }}>›</span>
+      <Icon name="chevron-right" style={{ color: 'var(--hint)', fontSize: 12, flexShrink: 0 }} />
     </div>
   );
 }
@@ -73,18 +75,31 @@ export function PageNav({ prev, prevLabel, next, nextLabel, go }) {
   );
 }
 
-export function Breadcrumb({ crumbs, go }) {
+export function Breadcrumb({ crumbs, go, auto }) {
+  const chrome = usePageChrome();
+  const list = auto ? (chrome?.breadcrumbCrumbs ?? []) : (crumbs ?? []);
+  if (!list.length) return null;
   return (
-    <div style={{ display:"flex", alignItems:"center", gap:6, flexWrap:"wrap", fontSize:12, color:"var(--hint)", marginBottom:26 }}>
-      {crumbs.map((c, i) => (
-        <span key={i} style={{ display:"flex", alignItems:"center", gap:6 }}>
-          {i > 0 && <span>›</span>}
-          <span onClick={c.id ? ()=>go(c.id) : undefined}
-            style={{ cursor: c.id ? "pointer" : "default", color: c.id ? "var(--muted)" : "var(--hint)" }}
-            onMouseEnter={e=>{ if(c.id) e.target.style.color="var(--accent)"; }}
-            onMouseLeave={e=>{ if(c.id) e.target.style.color="var(--muted)"; }}>
-            {c.label}
-          </span>
+    <div style={{ display:"flex", alignItems:"center", gap:6, flexWrap:"wrap", fontSize:14, marginBottom:26 }}>
+      {list.map((c, i) => (
+        <span key={c.id ?? i} style={{ display:"flex", alignItems:"center", gap:6 }}>
+          {i > 0 && <span aria-hidden style={{ color:"var(--hint)" }}>›</span>}
+          {c.id ? (
+            <button
+              type="button"
+              onClick={() => go(c.id)}
+              style={{
+                margin:0, padding:0, border:"none", background:"none", cursor:"pointer",
+                font:"inherit", color:"var(--color-link)",
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.color = "var(--color-accent)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.color = "var(--color-link)"; }}
+            >
+              {c.label}
+            </button>
+          ) : (
+            <span style={{ color:"var(--hint)" }}>{c.label}</span>
+          )}
         </span>
       ))}
     </div>
@@ -92,7 +107,18 @@ export function Breadcrumb({ crumbs, go }) {
 }
 
 export function H1({ children }) {
-  return <h1 style={{ fontSize:32, fontWeight:700, color:"var(--text)", lineHeight:1.3, marginBottom:14, letterSpacing:"-0.02em" }}>{children}</h1>;
+  const chrome = usePageChrome();
+  const iconName = chrome?.titleIconName ?? null;
+  return (
+    <h1 className={uiStyles.h1Row}>
+      {iconName ? (
+        <span className={uiStyles.h1LeadCol}>
+          <Icon name={iconName} className={uiStyles.h1Icon} />
+        </span>
+      ) : null}
+      <span className={uiStyles.h1Text}>{children}</span>
+    </h1>
+  );
 }
 
 export function H2({ id, children }) {

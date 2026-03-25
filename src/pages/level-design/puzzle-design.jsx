@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, Callout, H1, H3, InternalLink, LI, OL, UL } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design' }]} go={go} />
-      <H1><Icon name="puzzle-piece" className="page-icon" />Puzzle Design</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Puzzle Design</H1>
       <H3 id="design-process">Design Process</H3>
       <OL>
         <LI>Define the puzzle (reduce noise)</LI>

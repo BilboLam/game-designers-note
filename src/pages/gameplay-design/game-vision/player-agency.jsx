@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Expression' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Player Agency</H1>
       <P>How much players feel in control of their own experience.</P>
       <P>Designers shape player agency by encouraging or enforcing how players interact with the game.</P>

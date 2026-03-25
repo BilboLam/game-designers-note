@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, ExtLink, H1, H3, P } from '@/components/ui.jsx'
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Challenge' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Depth of Gameplay</H1>
       <H3 id="enrich-strategy-space">Enrich Strategy Space</H3>
       <P>total sum of decisions available to players</P>

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, Callout, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design' }]} go={go} />
-      <H1><Icon name="table-cells-large" className="page-icon" />Layout</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Layout</H1>
       <P>Layout is about how a level's physical space is structured and perceived. A good layout provides variety and adds depth to the core gameplay.</P>
       <Callout type="info">
       </Callout>

@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Game Beat' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Open world</H1>
       <H3 id="soft-guiding">Soft-guiding</H3>
       <P>Without guidance, players can easily fall into repeating the same actions for long periods, and repetition can make the experience feel dull.</P>

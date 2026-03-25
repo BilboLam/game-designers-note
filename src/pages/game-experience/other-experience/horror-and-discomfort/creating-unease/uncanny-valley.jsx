@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'Other Experience', id: 'other-experience' }, { label: 'Horror & Discomfort', id: 'horror-and-discomfort' }, { label: 'Creating Unease' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Uncanny Valley</H1>
       <P>Here, the uncanny valley is used in a broader sense, referring to any form of uncanny discomfort.</P>
       <H3 id="popular-topics-that-involve-the-uncanny-valley">Popular topics that involve the uncanny valley</H3>

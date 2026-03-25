@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Challenge' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>How Difficult</H1>
       <H3 id="how-our-brain-works"><InternalLink id="how-our-brain-works" go={go}>How our Brain Works</InternalLink></H3>
       <P>Understanding limits of human brain.</P>

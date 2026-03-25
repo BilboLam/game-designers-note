@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, H1, H3, InternalLink, LI, P, UL } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Emergent Gameplay' }]} go={go} />
-      <H1><Icon name="stars" className="page-icon" />Complex Systems</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Complex Systems</H1>
       <P>Complex systems encourage emergent gameplay.</P>
       <H3 id="what-makes-a-system">What Makes a System</H3>
       <UL>

@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Layout', id: 'layout' }, { label: 'Level Components' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Layout Patterns</H1>
       <P>Layout patterns are reusable structures for designing level content and layout. They are the building blocks a designer reaches for when shaping how a level feels to play.</P>
       <H3 id="circulation-patterns"><InternalLink id="circulation-patterns" go={go}>Circulation Patterns</InternalLink></H3>

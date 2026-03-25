@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design' }]} go={go} />
-      <H1><Icon name="arrow-progress" className="page-icon" />Design Process</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Design Process</H1>
       <P>When designing a new level, consider following this sequence:</P>
       <H3 id="plan"><InternalLink id="plan" go={go}>Plan</InternalLink></H3>
       <P>Shape the level concept before building.</P>

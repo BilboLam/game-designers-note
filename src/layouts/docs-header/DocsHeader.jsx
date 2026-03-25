@@ -1,3 +1,4 @@
+import { Icon } from '@/components/Icon.jsx';
 import styles from './DocsHeader.module.css';
 
 export function DocsHeader({
@@ -16,7 +17,7 @@ export function DocsHeader({
   return (
     <header className={styles.headerBar}>
       <button type="button" className={styles.menuToggle} onClick={onMenuClick} aria-label="Toggle sidebar">
-        ☰
+        <Icon name="bars" />
       </button>
       <span className={styles.brandTitle} onClick={onBrandClick}>
         🎮 Game Designer's Note
@@ -58,7 +59,7 @@ export function DocsHeader({
         )}
       </div>
       <button type="button" className={styles.themeToggle} onClick={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))} aria-label="Toggle theme">
-        {theme === 'dark' ? '☀️' : '🌙'}
+        <Icon name={theme === 'dark' ? 'far:sun' : 'far:moon'} />
       </button>
     </header>
   );

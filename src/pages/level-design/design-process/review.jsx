@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Design Process' }]} go={go} />
-      <H1><Icon name="clipboard-check" className="page-icon" />Review</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Review</H1>
       <P>Ensure you meet your design objectives.</P>
       <H3 id="cognitive-map-readable-without-hud">Cognitive map readable without HUD?</H3>
       <Blockquote>HUD leads us to digest spaces egocentrically instead of allocentrically</Blockquote>

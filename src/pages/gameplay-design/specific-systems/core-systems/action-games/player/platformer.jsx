@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, Callout, CheckItem, CheckList, ExtLink, H1, H3 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Action Games', id: 'action-games' }, { label: 'Player' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Platformer</H1>
       <H3 id="celeste-game-feel-tricks">Celeste Game Feel Tricks</H3>
       <CheckList>

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Guidance' }]} go={go} />
-      <H1><Icon name="eye" className="page-icon" />Micro Guidance</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Micro Guidance</H1>
       <H3 id="spotlight-and-guide-lines">SpotLight &amp; Guide Lines</H3>
       <Blockquote>Object under spotlight matters more.</Blockquote>
       <Blockquote>Don't overestimate the power of Spotlight and guide lines though.</Blockquote>

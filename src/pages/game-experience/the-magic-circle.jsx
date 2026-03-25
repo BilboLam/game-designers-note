@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience' }]} go={go} />
-      <H1><Icon name="bullseye" className="page-icon" />The Magic Circle</H1>
+      <Breadcrumb auto go={go} />
+      <H1>The Magic Circle</H1>
       <P>Keep player interested</P>
       <H3 id="expectation-management"><InternalLink id="expectation-management" go={go}>Expectation Management</InternalLink></H3>
       <P>Some dark magic.</P>

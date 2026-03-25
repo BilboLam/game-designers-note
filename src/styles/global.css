@@ -40,9 +40,3 @@ a {
   background: var(--color-border);
   border-radius: 2px;
 }
-
-.page-icon {
-  margin-right: 0.4em;
-  opacity: 0.6;
-  font-size: 0.8em;
-}

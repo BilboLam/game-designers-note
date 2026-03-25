@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, ExtLink, H1, H3, P } from '@/components/ui.jsx'
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Discovery', id: 'discovery' }, { label: 'Curiosity' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Building Curiosity</H1>
       <P>[</P>
       <P>&amp;#xNAN;Sparking Curiosity-Driven Exploration Through Narrative in 'Outer Wilds'arrow-up-right](https://www.youtube.com/watch?v=QaGu9tGCNbI)</P>

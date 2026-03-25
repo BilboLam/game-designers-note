@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, Callout, H1, H3, LI, UL } from '@/components/ui
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Circulation' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Circulation Patterns</H1>
       <H3 id="straight-on">Straight-On</H3>
       <UL>

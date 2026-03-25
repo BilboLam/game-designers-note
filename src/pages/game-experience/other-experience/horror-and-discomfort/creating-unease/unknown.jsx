@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, LI, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'Other Experience', id: 'other-experience' }, { label: 'Horror & Discomfort', id: 'horror-and-discomfort' }, { label: 'Creating Unease' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Unknown</H1>
       <UL>
         <LI>Not knowing when or where enemies come from</LI>

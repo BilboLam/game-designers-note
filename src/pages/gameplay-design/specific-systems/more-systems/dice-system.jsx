@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'More Systems' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Dice System</H1>
       <P>E.g. DnD's six abilities, Disco Elysium's twenty-four personalities</P>
       <H3 id="roll-transparency">Roll Transparency</H3>

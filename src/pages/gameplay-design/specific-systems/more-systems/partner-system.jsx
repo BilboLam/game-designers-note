@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, InternalLink, LI, P, UL } from '@/compo
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'More Systems' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Partner System</H1>
       <H3 id="parallel-presence"><InternalLink id="parallel-presence" go={go}>Parallel Presence</InternalLink></H3>
       <P>Players coexist in the same world without directly interacting.</P>

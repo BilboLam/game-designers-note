@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, CheckItem, CheckList, H1 } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'System Review' }]} go={go} />
-      <H1><Icon name="clipboard-check" className="page-icon" />Self-check</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Self-check</H1>
       <CheckList>
         <CheckItem>Flowchart your design</CheckItem>
       </CheckList>

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Guidance' }]} go={go} />
-      <H1><Icon name="graduation-cap" className="page-icon" />Tutorial Levels</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Tutorial Levels</H1>
       <P>Layout can be an effective, natural tutorial</P>
       <H3 id="passive-tutorial">Passive tutorial</H3>
       <P>Let players trigger mechanics accidentally.</P>

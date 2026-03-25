@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Challenge', id: 'challenge' }, { label: 'How Difficult' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Control Difficulty</H1>
       <H3 id="teaching-difficulty">Teaching Difficulty</H3>
       <Blockquote>E.g. Celeste: jump+dash → jump+grab → jump+dash+grab</Blockquote>

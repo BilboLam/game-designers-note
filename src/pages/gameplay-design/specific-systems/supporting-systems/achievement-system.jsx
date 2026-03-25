@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, Callout, H1, H3, P } from '@/components/ui.jsx'
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Supporting Systems' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Achievement System</H1>
       <H3 id="consider-in-game-achievements">Consider In-game achievements</H3>
       <Blockquote>Progress visualization — e.g. camp in Pacific Drive</Blockquote>

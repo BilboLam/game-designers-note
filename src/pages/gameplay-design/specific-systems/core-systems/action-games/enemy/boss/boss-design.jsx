@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Action Games', id: 'action-games' }, { label: 'Enemy', id: 'enemy' }, { label: 'Boss' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Boss Design</H1>
       <H3 id="boss-attacks"><InternalLink id="boss-attacks" go={go}>Boss Attacks</InternalLink></H3>
       <P>How to design boss behaviors</P>

@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design' }]} go={go} />
-      <H1><Icon name="diagram-project" className="page-icon" />Narrative Structure</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Narrative Structure</H1>
       <H3 id="narrative-patterns">Narrative Patterns</H3>
       <P>Different ways games deliver story.</P>
       <H3 id="narrative-elements"><InternalLink id="narrative-elements" go={go}>Narrative Elements</InternalLink></H3>

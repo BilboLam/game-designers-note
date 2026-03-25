@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Reward & Exploration' }]} go={go} />
-      <H1><Icon name="key" className="page-icon" />Lock &amp; Key</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Lock &amp; Key</H1>
       <H3 id="lock-types">Lock types</H3>
       <H3 id="information-lock">Information lock</H3>
       <Blockquote>E.g. fog of war</Blockquote>

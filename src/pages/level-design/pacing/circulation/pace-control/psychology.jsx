@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Circulation', id: 'circulation' }, { label: 'Pace Control' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Psychology</H1>
       <H3 id="level-openness">Level Openness</H3>
       <Blockquote>Open space for moving, closed space for dwelling.</Blockquote>

@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Discovery' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Curiosity</H1>
       <P>circle-checkBest Game Ever: Outer Wilds</P>
       <H3 id="building-curiosity"><InternalLink id="building-curiosity" go={go}>Building Curiosity</InternalLink></H3>

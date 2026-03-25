@@ -22,7 +22,7 @@ export function NavItem({ node, currentId, onNavRowClick, depth = 0, expandedIds
         style={{ paddingLeft: indentPx }}
         onClick={() => onNavRowClick(node.id, hasChildren)}
       >
-        {node.icon && <Icon name={node.icon} className={styles.navIcon} />}
+        {node.icon && depth <= 2 && <Icon name={node.icon} className={styles.navIcon} />}
         <span className={styles.label}>{node.label}</span>
         {hasChildren && (
           <span
@@ -32,7 +32,7 @@ export function NavItem({ node, currentId, onNavRowClick, depth = 0, expandedIds
               toggleExpand(node.id);
             }}
           >
-            ▶
+            <Icon name="chevron-right" className={styles.expandChevron} />
           </span>
         )}
       </div>

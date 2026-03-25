@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing' }]} go={go} />
-      <H1><Icon name="chart-line" className="page-icon" />Game Beat</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Game Beat</H1>
       <H3 id="common-beat-elements"><InternalLink id="common-beat-elements" go={go}>Common Beat Elements</InternalLink></H3>
       <P>Common ingredients used to build a beat.</P>
       <H3 id="game-beat-examples"><InternalLink id="game-beat-examples" go={go}>Game Beat Examples</InternalLink></H3>

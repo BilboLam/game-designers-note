@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, InternalLink } from '@/components/ui.js
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Game Beat' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Game Beat Examples</H1>
       <H3 id="general-beat">General Beat</H3>
       <H3 id="peak-end-beat">Peak-end Beat</H3>

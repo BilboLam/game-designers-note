@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Layout', id: 'layout' }, { label: 'Cognitive Map' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Coginitive Map Elements</H1>
       <H3 id="paths-1-tool-against-getting-lost">Paths — #1 tool against getting lost</H3>
       <H3 id="looping-paths">Looping paths</H3>

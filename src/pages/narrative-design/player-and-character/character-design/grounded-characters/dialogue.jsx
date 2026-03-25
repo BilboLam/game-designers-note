@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Player & Character', id: 'player-and-character' }, { label: 'Character Design', id: 'character-design' }, { label: 'Grounded Characters' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Dialogue</H1>
       <H3 id="character-through-dialogue"><InternalLink id="character-through-dialogue" go={go}>Character Through Dialogue</InternalLink></H3>
       <P>Show personality through word choice, rhythm, and subtext.</P>

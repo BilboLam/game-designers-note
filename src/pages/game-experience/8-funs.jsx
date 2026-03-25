@@ -4,9 +4,12 @@ import { Blockquote, Breadcrumb, ExtLink, H1, H3, InternalLink, P } from '@/comp
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience' }]} go={go} />
-      <H1>boxes-stacked8 Funs</H1>
-      <P>chevron-rightThe 8 Funs are the aesthetic categories from the MDA framework. Most games target multiple funs simultaneously.hashtag<ExtLink href="https://users.cs.northwestern.edu/~hunicke/MDA.pdf">MDA: A Formal Approach to Game Design and Game Research</ExtLink></P>
+      <Breadcrumb auto go={go} />
+      <H1>8 Funs</H1>
+      <P>
+        The 8 Funs are the aesthetic categories from the MDA framework. Most games target multiple funs simultaneously.{' '}
+        <ExtLink href="https://users.cs.northwestern.edu/~hunicke/MDA.pdf">MDA: A Formal Approach to Game Design and Game Research</ExtLink>
+      </P>
       <H3 id="sensation"><InternalLink id="sensation" go={go}>Sensation</InternalLink></H3>
       <Blockquote>Game as sense-pleasure</Blockquote>
       <H3 id="fantasy">Fantasy</H3>

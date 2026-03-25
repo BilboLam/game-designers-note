@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'The Magic Circle' }]} go={go} />
-      <H1><Icon name="arrow-progress" className="page-icon" />Feedback Loops</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Feedback Loops</H1>
       <H3 id="positive-feedback">Positive feedback</H3>
       <P>+ Reinforces power fantasy</P>
       <P>+ Strengthens skill expression</P>

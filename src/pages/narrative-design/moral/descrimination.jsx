@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Moral' }]} go={go} />
-      <H1><Icon name="user-slash" className="page-icon" />Descrimination</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Descrimination</H1>
       <P>How games can reinforce bias through mechanics and world design — often without realising it.</P>
       <H3 id="avoid-dehumanization">Avoid dehumanization</H3>
       <Blockquote>E.g. treating Goblin as a racial shorthand</Blockquote>

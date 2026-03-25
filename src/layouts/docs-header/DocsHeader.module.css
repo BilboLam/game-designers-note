@@ -47,6 +47,18 @@
   flex-shrink: 0;
 }
 
+.brandInner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brandIcon {
+  font-size: 20px;
+  color: var(--color-muted);
+  flex-shrink: 0;
+}
+
 .searchRegion {
   flex: 1;
   max-width: var(--width-search-max);
@@ -59,9 +71,13 @@
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 13px;
-  color: var(--color-hint);
   pointer-events: none;
+}
+
+.searchGlyphIcon {
+  font-size: 15px;
+  color: var(--color-hint);
+  display: block;
 }
 
 .searchField {

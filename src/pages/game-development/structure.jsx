@@ -1,12 +1,11 @@
 import React from 'react';
 import { Blockquote, Breadcrumb, Callout, ExtLink, H1, H3, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Development' }]} go={go} />
-      <H1><Icon name="folder-tree" className="page-icon" />Structure</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Structure</H1>
       <P>If structures are well-designed, the details will emerge naturally.</P>
       <P>A strong foundation lets later details take care of themselves.</P>
       <H3 id="stone-soup"><ExtLink href="https://www.gdcvault.com/play/1025655/Stone-Soup-Procedurally-Mixing-Student">Stone Soup</ExtLink></H3>

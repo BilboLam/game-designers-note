@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Narrative Structure', id: 'narrative-structure' }, { label: 'Narrative Patterns' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Emergent Narrative</H1>
       <P>Players, game mechanics, and RNG together to produce an emergent narrative (e.g., Minecraft, Magic: The Gathering).</P>
       <P>Emergent Narrative can strengthen player involvement in the story</P>

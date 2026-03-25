@@ -1,8 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
+import { pickIconForNavNode } from '@/config/nav-icon-policy.js';
 import { NAV, SEARCH_INDEX, idToPath, pathToId } from '@/config/nav.js';
 import { DocsShell } from '@/layouts/docs-shell/DocsShell.jsx';
-import { getAncestorIds, getPageNeighbors } from '@/utils/navigation.js';
+import { PageChromeProvider } from '@/context/PageChromeContext.jsx';
+import { getAncestorIds, getBreadcrumbCrumbs, getNavNodeById, getPageNeighbors } from '@/utils/navigation.js';
 import { PageNav } from '@/components/ui.jsx';
 import { pages } from './pagesRegistry.js';
 import { ThemeColorRoot } from './ThemeColorRoot.jsx';
@@ -73,6 +75,12 @@ export default function App() {
 
   const PageComponent = pages[currentId] || pages.home;
   const { prevId, prevLabel, nextId, nextLabel } = getPageNeighbors(currentId, NAV);
+  const navMeta = getNavNodeById(NAV, currentId);
+  const showTitleIcon = !!(navMeta && navMeta.depth <= 2);
+  const titleIconName = showTitleIcon
+    ? (navMeta.node.icon || pickIconForNavNode(navMeta.node, navMeta.depth))
+    : null;
+  const breadcrumbCrumbs = getBreadcrumbCrumbs(NAV, currentId);
 
   return (
     <>
@@ -97,8 +105,10 @@ export default function App() {
         setTheme={setTheme}
         searchRef={searchRef}
       >
-        <PageComponent go={go} />
-        <PageNav prev={prevId} prevLabel={prevLabel} next={nextId} nextLabel={nextLabel} go={go} />
+        <PageChromeProvider value={{ titleIconName, breadcrumbCrumbs }}>
+          <PageComponent go={go} />
+          <PageNav prev={prevId} prevLabel={prevLabel} next={nextId} nextLabel={nextLabel} go={go} />
+        </PageChromeProvider>
       </DocsShell>
     </>
   );

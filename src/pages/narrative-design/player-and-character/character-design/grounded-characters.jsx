@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Player & Character', id: 'player-and-character' }, { label: 'Character Design' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Grounded Characters</H1>
       <H3 id="dialogue"><InternalLink id="dialogue" go={go}>Dialogue</InternalLink></H3>
       <P>Dialogue is the most common way to reveal character.</P>

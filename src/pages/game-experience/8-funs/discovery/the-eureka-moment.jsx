@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Discovery' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>The Eureka Moment</H1>
       <H3 id="when">When</H3>
       <UL>

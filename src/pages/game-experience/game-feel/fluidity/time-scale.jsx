@@ -4,7 +4,7 @@ import { Blockquote, Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'Game Feel', id: 'game-feel' }, { label: 'Fluidity' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Time-scale</H1>
       <H3 id="slow-motion">Slow Motion</H3>
       <UL>

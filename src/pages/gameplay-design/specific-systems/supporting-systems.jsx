@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems' }]} go={go} />
-      <H1><Icon name="screwdriver-wrench" className="page-icon" />Supporting Systems</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Supporting Systems</H1>
       <P>Supporting systems support the core loop by improving clarity and fluidity.</P>
       <H3 id="randomness"><InternalLink id="randomness" go={go}>Randomness</InternalLink></H3>
       <H3 id="moving-system"><InternalLink id="moving-system" go={go}>Moving System</InternalLink></H3>

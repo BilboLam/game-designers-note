@@ -1,12 +1,11 @@
 import React from 'react';
 import { Breadcrumb, ExtLink, H1, H2, InternalLink, P } from '@/components/ui.jsx';
-import { Icon } from '@/components/Icon.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Design Process' }]} go={go} />
-      <H1><Icon name="pencil" className="page-icon" />Sketch</H1>
+      <Breadcrumb auto go={go} />
+      <H1>Sketch</H1>
       <P>Before you start building the level, try to draw a level diagram. This applies not only to complex 3D levels but also to 2D levels. When you feel you have a clear idea of the level, you can stop drawing the level diagram at any time and start making it.</P>
       <P>Sketching for levels follows the steps below, similar to drawing.</P>
       <P>Parti -&gt; Bubble diagrams -&gt; Floor plan</P>

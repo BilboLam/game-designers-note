@@ -4,7 +4,7 @@ import { Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
 export default function Page({ go }) {
   return (
     <div>
-      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'More Systems' }]} go={go} />
+      <Breadcrumb auto go={go} />
       <H1>Multiplayer</H1>
       <H3 id="teamwork-pvps">Teamwork PvPs</H3>
       <UL>
