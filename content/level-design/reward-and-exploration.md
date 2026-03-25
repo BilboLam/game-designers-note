@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/reward-
 path: level-design/reward-and-exploration
 ---
 
-- [Level Design](/game-designers-note/level-design)
+1. [Level Design](/game-designers-note/level-design)
 # gemReward & Exploration
 #### [hashtag](#rewards)[Rewards](/game-designers-note/level-design/reward-and-exploration/rewards)
 What can be a reward?

@@ -1,11 +1,11 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Supporting Systems' }]} go={go} />
       <H1>Randomness</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
     </div>
   );
 }

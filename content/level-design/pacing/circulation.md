@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/
 path: level-design/pacing/circulation
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [gauge-highPacing](/game-designers-note/level-design/pacing)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [gauge-highPacing](/game-designers-note/level-design/pacing)
 # routeCirculation
 In level design, circulation refers to how players flow through the level. It forms the player experience in the level.
 

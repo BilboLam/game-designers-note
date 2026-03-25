@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/appendix/tools
 path: appendix/tools
 ---
 
-- [Appendix](/game-designers-note/appendix)
+1. [Appendix](/game-designers-note/appendix)
 # screwdriver-wrenchTools
 ## [hashtag](#level-design-tools)Level Design Tools
 ### [hashtag](#planning-tools)Planning Tools

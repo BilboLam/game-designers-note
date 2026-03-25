@@ -1,11 +1,25 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, H1, H3 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Narrative Structure', id: 'narrative-structure' }, { label: 'Narrative Patterns' }]} go={go} />
       <H1>Linear Narrative</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <H3 id="four-act-ki-sho-ten-ketsu">Four-act (ki-sho-ten-ketsu)</H3>
+      <Blockquote><strong>Introduction</strong></Blockquote>
+      <Blockquote>Spark the player’s curiosity to explore</Blockquote>
+      <Blockquote><strong>Development</strong></Blockquote>
+      <Blockquote>Build character growth and establish the world</Blockquote>
+      <Blockquote><strong>Turn</strong></Blockquote>
+      <Blockquote>Trigger emotional impact and deepen immersion</Blockquote>
+      <Blockquote><strong>Resolutions</strong></Blockquote>
+      <Blockquote>Bring emotional closure</Blockquote>
+      <H3 id="three-act">Three-act</H3>
+      <Blockquote>Conventional dramatic structure</Blockquote>
+      <Callout type="info">
+        <span>A larger narrative arc that contains smaller arcs can be useful</span>
+      </Callout>
     </div>
   );
 }

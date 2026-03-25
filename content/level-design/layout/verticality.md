@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/
 path: level-design/layout/verticality
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [table-cells-largeLayout](/game-designers-note/level-design/layout)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [table-cells-largeLayout](/game-designers-note/level-design/layout)
 # arrows-up-downVerticality
 #### [hashtag](#stairs)[Stairs](/game-designers-note/level-design/layout/verticality/stairs)
 Tips for connecting spaces with different verticality

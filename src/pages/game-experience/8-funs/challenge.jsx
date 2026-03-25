@@ -1,11 +1,18 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Challenge</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs' }]} go={go} />
+      <H1><Icon name="hand-fist" className="page-icon" />Challenge</H1>
+      <H3 id="how-difficult"><InternalLink id="how-difficult" go={go}>How Difficult</InternalLink></H3>
+      <P>Tuning difficulty for target audience</P>
+      <H3 id="depth-of-gameplay"><InternalLink id="depth-of-gameplay" go={go}>Depth of Gameplay</InternalLink></H3>
+      <P>Explores decision space and replay value.</P>
+      <H3 id="flavors-of-difficulty"><InternalLink id="flavors-of-difficulty" go={go}>Flavors of Difficulty</InternalLink></H3>
+      <P>Separates different kinds of challenges.</P>
     </div>
   );
 }

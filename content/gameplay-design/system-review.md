@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/syst
 path: gameplay-design/system-review
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)
+1. [Gameplay Design](/game-designers-note/gameplay-design)
 # magnifying-glassSystem Review
 Questions to ask when designing a new system
 

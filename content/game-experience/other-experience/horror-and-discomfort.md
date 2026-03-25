@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/othe
 path: game-experience/other-experience/horror-and-discomfort
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [starOther Experience](/game-designers-note/game-experience/other-experience)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [starOther Experience](/game-designers-note/game-experience/other-experience)
 # ghostHorror & Discomfort
 #### [hashtag](#types-of-fear)[Types of Fear](/game-designers-note/game-experience/other-experience/horror-and-discomfort/types-of-fear)
 The emotional flavors horror can target.

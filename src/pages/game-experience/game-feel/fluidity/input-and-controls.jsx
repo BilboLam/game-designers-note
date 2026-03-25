@@ -1,11 +1,16 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Input And Controls"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'Game Feel', id: 'game-feel' }, { label: 'Fluidity' }]} go={go} />
+      <H1>Input &amp; Controls</H1>
+      <H3 id="consistent-interaction-logic-across-systems">Consistent interaction logic across systems</H3>
+      <H3 id="avoid-player-misinputs">Avoid player misinputs</H3>
+      <Blockquote>Follow player habits</Blockquote>
+      <H3 id="use-input-buffering">Use Input buffering</H3>
+      <H3 id="use-camera-buffering">Use Camera buffering</H3>
     </div>
   );
 }

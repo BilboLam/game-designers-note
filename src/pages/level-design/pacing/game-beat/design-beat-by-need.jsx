@@ -1,11 +1,12 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, P } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Design Beat by Need"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Game Beat' }]} go={go} />
+      <H1>Design Beat by Need</H1>
+      <P>In It Takes Two,  Basic gameplay like "cooperative puzzle solving, play together vs boss, tacit understanding, parkour, free exploration, competing" are evenly distributed in the first level to attract players, and do a basic tutorial. But mid-game scenes are more open (amusement park, European town), focus on free exploration, consistent with the reconciliation phase of the two characters.</P>
     </div>
   );
 }

@@ -1,11 +1,14 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Emergent Gameplay</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design' }]} go={go} />
+      <H1><Icon name="paintbrush-pencil" className="page-icon" />Emergent Gameplay</H1>
+      <H3 id="complex-system"><InternalLink id="complex-systems" go={go}>Complex System</InternalLink></H3>
+      <P>Complex systems encourage emergent gameplay.</P>
     </div>
   );
 }

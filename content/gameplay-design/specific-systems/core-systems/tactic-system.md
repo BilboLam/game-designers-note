@@ -4,11 +4,14 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/core-systems/tactic-system
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
-- [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
+
+3. [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)
 # Tactic System
 #### [hashtag](#prioritize-tactics)Prioritize Tactics
-Shadow Tactics and Desperados are still called RTT, but the adding of pause decrease the reaction demand so players can focus more decision-making. Personally, that&#x27;s the right trade.
+
+> Shadow Tactics and Desperados are still called RTT, but the adding of pause decrease the reaction demand so players can focus more decision-making. Personally, that&#x27;s the right trade.
 
 [PreviousMultiple Bosseschevron-left](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/boss/multiple-bosses)[NextPuzzle Gameschevron-right](/game-designers-note/gameplay-design/specific-systems/core-systems/puzzle-games)Last updated 3 days ago

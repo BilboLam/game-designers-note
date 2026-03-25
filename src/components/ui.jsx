@@ -1,23 +1,24 @@
 import React from 'react';
+import { Icon } from '@/components/Icon.jsx';
+
+const CALLOUT_ICONS = { info: "circle-info", warn: "triangle-exclamation", tip: "lightbulb" };
 
 export function Callout({ type = "info", label, children }) {
-  const colors = {
-    info: { border: "var(--link)", bg: "rgba(58,138,114,.08)", labelColor: "var(--link)" },
-    warn: { border: "#c98b00", bg: "rgba(201,139,0,.08)", labelColor: "#c98b00" },
-    tip:  { border: "var(--accent)", bg: "var(--accent-bg)", labelColor: "var(--accent)" },
-  };
-  const c = colors[type] || colors.info;
+  const icon = CALLOUT_ICONS[type] || CALLOUT_ICONS.info;
   return (
-    <div style={{ borderLeft: `3px solid ${c.border}`, background: c.bg, borderRadius: "0 8px 8px 0", padding: "12px 16px", margin: "16px 0", fontSize: 14 }}>
-      {label && <div style={{ fontWeight: 600, fontSize: 11, textTransform: "uppercase", letterSpacing: "0.07em", color: c.labelColor, marginBottom: 4 }}>{label}</div>}
-      <div style={{ color: "var(--text)", lineHeight: 1.65 }}>{children}</div>
+    <div style={{ background: "var(--callout-bg)", borderRadius: 8, padding: "12px 16px", margin: "16px 0", display: "flex", gap: 10, alignItems: "flex-start" }}>
+      <Icon name={icon} style={{ marginTop: 3, color: "var(--muted)", flexShrink: 0 }} />
+      <div style={{ color: "var(--text)", lineHeight: 1.65 }}>
+        {label && <span style={{ marginRight: 6 }}>{label}</span>}
+        {children}
+      </div>
     </div>
   );
 }
 
 export function Blockquote({ children }) {
   return (
-    <blockquote style={{ borderLeft: "3px solid var(--accent)", background: "var(--block-bg)", borderRadius: "0 6px 6px 0", padding: "10px 16px", margin: "12px 0", fontSize: 14, color: "var(--muted)", lineHeight: 1.65 }}>
+    <blockquote style={{ borderLeft: "3px solid var(--border)", padding: "2px 0 2px 16px", margin: "8px 0", color: "var(--text)", lineHeight: 1.65 }}>
       {children}
     </blockquote>
   );
@@ -91,15 +92,15 @@ export function Breadcrumb({ crumbs, go }) {
 }
 
 export function H1({ children }) {
-  return <h1 style={{ fontFamily:"'Lora',Georgia,serif", fontSize:28, fontWeight:700, color:"var(--text)", lineHeight:1.3, marginBottom:12, letterSpacing:"-0.02em" }}>{children}</h1>;
+  return <h1 style={{ fontSize:32, fontWeight:700, color:"var(--text)", lineHeight:1.3, marginBottom:14, letterSpacing:"-0.02em" }}>{children}</h1>;
 }
 
 export function H2({ id, children }) {
-  return <h2 id={id} style={{ fontFamily:"'Lora',Georgia,serif", fontSize:19, fontWeight:600, color:"var(--text)", marginTop:40, marginBottom:10, paddingBottom:8, borderBottom:"1px solid var(--border)" }}>{children}</h2>;
+  return <h2 id={id} style={{ fontSize:22, fontWeight:600, color:"var(--text)", marginTop:44, marginBottom:12, paddingBottom:8, borderBottom:"1px solid var(--border)" }}>{children}</h2>;
 }
 
 export function H3({ id, children }) {
-  return <h3 id={id} style={{ fontSize:15, fontWeight:600, color:"var(--text)", marginTop:24, marginBottom:6 }}>{children}</h3>;
+  return <h3 id={id} style={{ fontSize:17, fontWeight:600, color:"var(--text)", marginTop:28, marginBottom:8 }}>{children}</h3>;
 }
 
 export function P({ children }) {
@@ -115,11 +116,28 @@ export function UL({ children }) {
 }
 
 export function LI({ children }) {
-  return <li style={{ marginBottom:5, color:"var(--text)", lineHeight:1.7 }}>{children}</li>;
+  return (
+    <li style={{ marginBottom:5, color:"var(--muted)", lineHeight:1.7 }}>
+      <span style={{ color:"var(--text)" }}>{children}</span>
+    </li>
+  );
 }
 
 export function OL({ children }) {
   return <ol style={{ paddingLeft:20, marginBottom:14 }}>{children}</ol>;
+}
+
+export function CheckList({ children }) {
+  return <ul style={{ listStyle:'none', paddingLeft:0, marginBottom:14 }}>{children}</ul>;
+}
+
+export function CheckItem({ checked, children }) {
+  return (
+    <li style={{ marginBottom:6, color:'var(--text)', lineHeight:1.7, display:'flex', gap:8, alignItems:'flex-start' }}>
+      <input type="checkbox" disabled defaultChecked={!!checked} style={{ marginTop:4, flexShrink:0 }} />
+      <span>{children}</span>
+    </li>
+  );
 }
 
 export function ExtLink({ href, children }) {

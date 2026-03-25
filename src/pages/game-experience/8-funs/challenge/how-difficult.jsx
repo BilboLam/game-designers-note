@@ -1,11 +1,15 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Challenge' }]} go={go} />
       <H1>How Difficult</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <H3 id="how-our-brain-works"><InternalLink id="how-our-brain-works" go={go}>How our Brain Works</InternalLink></H3>
+      <P>Understanding limits of human brain.</P>
+      <H3 id="control-difficulty"><InternalLink id="control-difficulty" go={go}>Control Difficulty</InternalLink></H3>
+      <P>Techniques for tuning challenges.</P>
     </div>
   );
 }

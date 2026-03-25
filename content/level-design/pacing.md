@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing
 path: level-design/pacing
 ---
 
-- [Level Design](/game-designers-note/level-design)
+1. [Level Design](/game-designers-note/level-design)
 # gauge-highPacing
 Pacing is about controlling the rhythm of a level — how intensity, challenge, and rest are sequenced over time.
 

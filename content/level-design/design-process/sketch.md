@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/design-
 path: level-design/design-process/sketch
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [arrow-progressDesign Process](/game-designers-note/level-design/design-process)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [arrow-progressDesign Process](/game-designers-note/level-design/design-process)
 # pencilSketch
 Before you start building the level, try to draw a level diagram. This applies not only to complex 3D levels but also to 2D levels. When you feel you have a clear idea of the level, you can stop drawing the level diagram at any time and start making it.
 

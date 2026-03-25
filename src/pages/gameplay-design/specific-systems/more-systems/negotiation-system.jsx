@@ -1,11 +1,21 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'More Systems' }]} go={go} />
       <H1>Negotiation System</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <H3 id="making-negotiation-fun">Making negotiation fun</H3>
+      <UL>
+        <LI>Inference from Information — weave negotiation into narrativeInference from customer personality, body language, wordings</LI>
+        <LI>Reputation system</LI>
+        <LI>Supply &amp; Demand system</LI>
+        <LI>Special events (liars, altruists)</LI>
+        <LI>Strengthen player autonomynegotiation style (marketing strategy)</LI>
+        <LI>moral judgement</LI>
+        <LI>Various outcomes</LI>
+      </UL>
     </div>
   );
 }

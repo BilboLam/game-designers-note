@@ -1,3 +1,5 @@
+import React from 'react';
+import { Icon } from '@/components/Icon.jsx';
 import styles from './NavItem.module.css';
 
 export function NavItem({ node, currentId, onNavRowClick, depth = 0, expandedIds, toggleExpand }) {
@@ -20,7 +22,7 @@ export function NavItem({ node, currentId, onNavRowClick, depth = 0, expandedIds
         style={{ paddingLeft: indentPx }}
         onClick={() => onNavRowClick(node.id, hasChildren)}
       >
-        {node.icon && depth === 0 && <span className={styles.rootIcon}>{node.icon}</span>}
+        {node.icon && <Icon name={node.icon} className={styles.navIcon} />}
         <span className={styles.label}>{node.label}</span>
         {hasChildren && (
           <span

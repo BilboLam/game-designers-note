@@ -4,12 +4,17 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/core-systems/action-games/enemy/boss/boss-design
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
-- [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)chevron-right
-- [Action Games](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games)chevron-right
-- [Enemy](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy)chevron-right
-- [Boss](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/boss)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
+
+3. [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)chevron-right
+
+4. [Action Games](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games)chevron-right
+
+5. [Enemy](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy)chevron-right
+
+6. [Boss](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/boss)
 # Boss Design
 #### [hashtag](#boss-attacks)[Boss Attacks](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/boss/boss-design/boss-attacks)
 How to design boss behaviors 

@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/pla
 path: narrative-design/player-and-character/character-design
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)chevron-right
-- [userPlayer & Character](/game-designers-note/narrative-design/player-and-character)
+1. [Narrative Design](/game-designers-note/narrative-design)chevron-right
+
+2. [userPlayer & Character](/game-designers-note/narrative-design/player-and-character)
 # id-cardCharacter Design
 #### [hashtag](#protagonist-tone)[Protagonist Tone](/game-designers-note/narrative-design/player-and-character/character-design/protagonist-tone)
 How the protagonist feels and speaks.

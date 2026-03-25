@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
-
 html {
   -webkit-text-size-adjust: 100%;
 }
 
 body {
   min-height: 100vh;
-  font-family: var(--font-serif);
+  font-family: var(--font-sans);
   background: var(--color-bg);
   color: var(--color-text);
   line-height: 1.5;
@@ -41,4 +39,10 @@ a {
 ::-webkit-scrollbar-thumb {
   background: var(--color-border);
   border-radius: 2px;
+}
+
+.page-icon {
+  margin-right: 0.4em;
+  opacity: 0.6;
+  font-size: 0.8em;
 }

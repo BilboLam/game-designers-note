@@ -1,11 +1,15 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Player"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Action Games' }]} go={go} />
+      <H1>Player</H1>
+      <H3 id="actions"><InternalLink id="actions" go={go}>Actions</InternalLink></H3>
+      <P>The player's verb set.</P>
+      <H3 id="platformer"><InternalLink id="platformer" go={go}>Platformer</InternalLink></H3>
+      <P>Tricks for platformer games.</P>
     </div>
   );
 }

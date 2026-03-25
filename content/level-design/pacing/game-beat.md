@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/
 path: level-design/pacing/game-beat
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [gauge-highPacing](/game-designers-note/level-design/pacing)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [gauge-highPacing](/game-designers-note/level-design/pacing)
 # chart-lineGame Beat
 #### [hashtag](#common-beat-elements)[Common Beat Elements](/game-designers-note/level-design/pacing/game-beat/common-beat-elements)
 Common ingredients used to build a beat.

@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/
 path: level-design/layout/cognitive-map/waytracking-disruptions
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [table-cells-largeLayout](/game-designers-note/level-design/layout)chevron-right
-- [mapCognitive Map](/game-designers-note/level-design/layout/cognitive-map)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [table-cells-largeLayout](/game-designers-note/level-design/layout)chevron-right
+
+3. [mapCognitive Map](/game-designers-note/level-design/layout/cognitive-map)
 # Waytracking Disruptions
 ## [hashtag](#decision-stacking)Decision Stacking
 

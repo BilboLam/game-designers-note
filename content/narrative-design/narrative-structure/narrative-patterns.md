@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/nar
 path: narrative-design/narrative-structure/narrative-patterns
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)chevron-right
-- [diagram-projectNarrative Structure](/game-designers-note/narrative-design/narrative-structure)
+1. [Narrative Design](/game-designers-note/narrative-design)chevron-right
+
+2. [diagram-projectNarrative Structure](/game-designers-note/narrative-design/narrative-structure)
 # layer-groupNarrative Patterns
 #### [hashtag](#emergent-narrative)[Emergent Narrative](/game-designers-note/narrative-design/narrative-structure/narrative-patterns/emergent-narrative)
 Stories created by systems and players.

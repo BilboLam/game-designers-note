@@ -40,7 +40,7 @@ export function DocsShell({
       />
       <div className={styles.bodyRow}>
         {sidebarOpen && <div className={styles.overlayScrim} onClick={() => setSidebarOpen(false)} />}
-        <aside className={styles.sidebar}>
+        <aside className={`${styles.sidebar} ${sidebarOpen ? styles.drawerOpen : ''}`}>
           {NAV.map((node) => (
             <NavItem
               key={node.path ?? node.id}

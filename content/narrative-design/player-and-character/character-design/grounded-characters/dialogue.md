@@ -4,10 +4,13 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/pla
 path: narrative-design/player-and-character/character-design/grounded-characters/dialogue
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)chevron-right
-- [userPlayer & Character](/game-designers-note/narrative-design/player-and-character)chevron-right
-- [id-cardCharacter Design](/game-designers-note/narrative-design/player-and-character/character-design)chevron-right
-- [Grounded Characters](/game-designers-note/narrative-design/player-and-character/character-design/grounded-characters)
+1. [Narrative Design](/game-designers-note/narrative-design)chevron-right
+
+2. [userPlayer & Character](/game-designers-note/narrative-design/player-and-character)chevron-right
+
+3. [id-cardCharacter Design](/game-designers-note/narrative-design/player-and-character/character-design)chevron-right
+
+4. [Grounded Characters](/game-designers-note/narrative-design/player-and-character/character-design/grounded-characters)
 # Dialogue
 #### [hashtag](#character-through-dialogue)[Character Through Dialogue](/game-designers-note/narrative-design/player-and-character/character-design/grounded-characters/dialogue/character-through-dialogue)
 Show personality through word choice, rhythm, and subtext.

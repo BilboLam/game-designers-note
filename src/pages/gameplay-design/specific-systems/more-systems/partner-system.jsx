@@ -1,11 +1,33 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3, InternalLink, LI, P, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'More Systems' }]} go={go} />
       <H1>Partner System</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <H3 id="parallel-presence"><InternalLink id="parallel-presence" go={go}>Parallel Presence</InternalLink></H3>
+      <P>Players coexist in the same world without directly interacting.</P>
+      <H3 id="purpose-of-partner-in-game">Purpose of partner in game</H3>
+      <UL>
+        <LI>Strike a chord</LI>
+        <LI>Serve as mechanic</LI>
+        <LI>Enhance immersion</LI>
+      </UL>
+      <Blockquote>Respond to player action — 'Nice shot!'</Blockquote>
+      <UL>
+        <LI>Relieve loneliness</LI>
+      </UL>
+      <H3 id="separation-scenarios">Separation scenarios</H3>
+      <UL>
+        <LI>Restrict player ability</LI>
+        <LI>Advance story</LI>
+        <LI>Reflect character growth</LI>
+        <LI>Embody the need for each other</LI>
+        <LI>Demonstrate difference in opinion</LI>
+        <LI>Character deathShatter something beautiful</LI>
+        <LI>Leave suspense if the death not confirmed</LI>
+      </UL>
     </div>
   );
 }

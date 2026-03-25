@@ -1,11 +1,19 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Where To Start</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'World Building' }]} go={go} />
+      <H1><Icon name="seedling" className="page-icon" />Where to Start</H1>
+      <P>It is easier to start from something rather than from scratch.</P>
+      <H3 id="existing-foundations">Existing foundations</H3>
+      <Blockquote>Licensed IP and mythology</Blockquote>
+      <H3 id="adapted-settings">Adapted settings</H3>
+      <Blockquote>E.g. D&amp;D</Blockquote>
+      <H3 id="reality-with-a-little-fantasy">Reality with a little fantasy</H3>
+      <Blockquote>E.g. Life Is Strange</Blockquote>
     </div>
   );
 }

@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-fu
 path: game-experience/8-funs/discovery/curiosity
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
-- [catDiscovery](/game-designers-note/game-experience/8-funs/discovery)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
+
+3. [catDiscovery](/game-designers-note/game-experience/8-funs/discovery)
 # Curiosity
 circle-checkBest Game Ever: Outer Wilds
 

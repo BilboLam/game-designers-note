@@ -26,6 +26,17 @@
   flex-shrink: 0;
 }
 
+.menuToggle {
+  composes: iconButton;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .menuToggle {
+    display: flex;
+  }
+}
+
 .brandTitle {
   font-family: var(--font-serif);
   font-weight: 700;

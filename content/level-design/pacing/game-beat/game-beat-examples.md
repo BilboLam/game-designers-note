@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/
 path: level-design/pacing/game-beat/game-beat-examples
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [gauge-highPacing](/game-designers-note/level-design/pacing)chevron-right
-- [chart-lineGame Beat](/game-designers-note/level-design/pacing/game-beat)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [gauge-highPacing](/game-designers-note/level-design/pacing)chevron-right
+
+3. [chart-lineGame Beat](/game-designers-note/level-design/pacing/game-beat)
 # Game Beat Examples
 #### [hashtag](#general-beat)General Beat
 
@@ -14,9 +16,10 @@ path: level-design/pacing/game-beat/game-beat-examples
 #### [hashtag](#undefined)
 #### [hashtag](#non-linear-levels)Non-linear levels
 #### [hashtag](#control-pacing-by-flow)Control Pacing by [Flow](/game-designers-note/game-experience/the-magic-circle/flow-state)
-Alternate challenge and safety
 
-Alternate long and short levels
+> Alternate challenge and safety
+
+> Alternate long and short levels
 
 #### [hashtag](#timeline)Timeline
 #### [hashtag](#undefined-1)

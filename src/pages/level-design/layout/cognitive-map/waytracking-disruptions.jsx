@@ -1,11 +1,14 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H2 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Waytracking Disruptions"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Layout', id: 'layout' }, { label: 'Cognitive Map' }]} go={go} />
+      <H1>Waytracking Disruptions</H1>
+      <H2 id="decision-stacking">Decision Stacking</H2>
+      <H2 id="pickups-and-flow-disruption">Pickups &amp; Flow Disruption</H2>
+      <H2 id="mixing-bowls">Mixing Bowls</H2>
     </div>
   );
 }

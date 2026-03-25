@@ -1,11 +1,20 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Narrative Structure</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Narrative Design' }]} go={go} />
+      <H1><Icon name="diagram-project" className="page-icon" />Narrative Structure</H1>
+      <H3 id="narrative-patterns">Narrative Patterns</H3>
+      <P>Different ways games deliver story.</P>
+      <H3 id="narrative-elements"><InternalLink id="narrative-elements" go={go}>Narrative Elements</InternalLink></H3>
+      <P>Unique narrative elements of games.</P>
+      <H3 id="narrative-timing"><InternalLink id="narrative-timing" go={go}>Narrative Timing</InternalLink></H3>
+      <P>When and how to narrate during a game.</P>
+      <H3 id="suspense"><InternalLink id="suspense" go={go}>Suspense</InternalLink></H3>
+      <P>How to engage players with narration.</P>
     </div>
   );
 }

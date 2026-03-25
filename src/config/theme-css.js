@@ -16,6 +16,7 @@ export function buildThemeRootCss(themeName) {
     --color-link:${T.link};
     --color-code-bg:${T.codeBg};
     --color-block-bg:${T.blockBg};
+    --color-callout-bg:${T.calloutBg};
     --color-accent-soft:${T.accentBg};
     --bg:var(--color-bg);
     --sidebar:var(--color-sidebar);
@@ -29,5 +30,6 @@ export function buildThemeRootCss(themeName) {
     --link:var(--color-link);
     --code-bg:var(--color-code-bg);
     --block-bg:var(--color-block-bg);
+    --callout-bg:var(--color-callout-bg);
   }`;
 }

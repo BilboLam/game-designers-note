@@ -2,7 +2,8 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { NAV, SEARCH_INDEX, idToPath, pathToId } from '@/config/nav.js';
 import { DocsShell } from '@/layouts/docs-shell/DocsShell.jsx';
-import { getAncestorIds } from '@/utils/navigation.js';
+import { getAncestorIds, getPageNeighbors } from '@/utils/navigation.js';
+import { PageNav } from '@/components/ui.jsx';
 import { pages } from './pagesRegistry.js';
 import { ThemeColorRoot } from './ThemeColorRoot.jsx';
 
@@ -71,6 +72,7 @@ export default function App() {
     : [];
 
   const PageComponent = pages[currentId] || pages.home;
+  const { prevId, prevLabel, nextId, nextLabel } = getPageNeighbors(currentId, NAV);
 
   return (
     <>
@@ -96,6 +98,7 @@ export default function App() {
         searchRef={searchRef}
       >
         <PageComponent go={go} />
+        <PageNav prev={prevId} prevLabel={prevLabel} next={nextId} nextLabel={nextLabel} go={go} />
       </DocsShell>
     </>
   );

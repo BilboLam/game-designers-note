@@ -1,3 +1,14 @@
+/** Returns DFS prev/next nav node info for a given nav id. */
+export function getPageNeighbors(targetId, nodes) {
+  const flat = [];
+  const flatten = (list) => { for (const n of list) { flat.push(n); if (n.children) flatten(n.children); } };
+  flatten(nodes);
+  const idx = flat.findIndex((n) => n.id === targetId);
+  if (idx < 0) return {};
+  const prev = flat[idx - 1], next = flat[idx + 1];
+  return { prevId: prev?.id, prevLabel: prev?.label, nextId: next?.id, nextLabel: next?.label };
+}
+
 /** Ids that must be expanded so the route target row and its subtree are visible. */
 export function getAncestorIds(nodes, targetId) {
   if (targetId === 'home') return [];

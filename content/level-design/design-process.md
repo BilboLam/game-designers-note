@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/design-
 path: level-design/design-process
 ---
 
-- [Level Design](/game-designers-note/level-design)
+1. [Level Design](/game-designers-note/level-design)
 # arrow-progressDesign Process
 When designing a new level, consider following this sequence:
 

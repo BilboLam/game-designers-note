@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-fu
 path: game-experience/8-funs/challenge/flavors-of-difficulty
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
-- [hand-fistChallenge](/game-designers-note/game-experience/8-funs/challenge)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
+
+3. [hand-fistChallenge](/game-designers-note/game-experience/8-funs/challenge)
 # Flavors of Difficulty
 From &#x27;8 flavors of difficulty&#x27; at the 2026 GDC.
 

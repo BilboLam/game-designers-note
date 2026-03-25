@@ -4,16 +4,19 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/nar
 path: narrative-design/narrative-structure/narrative-elements
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)chevron-right
-- [diagram-projectNarrative Structure](/game-designers-note/narrative-design/narrative-structure)
+1. [Narrative Design](/game-designers-note/narrative-design)chevron-right
+
+2. [diagram-projectNarrative Structure](/game-designers-note/narrative-design/narrative-structure)
 # puzzle-pieceNarrative Elements
 Games offer some unique narrative elements
 
 #### [hashtag](#side-quests)Side Quests
-If a side quest is so important that players can&#x27;t ignore it, maybe we should not view it as a side quest.
+
+> If a side quest is so important that players can&#x27;t ignore it, maybe we should not view it as a side quest.
 
 #### [hashtag](#save-and-load-system)**Save & Load System**
-E.g. NieR
+
+> E.g. NieR
 
 #### [hashtag](#branching-structures)[Branching Structures](/game-designers-note/narrative-design/narrative-structure/narrative-patterns/multi-thread-narrative/branching-structures)
 Nonlinear storytelling.

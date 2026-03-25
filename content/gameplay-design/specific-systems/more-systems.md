@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/more-systems
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)
 # slidersMore Systems
 These systems sit alongside the core gameplay — not essential, but they add texture and variety to the experience.
 

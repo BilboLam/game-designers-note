@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/
 path: level-design/pacing/circulation/circulation-elements
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [gauge-highPacing](/game-designers-note/level-design/pacing)chevron-right
-- [routeCirculation](/game-designers-note/level-design/pacing/circulation)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [gauge-highPacing](/game-designers-note/level-design/pacing)chevron-right
+
+3. [routeCirculation](/game-designers-note/level-design/pacing/circulation)
 # Circulation Elements
 ## [hashtag](#approach)Approach
 [Architecture: Form, Space, and Order - Francis D. K. Chingarrow-up-right](https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover)## [hashtag](#entrance)Entrance

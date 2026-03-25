@@ -4,14 +4,18 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-fu
 path: game-experience/8-funs/discovery/curiosity/extra-content
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
-- [catDiscovery](/game-designers-note/game-experience/8-funs/discovery)chevron-right
-- [Curiosity](/game-designers-note/game-experience/8-funs/discovery/curiosity)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
+
+3. [catDiscovery](/game-designers-note/game-experience/8-funs/discovery)chevron-right
+
+4. [Curiosity](/game-designers-note/game-experience/8-funs/discovery/curiosity)
 # Extra Content
 #### [hashtag](#easter-eggs)Easter eggs
 #### [hashtag](#games-outside-of-games)Games outside of games
-E.g. Inscryption
+
+> E.g. Inscryption
 
 #### [hashtag](#forums)Forums
 #### [hashtag](#meta-design)Meta design

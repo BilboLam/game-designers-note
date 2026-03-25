@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)
+1. [Gameplay Design](/game-designers-note/gameplay-design)
 # diagram-projectSpecific Systems
 #### [hashtag](#core-systems)[Core Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)
 The main gameplay.

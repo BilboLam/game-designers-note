@@ -1,11 +1,27 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Open World"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Game Beat' }]} go={go} />
+      <H1>Open world</H1>
+      <H3 id="soft-guiding">Soft-guiding</H3>
+      <P>Without guidance, players can easily fall into repeating the same actions for long periods, and repetition can make the experience feel dull.</P>
+      <UL>
+        <LI>Limit visible interest points</LI>
+      </UL>
+      <Blockquote>- Visual occlusion — mountains</Blockquote>
+      <Blockquote>- Vertical layering design</Blockquote>
+      <Blockquote>- Restrict entry/exit points</Blockquote>
+      <Blockquote>- Reveals several small POIs after reaching a strong POI</Blockquote>
+      <UL>
+        <LI>Predict player movement</LI>
+      </UL>
+      <Blockquote>E.g. Breath of the Wild: approach village → activate shrine→ ...</Blockquote>
+      <H3 id="checklist-open-world">Checklist Open World</H3>
+      <P>If the core gameplay is strong enough, a checklist-driven open world becomes an efficient format that allows players to explore the gameplay in their own pacing.</P>
+      <Blockquote>E.g. Racing games, Rise of the Rōnin — the checklist structure works when combat itself is the reward</Blockquote>
     </div>
   );
 }

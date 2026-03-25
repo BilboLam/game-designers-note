@@ -1,11 +1,16 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'More Systems' }]} go={go} />
       <H1>Multiplayer</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <H3 id="teamwork-pvps">Teamwork PvPs</H3>
+      <UL>
+        <LI>Unlike co-op games, overemphasizing teamwork in PvPs can creates friction — players may be unwilling to communicate or simply want their moment of individual heroism.</LI>
+        <LI>Offline is different. In face-to-face settings, communication and teamwork is natural. E.g. Killer Queen — a 5v5 arcade game.</LI>
+      </UL>
     </div>
   );
 }

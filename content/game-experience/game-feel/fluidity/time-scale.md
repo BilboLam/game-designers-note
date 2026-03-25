@@ -4,17 +4,17 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game
 path: game-experience/game-feel/fluidity/time-scale
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [boltGame Feel](/game-designers-note/game-experience/game-feel)chevron-right
-- [waterFluidity](/game-designers-note/game-experience/game-feel/fluidity)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [boltGame Feel](/game-designers-note/game-experience/game-feel)chevron-right
+
+3. [waterFluidity](/game-designers-note/game-experience/game-feel/fluidity)
 # Time-scale
 #### [hashtag](#slow-motion)Slow Motion
-- Extra reaction time 
-
+- Extra reaction time
 - Amplifies the impact of key moments
+- Change rhythm
 
-- Change rhythm 
-
-E.g. Black Myth: Wukong&#x27;s perfect dodge
+> E.g. Black Myth: Wukong&#x27;s perfect dodge
 
 [PreviousFluiditychevron-left](/game-designers-note/game-experience/game-feel/fluidity)[NextInput & Controlschevron-right](/game-designers-note/game-experience/game-feel/fluidity/input-and-controls)Last updated 1 day ago

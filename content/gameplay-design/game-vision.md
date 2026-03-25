@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/game
 path: gameplay-design/game-vision
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)
+1. [Gameplay Design](/game-designers-note/gameplay-design)
 # bullseyeGame Vision
 What is your game, why would anyone play it, and how do the systems all fit together
 

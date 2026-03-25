@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/the-
 path: game-experience/the-magic-circle
 ---
 
-- [Game Experience](/game-designers-note/game-experience)
+1. [Game Experience](/game-designers-note/game-experience)
 # bullseyeThe Magic Circle
 Keep player interested
 

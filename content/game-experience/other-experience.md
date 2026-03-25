@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/othe
 path: game-experience/other-experience
 ---
 
-- [Game Experience](/game-designers-note/game-experience)
+1. [Game Experience](/game-designers-note/game-experience)
 # starOther Experience
 #### [hashtag](#horror-and-discomfort)[Horror & Discomfort](/game-designers-note/game-experience/other-experience/horror-and-discomfort)
 The core of horror game.

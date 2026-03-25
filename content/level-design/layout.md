@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout
 path: level-design/layout
 ---
 
-- [Level Design](/game-designers-note/level-design)
+1. [Level Design](/game-designers-note/level-design)
 # table-cells-largeLayout
 Layout is about how a level&#x27;s physical space is structured and perceived. A good layout provides variety and adds depth to the core gameplay.
 

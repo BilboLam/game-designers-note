@@ -15,7 +15,7 @@ export function DocsHeader({
 }) {
   return (
     <header className={styles.headerBar}>
-      <button type="button" className={styles.iconButton} onClick={onMenuClick} aria-label="Toggle sidebar">
+      <button type="button" className={styles.menuToggle} onClick={onMenuClick} aria-label="Toggle sidebar">
         ☰
       </button>
       <span className={styles.brandTitle} onClick={onBrandClick}>

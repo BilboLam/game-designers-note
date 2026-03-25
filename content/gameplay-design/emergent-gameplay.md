@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/emer
 path: gameplay-design/emergent-gameplay
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)
+1. [Gameplay Design](/game-designers-note/gameplay-design)
 # paintbrush-pencilEmergent Gameplay
 #### [hashtag](#complex-system)[Complex System](/game-designers-note/gameplay-design/emergent-gameplay/complex-systems)
 Complex systems encourage emergent gameplay.

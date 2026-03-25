@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/othe
 path: game-experience/other-experience/horror-and-discomfort/creating-unease
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [starOther Experience](/game-designers-note/game-experience/other-experience)chevron-right
-- [ghostHorror & Discomfort](/game-designers-note/game-experience/other-experience/horror-and-discomfort)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [starOther Experience](/game-designers-note/game-experience/other-experience)chevron-right
+
+3. [ghostHorror & Discomfort](/game-designers-note/game-experience/other-experience/horror-and-discomfort)
 # Creating Unease
 #### [hashtag](#unknown)[Unknown](/game-designers-note/game-experience/other-experience/horror-and-discomfort/creating-unease/unknown)
 #### [hashtag](#uncanny-valley)[Uncanny Valley](/game-designers-note/game-experience/other-experience/horror-and-discomfort/creating-unease/uncanny-valley)

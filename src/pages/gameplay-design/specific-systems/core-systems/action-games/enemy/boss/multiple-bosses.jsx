@@ -1,11 +1,23 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Multiple Bosses"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Action Games', id: 'action-games' }, { label: 'Enemy', id: 'enemy' }, { label: 'Boss' }]} go={go} />
+      <H1>Multiple Bosses</H1>
+      <H3 id="interaction-between-bosses">Interaction Between Bosses</H3>
+      <P>The two bosses should feel like they exist in the same world — their behaviors can affect each other, and maybe the player can exploit this.</P>
+      <Blockquote>E.g. In Black Myth: Wukong , the player can lure Second Rat Prince into knocking a pillar onto the other — a hidden mechanic most players miss entirely</Blockquote>
+      <H3 id="attention-management">Attention Management</H3>
+      <P>Player attention spreads across multiple active threats.</P>
+      <UL>
+        <LI>Keep both bosses within a readable field of view</LI>
+        <LI>Stagger their aggression so the player is never fully blind to one of them</LI>
+        <LI>Design around players managing their blind spot</LI>
+      </UL>
+      <H3 id="multiple-boss-pacing">Multiple-boss Pacing</H3>
+      <P>Most multiple-boss encounters push players toward a single rhythm: rush one boss down as fast as possible to escape the outnumbered situation. This works as a valid strategy, but it shouldn't be the only one.</P>
     </div>
   );
 }

@@ -4,18 +4,21 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/nar
 path: narrative-design/narrative-structure/narrative-timing
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)chevron-right
-- [diagram-projectNarrative Structure](/game-designers-note/narrative-design/narrative-structure)
+1. [Narrative Design](/game-designers-note/narrative-design)chevron-right
+
+2. [diagram-projectNarrative Structure](/game-designers-note/narrative-design/narrative-structure)
 # clockNarrative Timing
 #### [hashtag](#woven-into-gameplay)Woven into gameplay
-E.g. Dys4ia: Movement resistance = sense of powerlessness
+
+> E.g. Dys4ia: Movement resistance = sense of powerlessness
 
 #### [hashtag](#cutscenes)Cutscenes
-- Fixed camera: Environment and character
 
-- Movable camera: Specific areas / follow-quest
+> - Fixed camera: Environment and character
+> - Movable camera: Specific areas / follow-quest
 
 #### [hashtag](#between-chapters)Between chapters
-Help tuning game Beat.
+
+> Help tuning game Beat.
 
 [PreviousNarrative Elementschevron-left](/game-designers-note/narrative-design/narrative-structure/narrative-elements)[NextSuspensechevron-right](/game-designers-note/narrative-design/narrative-structure/suspense)Last updated 4 days ago

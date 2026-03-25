@@ -1,11 +1,13 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Pace Control"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Pacing', id: 'pacing' }, { label: 'Circulation' }]} go={go} />
+      <H1>Pace Control</H1>
+      <H3 id="psychology"><InternalLink id="psychology" go={go}>Psychology</InternalLink></H3>
+      <P>How spatial structure affects circulation.</P>
     </div>
   );
 }

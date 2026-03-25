@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/guidanc
 path: level-design/guidance
 ---
 
-- [Level Design](/game-designers-note/level-design)
+1. [Level Design](/game-designers-note/level-design)
 # signs-postGuidance
 #### [hashtag](#macro-guidance)[Macro Guidance](/game-designers-note/level-design/guidance/macro-guidance)
 Help players orient.

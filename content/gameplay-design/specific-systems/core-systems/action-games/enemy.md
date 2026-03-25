@@ -4,15 +4,18 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/core-systems/action-games/enemy
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
-- [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)chevron-right
-- [Action Games](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
+
+3. [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)chevron-right
+
+4. [Action Games](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games)
 # Enemy
 #### [hashtag](#enemy-readability)**Enemy Readability**
 Players should be able to locate and read enemies quickly
 
-E.g. The Finals: clean, bright visual style keeps enemies readable at a glance
+> E.g. The Finals: clean, bright visual style keeps enemies readable at a glance
 
 #### [hashtag](#mob)[Mob](/game-designers-note/gameplay-design/specific-systems/core-systems/action-games/enemy/mob)
 Standard enemies that shape routine combat

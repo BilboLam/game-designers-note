@@ -4,11 +4,12 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game
 path: game-experience/game-feel
 ---
 
-- [Game Experience](/game-designers-note/game-experience)
+1. [Game Experience](/game-designers-note/game-experience)
 # boltGame Feel
-the key to games, or "fun," is the relative size of the reaction for every action that you take. On a game console, you have a controller, which gives you very small inputs right on a physical level, but it&#x27;s creating a huge reaction on-screen, for what you&#x27;re seeing. This is very appealing for people to play.
 
-— [Tomonobu Itagakiarrow-up-right](https://www.gamedeveloper.com/business/the-philosophy-of-a-ninja-tomonobu-itagaki-speaks)
+> the key to games, or "fun," is the relative size of the reaction for every action that you take. On a game console, you have a controller, which gives you very small inputs right on a physical level, but it&#x27;s creating a huge reaction on-screen, for what you&#x27;re seeing. This is very appealing for people to play.
+
+> — [Tomonobu Itagakiarrow-up-right](https://www.gamedeveloper.com/business/the-philosophy-of-a-ninja-tomonobu-itagaki-speaks)
 
 #### [hashtag](#readability)[Readability](/game-designers-note/game-experience/game-feel/readability)
 Let players understand the game without friction.

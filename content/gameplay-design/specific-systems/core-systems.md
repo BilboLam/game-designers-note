@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/core-systems
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)
 # cubesCore Systems
 Core systems are the main gameplay of a game.
 

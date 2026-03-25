@@ -1,11 +1,27 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, LI, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Unknown"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'Other Experience', id: 'other-experience' }, { label: 'Horror & Discomfort', id: 'horror-and-discomfort' }, { label: 'Creating Unease' }]} go={go} />
+      <H1>Unknown</H1>
+      <UL>
+        <LI>Not knowing when or where enemies come from</LI>
+      </UL>
+      <Blockquote>E.g. Silent Hill Remake</Blockquote>
+      <UL>
+        <LI>Out of control</LI>
+      </UL>
+      <Blockquote>There are always multiple uneasy spots and you can't pay attention to one without lose attention to the others — e.g. Silent Hill Remake</Blockquote>
+      <UL>
+        <LI>Make players question their decisions</LI>
+      </UL>
+      <Blockquote>E.g. Backrooms</Blockquote>
+      <UL>
+        <LI>No absolute safe place</LI>
+        <LI>Leaves player with no time to think</LI>
+      </UL>
     </div>
   );
 }

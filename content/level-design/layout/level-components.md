@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/
 path: level-design/layout/level-components
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [table-cells-largeLayout](/game-designers-note/level-design/layout)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [table-cells-largeLayout](/game-designers-note/level-design/layout)
 # cubesLevel Components
 #### [hashtag](#level-elements)[Level Elements](/game-designers-note/level-design/layout/level-components/level-elements)
 The smallest functional pieces in a level.

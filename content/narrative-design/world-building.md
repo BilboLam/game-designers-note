@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/wor
 path: narrative-design/world-building
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)
+1. [Narrative Design](/game-designers-note/narrative-design)
 # earth-asiaWorld Building
 #### [hashtag](#world-authenticity)[World Authenticity](/game-designers-note/narrative-design/world-building/world-authenticity)
 The world follows its own logic.

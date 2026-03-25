@@ -17,9 +17,11 @@ export const NAV = [
           {
             "id": "complex-systems",
             "label": "Complex Systems",
-            "path": "gameplay-design/emergent-gameplay/complex-systems"
+            "path": "gameplay-design/emergent-gameplay/complex-systems",
+            "icon": "stars"
           }
-        ]
+        ],
+        "icon": "paintbrush-pencil"
       },
       {
         "id": "game-vision",
@@ -29,14 +31,17 @@ export const NAV = [
           {
             "id": "checklist",
             "label": "Checklist",
-            "path": "gameplay-design/game-vision/checklist"
+            "path": "gameplay-design/game-vision/checklist",
+            "icon": "clipboard-check"
           },
           {
             "id": "game-loop",
             "label": "Game Loop",
-            "path": "gameplay-design/game-vision/game-loop"
+            "path": "gameplay-design/game-vision/game-loop",
+            "icon": "arrow-progress"
           }
-        ]
+        ],
+        "icon": "bullseye"
       },
       {
         "id": "specific-systems",
@@ -160,7 +165,8 @@ export const NAV = [
                 "label": "Tactic System",
                 "path": "gameplay-design/specific-systems/core-systems/tactic-system"
               }
-            ]
+            ],
+            "icon": "cubes"
           },
           {
             "id": "more-systems",
@@ -204,7 +210,8 @@ export const NAV = [
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "sliders"
           },
           {
             "id": "supporting-systems",
@@ -251,9 +258,11 @@ export const NAV = [
                 "label": "Randomness",
                 "path": "gameplay-design/specific-systems/supporting-systems/randomness"
               }
-            ]
+            ],
+            "icon": "screwdriver-wrench"
           }
-        ]
+        ],
+        "icon": "diagram-project"
       },
       {
         "id": "system-review",
@@ -263,17 +272,19 @@ export const NAV = [
           {
             "id": "intuitive-design",
             "label": "Intuitive Design",
-            "path": "gameplay-design/system-review/intuitive-design"
+            "path": "gameplay-design/system-review/intuitive-design",
+            "icon": "lightbulb"
           },
           {
             "id": "self-check",
             "label": "Self-check",
-            "path": "gameplay-design/system-review/self-check"
+            "path": "gameplay-design/system-review/self-check",
+            "icon": "clipboard-check"
           }
-        ]
+        ],
+        "icon": "magnifying-glass"
       }
-    ],
-    "icon": "🎯"
+    ]
   },
   {
     "id": "game-experience",
@@ -329,7 +340,8 @@ export const NAV = [
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "hand-fist"
           },
           {
             "id": "discovery",
@@ -368,7 +380,8 @@ export const NAV = [
                 "label": "The Eureka Moment",
                 "path": "game-experience/8-funs/discovery/the-eureka-moment"
               }
-            ]
+            ],
+            "icon": "cat"
           },
           {
             "id": "expression",
@@ -380,17 +393,20 @@ export const NAV = [
                 "label": "Player Agency",
                 "path": "game-experience/8-funs/expression/player-agency"
               }
-            ]
+            ],
+            "icon": "paintbrush-pencil"
           },
           {
             "id": "sensation",
             "label": "Sensation",
-            "path": "game-experience/8-funs/sensation"
+            "path": "game-experience/8-funs/sensation",
+            "icon": "gem"
           },
           {
             "id": "submission",
             "label": "Submission",
-            "path": "game-experience/8-funs/submission"
+            "path": "game-experience/8-funs/submission",
+            "icon": "sack-dollar"
           }
         ]
       },
@@ -414,19 +430,23 @@ export const NAV = [
                 "label": "Time-scale",
                 "path": "game-experience/game-feel/fluidity/time-scale"
               }
-            ]
+            ],
+            "icon": "water"
           },
           {
             "id": "juice-elements",
             "label": "Juice Elements",
-            "path": "game-experience/game-feel/juice-elements"
+            "path": "game-experience/game-feel/juice-elements",
+            "icon": "bolt"
           },
           {
             "id": "readability",
             "label": "Readability",
-            "path": "game-experience/game-feel/readability"
+            "path": "game-experience/game-feel/readability",
+            "icon": "glasses"
           }
-        ]
+        ],
+        "icon": "bolt"
       },
       {
         "id": "other-experience",
@@ -460,9 +480,11 @@ export const NAV = [
                 "label": "Types of Fear",
                 "path": "game-experience/other-experience/horror-and-discomfort/types-of-fear"
               }
-            ]
+            ],
+            "icon": "ghost"
           }
-        ]
+        ],
+        "icon": "star"
       },
       {
         "id": "the-magic-circle",
@@ -472,12 +494,14 @@ export const NAV = [
           {
             "id": "expectation-management",
             "label": "Expectation Management",
-            "path": "game-experience/the-magic-circle/expectation-management"
+            "path": "game-experience/the-magic-circle/expectation-management",
+            "icon": "sliders"
           },
           {
             "id": "feedback-loops",
             "label": "Feedback Loops",
-            "path": "game-experience/the-magic-circle/feedback-loops"
+            "path": "game-experience/the-magic-circle/feedback-loops",
+            "icon": "arrow-progress"
           },
           {
             "id": "flow-state",
@@ -496,12 +520,13 @@ export const NAV = [
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "water"
           }
-        ]
+        ],
+        "icon": "bullseye"
       }
-    ],
-    "icon": "✨"
+    ]
   },
   {
     "id": "game-development",
@@ -511,15 +536,16 @@ export const NAV = [
       {
         "id": "bug-handling",
         "label": "Bug Handling",
-        "path": "game-development/bug-handling"
+        "path": "game-development/bug-handling",
+        "icon": "spider-black-widow"
       },
       {
         "id": "structure",
         "label": "Structure",
-        "path": "game-development/structure"
+        "path": "game-development/structure",
+        "icon": "folder-tree"
       }
-    ],
-    "icon": "🛠️"
+    ]
   },
   {
     "id": "level-design",
@@ -534,24 +560,29 @@ export const NAV = [
           {
             "id": "blockout",
             "label": "Blockout",
-            "path": "level-design/design-process/blockout"
+            "path": "level-design/design-process/blockout",
+            "icon": "cube"
           },
           {
             "id": "plan",
             "label": "Plan",
-            "path": "level-design/design-process/plan"
+            "path": "level-design/design-process/plan",
+            "icon": "clipboard-list"
           },
           {
             "id": "review",
             "label": "Review",
-            "path": "level-design/design-process/review"
+            "path": "level-design/design-process/review",
+            "icon": "clipboard-check"
           },
           {
             "id": "sketch",
             "label": "Sketch",
-            "path": "level-design/design-process/sketch"
+            "path": "level-design/design-process/sketch",
+            "icon": "pencil"
           }
-        ]
+        ],
+        "icon": "arrow-progress"
       },
       {
         "id": "guidance",
@@ -561,19 +592,23 @@ export const NAV = [
           {
             "id": "macro-guidance",
             "label": "Macro Guidance",
-            "path": "level-design/guidance/macro-guidance"
+            "path": "level-design/guidance/macro-guidance",
+            "icon": "compass"
           },
           {
             "id": "micro-guidance",
             "label": "Micro Guidance",
-            "path": "level-design/guidance/micro-guidance"
+            "path": "level-design/guidance/micro-guidance",
+            "icon": "eye"
           },
           {
             "id": "tutorial-levels",
             "label": "Tutorial Levels",
-            "path": "level-design/guidance/tutorial-levels"
+            "path": "level-design/guidance/tutorial-levels",
+            "icon": "graduation-cap"
           }
-        ]
+        ],
+        "icon": "signs-post"
       },
       {
         "id": "layout",
@@ -595,7 +630,8 @@ export const NAV = [
                 "label": "Waytracking Disruptions",
                 "path": "level-design/layout/cognitive-map/waytracking-disruptions"
               }
-            ]
+            ],
+            "icon": "map"
           },
           {
             "id": "level-components",
@@ -619,12 +655,14 @@ export const NAV = [
                 "label": "Level Elements",
                 "path": "level-design/layout/level-components/level-elements"
               }
-            ]
+            ],
+            "icon": "cubes"
           },
           {
             "id": "map-hierarchy",
             "label": "Map Hierarchy",
-            "path": "level-design/layout/map-hierarchy"
+            "path": "level-design/layout/map-hierarchy",
+            "icon": "sitemap"
           },
           {
             "id": "verticality",
@@ -636,9 +674,11 @@ export const NAV = [
                 "label": "Stairs",
                 "path": "level-design/layout/verticality/stairs"
               }
-            ]
+            ],
+            "icon": "arrows-up-down"
           }
-        ]
+        ],
+        "icon": "table-cells-large"
       },
       {
         "id": "pacing",
@@ -672,7 +712,8 @@ export const NAV = [
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "route"
           },
           {
             "id": "game-beat",
@@ -699,14 +740,17 @@ export const NAV = [
                 "label": "Open world",
                 "path": "level-design/pacing/game-beat/open-world"
               }
-            ]
+            ],
+            "icon": "chart-line"
           }
-        ]
+        ],
+        "icon": "gauge-high"
       },
       {
         "id": "puzzle-design",
         "label": "Puzzle Design",
-        "path": "level-design/puzzle-design"
+        "path": "level-design/puzzle-design",
+        "icon": "puzzle-piece"
       },
       {
         "id": "reward-and-exploration",
@@ -716,22 +760,25 @@ export const NAV = [
           {
             "id": "collectibles",
             "label": "Collectibles",
-            "path": "level-design/reward-and-exploration/collectibles"
+            "path": "level-design/reward-and-exploration/collectibles",
+            "icon": "coins"
           },
           {
             "id": "lock-and-key",
             "label": "Lock And Key",
-            "path": "level-design/reward-and-exploration/lock-and-key"
+            "path": "level-design/reward-and-exploration/lock-and-key",
+            "icon": "key"
           },
           {
             "id": "rewards",
             "label": "Rewards",
-            "path": "level-design/reward-and-exploration/rewards"
+            "path": "level-design/reward-and-exploration/rewards",
+            "icon": "gift"
           }
-        ]
+        ],
+        "icon": "gem"
       }
-    ],
-    "icon": "🗺️"
+    ]
   },
   {
     "id": "narrative-design",
@@ -746,14 +793,17 @@ export const NAV = [
           {
             "id": "descrimination",
             "label": "Descrimination",
-            "path": "narrative-design/moral/descrimination"
+            "path": "narrative-design/moral/descrimination",
+            "icon": "user-slash"
           },
           {
             "id": "violence",
             "label": "Violence",
-            "path": "narrative-design/moral/violence"
+            "path": "narrative-design/moral/violence",
+            "icon": "hand-fist"
           }
-        ]
+        ],
+        "icon": "scale-balanced"
       },
       {
         "id": "narrative-structure",
@@ -763,7 +813,8 @@ export const NAV = [
           {
             "id": "narrative-elements",
             "label": "Narrative Elements",
-            "path": "narrative-design/narrative-structure/narrative-elements"
+            "path": "narrative-design/narrative-structure/narrative-elements",
+            "icon": "puzzle-piece"
           },
           {
             "id": "narrative-patterns",
@@ -797,19 +848,23 @@ export const NAV = [
                   }
                 ]
               }
-            ]
+            ],
+            "icon": "layer-group"
           },
           {
             "id": "narrative-timing",
             "label": "Narrative Timing",
-            "path": "narrative-design/narrative-structure/narrative-timing"
+            "path": "narrative-design/narrative-structure/narrative-timing",
+            "icon": "clock"
           },
           {
             "id": "suspense",
             "label": "Suspense",
-            "path": "narrative-design/narrative-structure/suspense"
+            "path": "narrative-design/narrative-structure/suspense",
+            "icon": "hourglass-half"
           }
-        ]
+        ],
+        "icon": "diagram-project"
       },
       {
         "id": "player-and-character",
@@ -860,9 +915,11 @@ export const NAV = [
                 "label": "World Building",
                 "path": "narrative-design/player-and-character/character-design/world-building"
               }
-            ]
+            ],
+            "icon": "id-card"
           }
-        ]
+        ],
+        "icon": "user"
       },
       {
         "id": "narrative-design-world-building",
@@ -872,22 +929,25 @@ export const NAV = [
           {
             "id": "world-building-level-design",
             "label": "Level Design",
-            "path": "narrative-design/world-building/level-design"
+            "path": "narrative-design/world-building/level-design",
+            "icon": "route"
           },
           {
             "id": "where-to-start",
             "label": "Where to Start",
-            "path": "narrative-design/world-building/where-to-start"
+            "path": "narrative-design/world-building/where-to-start",
+            "icon": "seedling"
           },
           {
             "id": "world-authenticity",
             "label": "World Authenticity",
-            "path": "narrative-design/world-building/world-authenticity"
+            "path": "narrative-design/world-building/world-authenticity",
+            "icon": "link"
           }
-        ]
+        ],
+        "icon": "earth-asia"
       }
-    ],
-    "icon": "📖"
+    ]
   },
   {
     "id": "appendix",
@@ -897,24 +957,23 @@ export const NAV = [
       {
         "id": "books-to-read",
         "label": "Books to Read",
-        "path": "appendix/books-to-read"
+        "path": "appendix/books-to-read",
+        "icon": "book-open"
       },
       {
         "id": "tools",
         "label": "Tools",
-        "path": "appendix/tools"
+        "path": "appendix/tools",
+        "icon": "screwdriver-wrench"
       }
-    ],
-    "icon": "📎"
+    ]
   },
   {
     "id": "celeste-and-forgiveness",
     "label": "Celeste And Forgiveness",
-    "path": "celeste-and-forgiveness",
-    "icon": "🍓"
+    "path": "celeste-and-forgiveness"
   }
 ];
-
 export const SEARCH_INDEX = [
   {
     "id": "home",

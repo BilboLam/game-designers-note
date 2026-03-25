@@ -1,11 +1,41 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Feedback Loops</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'The Magic Circle' }]} go={go} />
+      <H1><Icon name="arrow-progress" className="page-icon" />Feedback Loops</H1>
+      <H3 id="positive-feedback">Positive feedback</H3>
+      <P>+ Reinforces power fantasy</P>
+      <P>+ Strengthens skill expression</P>
+      <P>+ Improves clarity of progression</P>
+      <UL>
+        <LI>Reduces tension once ahead</LI>
+      </UL>
+      <UL>
+        <LI>Flatten late-game decision-making</LI>
+      </UL>
+      <H3 id="negative-feedback">Negative feedback</H3>
+      <P>+ Maintains tension and uncertainty</P>
+      <P>+ Encourages persistence in multiplayer</P>
+      <P>+ Keeps pacing more consistent</P>
+      <UL>
+        <LI>Weakens sense of mastery</LI>
+      </UL>
+      <UL>
+        <LI>Can feel controlled</LI>
+      </UL>
+      <UL>
+        <LI>Can feel unfair</LI>
+      </UL>
+      <Callout type="info">
+        <span>- Be aware of unintentional feedback</span>
+      </Callout>
+      <UL>
+        <LI>Combine the two feedbacks</LI>
+      </UL>
     </div>
   );
 }

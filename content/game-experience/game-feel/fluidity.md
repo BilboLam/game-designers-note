@@ -4,8 +4,9 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/game
 path: game-experience/game-feel/fluidity
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [boltGame Feel](/game-designers-note/game-experience/game-feel)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [boltGame Feel](/game-designers-note/game-experience/game-feel)
 # waterFluidity
 #### [hashtag](#time-scale)[Time-scale](/game-designers-note/game-experience/game-feel/fluidity/time-scale)
 #### [hashtag](#input-and-controls)[Input & Controls](/game-designers-note/game-experience/game-feel/fluidity/input-and-controls)

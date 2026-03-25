@@ -1,11 +1,21 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, ExtLink, H1, H3, P } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Structure</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Development' }]} go={go} />
+      <H1><Icon name="folder-tree" className="page-icon" />Structure</H1>
+      <P>If structures are well-designed, the details will emerge naturally.</P>
+      <P>A strong foundation lets later details take care of themselves.</P>
+      <H3 id="stone-soup"><ExtLink href="https://www.gdcvault.com/play/1025655/Stone-Soup-Procedurally-Mixing-Student">Stone Soup</ExtLink></H3>
+      <Blockquote>Build a flexible structure where individual components are designed in isolation. The interactions between components are not pre-coded, but can sometimes be surprisingly interesting.</Blockquote>
+      <Callout type="info">
+        <span>Encourage bugs, encouraging messiness.</span>
+      </Callout>
+      <H3 id="qframework"><ExtLink href="https://qf.readthedocs.io/en/latest/">Qframework</ExtLink></H3>
+      <Blockquote>Qframework splits responsibilities into ViewController, System, Utility, etc., and each part handles its own logic. By separating code, the architecture stays more modular and easier to scale.</Blockquote>
     </div>
   );
 }

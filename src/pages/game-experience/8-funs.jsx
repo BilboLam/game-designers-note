@@ -1,11 +1,28 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, ExtLink, H1, H3, InternalLink, P } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>8 Funs</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience' }]} go={go} />
+      <H1>boxes-stacked8 Funs</H1>
+      <P>chevron-rightThe 8 Funs are the aesthetic categories from the MDA framework. Most games target multiple funs simultaneously.hashtag<ExtLink href="https://users.cs.northwestern.edu/~hunicke/MDA.pdf">MDA: A Formal Approach to Game Design and Game Research</ExtLink></P>
+      <H3 id="sensation"><InternalLink id="sensation" go={go}>Sensation</InternalLink></H3>
+      <Blockquote>Game as sense-pleasure</Blockquote>
+      <H3 id="fantasy">Fantasy</H3>
+      <Blockquote>Game as make-believe</Blockquote>
+      <H3 id="narrative">Narrative</H3>
+      <Blockquote>Game as drama</Blockquote>
+      <H3 id="challenge"><InternalLink id="challenge" go={go}>Challenge</InternalLink></H3>
+      <Blockquote>Game as obstacle course</Blockquote>
+      <H3 id="fellowship">Fellowship</H3>
+      <Blockquote>Game as social framework</Blockquote>
+      <H3 id="discovery"><InternalLink id="discovery" go={go}>Discovery</InternalLink></H3>
+      <Blockquote>Game as uncharted territory</Blockquote>
+      <H3 id="expression"><InternalLink id="expression" go={go}>Expression</InternalLink></H3>
+      <Blockquote>Game as self-discovery</Blockquote>
+      <H3 id="submission"><InternalLink id="submission" go={go}>Submission</InternalLink></H3>
+      <Blockquote>Game as pastime</Blockquote>
     </div>
   );
 }

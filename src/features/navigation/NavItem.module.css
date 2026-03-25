@@ -29,8 +29,12 @@
   background: var(--color-accent-bg);
 }
 
-.rootIcon {
-  font-size: 13px;
+.navIcon {
+  font-size: 0.75em;
+  opacity: 0.5;
+  flex-shrink: 0;
+  width: 1em;
+  text-align: center;
 }
 
 .label {

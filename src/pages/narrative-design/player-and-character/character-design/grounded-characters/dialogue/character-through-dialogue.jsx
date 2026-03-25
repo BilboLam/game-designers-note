@@ -1,11 +1,17 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3, InternalLink } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
+      <Breadcrumb crumbs={[{ label: 'Narrative Design', id: 'narrative-design' }, { label: 'Player & Character', id: 'player-and-character' }, { label: 'Character Design', id: 'character-design' }, { label: 'Grounded Characters', id: 'grounded-characters' }, { label: 'Dialogue' }]} go={go} />
       <H1>Character Through Dialogue</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <H3 id="speech-patterns-and-accent">Speech patterns &amp; accent</H3>
+      <Blockquote>Combine with character behavior or world-view</Blockquote>
+      <H3 id="character-traits">Character traits</H3>
+      <Blockquote>Build <InternalLink id="emotional-link" go={go}>Charisma</InternalLink></Blockquote>
+      <H3 id="show-character-motivation">Show Character Motivation</H3>
+      <Blockquote>Hide motivation in subtext</Blockquote>
     </div>
   );
 }

@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/pacing/
 path: level-design/pacing/circulation/pace-control
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [gauge-highPacing](/game-designers-note/level-design/pacing)chevron-right
-- [routeCirculation](/game-designers-note/level-design/pacing/circulation)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [gauge-highPacing](/game-designers-note/level-design/pacing)chevron-right
+
+3. [routeCirculation](/game-designers-note/level-design/pacing/circulation)
 # Pace Control
 #### [hashtag](#psychology)[Psychology](/game-designers-note/level-design/pacing/circulation/pace-control/psychology)
 How spatial structure affects circulation.

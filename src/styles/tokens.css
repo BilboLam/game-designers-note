@@ -1,9 +1,12 @@
 /**
  * Static design tokens (not theme-dependent).
  * Theme colors are injected at runtime via ThemeColorRoot (see app/ThemeColorRoot.jsx).
+ *
+ * Layout breakpoint (docs shell / header): 768px — max-width mobile, min-width 769px desktop.
+ * See layouts/docs-shell/DocsShell.module.css and layouts/docs-header/DocsHeader.module.css.
  */
 :root {
-  --font-serif: "Lora", Georgia, serif;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   --radius-sm: 4px;

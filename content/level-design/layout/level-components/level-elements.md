@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/level-design/layout/
 path: level-design/layout/level-components/level-elements
 ---
 
-- [Level Design](/game-designers-note/level-design)chevron-right
-- [table-cells-largeLayout](/game-designers-note/level-design/layout)chevron-right
-- [cubesLevel Components](/game-designers-note/level-design/layout/level-components)
+1. [Level Design](/game-designers-note/level-design)chevron-right
+
+2. [table-cells-largeLayout](/game-designers-note/level-design/layout)chevron-right
+
+3. [cubesLevel Components](/game-designers-note/level-design/layout/level-components)
 # Level Elements
 Below are common elements that are present in levels across multiple games; consider using them when you get lost.
 

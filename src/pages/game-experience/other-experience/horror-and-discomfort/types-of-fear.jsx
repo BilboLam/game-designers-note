@@ -1,11 +1,16 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Types Of Fear</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'Other Experience', id: 'other-experience' }, { label: 'Horror & Discomfort' }]} go={go} />
+      <H1>Types of Fear</H1>
+      <H3 id="sublime-and-grotesque">Sublime &amp; Grotesque</H3>
+      <Blockquote>Beauty of Fear</Blockquote>
+      <H3 id="jump-scare">Jump scare</H3>
+      <H3 id="eerie">Eerie</H3>
+      <Blockquote>sustained discomfort — e.g. Kaidan, Liaozhai, Cthulhu</Blockquote>
     </div>
   );
 }

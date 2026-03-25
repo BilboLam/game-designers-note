@@ -1,11 +1,11 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Stairs"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Level Design', id: 'level-design' }, { label: 'Layout', id: 'layout' }, { label: 'Verticality' }]} go={go} />
+      <H1>Stairs</H1>
     </div>
   );
 }

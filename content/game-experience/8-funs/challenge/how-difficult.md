@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/game-experience/8-fu
 path: game-experience/8-funs/challenge/how-difficult
 ---
 
-- [Game Experience](/game-designers-note/game-experience)chevron-right
-- [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
-- [hand-fistChallenge](/game-designers-note/game-experience/8-funs/challenge)
+1. [Game Experience](/game-designers-note/game-experience)chevron-right
+
+2. [boxes-stacked8 Funs](/game-designers-note/game-experience/8-funs)chevron-right
+
+3. [hand-fistChallenge](/game-designers-note/game-experience/8-funs/challenge)
 # How Difficult
 #### [hashtag](#how-our-brain-works)[How our Brain Works](/game-designers-note/game-experience/8-funs/challenge/how-difficult/how-our-brain-works)
 Understanding limits of human brain.

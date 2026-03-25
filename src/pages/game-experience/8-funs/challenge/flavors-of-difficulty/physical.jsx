@@ -1,11 +1,16 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, LI, UL } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Physical"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Game Experience', id: 'game-experience' }, { label: 'boxes-stacked8 Funs', id: '8-funs' }, { label: 'Challenge', id: 'challenge' }, { label: 'Flavors of Difficulty' }]} go={go} />
+      <H1>Physical</H1>
+      <UL>
+        <LI>Timing</LI>
+        <LI>Precision</LI>
+        <LI>Amount of inputs</LI>
+      </UL>
     </div>
   );
 }

@@ -4,12 +4,15 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/supporting-systems/achievement-system
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
-- [screwdriver-wrenchSupporting Systems](/game-designers-note/gameplay-design/specific-systems/supporting-systems)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
+
+3. [screwdriver-wrenchSupporting Systems](/game-designers-note/gameplay-design/specific-systems/supporting-systems)
 # Achievement System
 #### [hashtag](#consider-in-game-achievements)Consider In-game achievements
-Progress visualization — e.g. camp in Pacific Drive
+
+> Progress visualization — e.g. camp in Pacific Drive
 
 #### [hashtag](#ranking-system)Ranking System
 A ranking system is also some kind of achievement system.

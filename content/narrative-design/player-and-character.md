@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/pla
 path: narrative-design/player-and-character
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)
+1. [Narrative Design](/game-designers-note/narrative-design)
 # userPlayer & Character
 Games are harder than traditional films and novels for expressing character psychology.
 

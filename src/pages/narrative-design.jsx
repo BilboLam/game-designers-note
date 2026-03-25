@@ -1,11 +1,12 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, H1, P } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>{"Narrative Design"}</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[]} go={go} />
+      <H1>Narrative Design</H1>
+      <P>World Building | Game Designer's Note</P>
     </div>
   );
 }

@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/nar
 path: narrative-design/narrative-structure
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)
+1. [Narrative Design](/game-designers-note/narrative-design)
 # diagram-projectNarrative Structure
 #### [hashtag](#narrative-patterns)Narrative Patterns
 Different ways games deliver story.

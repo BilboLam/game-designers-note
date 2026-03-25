@@ -4,9 +4,11 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/gameplay-design/spec
 path: gameplay-design/specific-systems/core-systems/action-games
 ---
 
-- [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
-- [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
-- [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)
+1. [Gameplay Design](/game-designers-note/gameplay-design)chevron-right
+
+2. [diagram-projectSpecific Systems](/game-designers-note/gameplay-design/specific-systems)chevron-right
+
+3. [cubesCore Systems](/game-designers-note/gameplay-design/specific-systems/core-systems)
 # Action Games
 Player, environment, and enemy are the 3 most important aspects of action games.
 

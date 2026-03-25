@@ -1,11 +1,15 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>End Turn Resolution</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Specific Systems', id: 'specific-systems' }, { label: 'Core Systems', id: 'core-systems' }, { label: 'Card Games' }]} go={go} />
+      <H1>End-turn Resolution</H1>
+      <H3 id="readability">Readability</H3>
+      <Blockquote>Notify players of resolution order and calculation method via interactive prompts — e.g. Balatro</Blockquote>
+      <H3 id="reduce-downtime">Reduce downtime</H3>
+      <Blockquote>Adjustable settlement speed</Blockquote>
     </div>
   );
 }

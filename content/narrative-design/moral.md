@@ -4,7 +4,7 @@ gitbook_url: https://coffwee.gitbook.io/game-designers-note/narrative-design/mor
 path: narrative-design/moral
 ---
 
-- [Narrative Design](/game-designers-note/narrative-design)
+1. [Narrative Design](/game-designers-note/narrative-design)
 # scale-balancedMoral
 #### [hashtag](#descrimination)[Descrimination](/game-designers-note/narrative-design/moral/descrimination)
 How games can reinforce bias.

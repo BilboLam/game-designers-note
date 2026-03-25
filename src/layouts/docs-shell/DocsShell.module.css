@@ -19,6 +19,12 @@
   backdrop-filter: blur(2px);
 }
 
+@media (min-width: 769px) {
+  .overlayScrim {
+    display: none;
+  }
+}
+
 .sidebar {
   width: var(--width-sidebar);
   flex-shrink: 0;
@@ -35,12 +41,29 @@
   transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media (max-width: 768px) {
+  .sidebar {
+    transform: translateX(-100%);
+  }
+
+  .drawerOpen {
+    transform: translateX(0);
+    box-shadow: var(--shadow-dropdown);
+  }
+}
+
 .mainPane {
   flex: 1;
   margin-left: var(--width-sidebar);
   overflow-y: auto;
   padding: 44px var(--space-4xl) 80px;
   font-family: var(--font-serif);
+}
+
+@media (max-width: 768px) {
+  .mainPane {
+    margin-left: 0;
+  }
 }
 
 .readingColumn {

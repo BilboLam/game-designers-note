@@ -346,22 +346,62 @@ function extractTextFromHtml(html) {
   // Extract main content area (between <main> tags if present)
   const mainMatch = text.match(/<main[\s\S]*?<\/main>/i);
   if (mainMatch) text = mainMatch[0];
+
+  // Mark checkbox state before any other replacement
+  text = text
+    .replace(/<input[^>]*checked[^>]*type="checkbox"[^>]*>/gi, '__CHECKED__')
+    .replace(/<input[^>]*type="checkbox"[^>]*checked[^>]*>/gi, '__CHECKED__')
+    .replace(/<input[^>]*type="checkbox"[^>]*>/gi, '__UNCHECKED__');
+
+  // Blockquote sentinels (depth tracked later)
+  text = text
+    .replace(/<blockquote[^>]*>/gi, '\n__BQ_OPEN__\n')
+    .replace(/<\/blockquote>/gi, '\n__BQ_CLOSE__\n');
+
+  // Ordered lists: number each <li> before the generic <li> pass
+  text = text.replace(/<ol[^>]*>([\s\S]*?)<\/ol>/gi, (_, inner) => {
+    let n = 0;
+    return inner.replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, (__, c) => {
+      n++;
+      return `\n__OL_ITEM_${n}__ ${c}\n`;
+    });
+  });
+
   // Convert common HTML to rough markdown
   text = text
     .replace(/<h1[^>]*>([\s\S]*?)<\/h1>/gi, '# $1\n')
     .replace(/<h2[^>]*>([\s\S]*?)<\/h2>/gi, '## $1\n')
     .replace(/<h3[^>]*>([\s\S]*?)<\/h3>/gi, '### $1\n')
     .replace(/<h4[^>]*>([\s\S]*?)<\/h4>/gi, '#### $1\n')
-    .replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, '- $1\n')
+    .replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, (_, c) => {
+      if (c.includes('__CHECKED__'))   return `* [x] ${c.replace('__CHECKED__', '').replace(/<[^>]+>/g, '').trim()}\n`;
+      if (c.includes('__UNCHECKED__')) return `* [ ] ${c.replace('__UNCHECKED__', '').replace(/<[^>]+>/g, '').trim()}\n`;
+      return `- ${c.replace(/<[^>]+>/g, '').trim()}\n`;
+    })
     .replace(/<p[^>]*>([\s\S]*?)<\/p>/gi, '$1\n\n')
     .replace(/<strong[^>]*>([\s\S]*?)<\/strong>/gi, '**$1**')
     .replace(/<em[^>]*>([\s\S]*?)<\/em>/gi, '*$1*')
     .replace(/<code[^>]*>([\s\S]*?)<\/code>/gi, '`$1`')
     .replace(/<a[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi, '[$2]($1)')
     .replace(/<[^>]+>/g, '')  // strip remaining tags
-    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
-    .replace(/\n{3,}/g, '\n\n').trim();
-  return text;
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ');
+
+  // Convert __OL_ITEM_N__ sentinels to `N. ` format
+  text = text.replace(/__OL_ITEM_(\d+)__\s*/g, (_, n) => `${n}. `);
+
+  // Convert blockquote sentinels to `> ` prefixes with depth tracking
+  const lines = text.split('\n');
+  const out = [];
+  let depth = 0;
+  for (const l of lines) {
+    if (l.trim() === '__BQ_OPEN__')  { depth++; continue; }
+    if (l.trim() === '__BQ_CLOSE__') { depth = Math.max(0, depth - 1); continue; }
+    if (depth > 0 && l.trim()) out.push('> '.repeat(depth) + l.trim());
+    else out.push(l);
+  }
+  text = out.join('\n');
+
+  return text.replace(/\n{3,}/g, '\n\n').trim();
 }
 
 // --- File saving ---

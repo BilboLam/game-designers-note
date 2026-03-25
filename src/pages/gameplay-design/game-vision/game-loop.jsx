@@ -1,11 +1,16 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, ExtLink, H1, LI, OL } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Game Loop</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Game Vision' }]} go={go} />
+      <H1><Icon name="arrow-progress" className="page-icon" />Game Loop</H1>
+      <OL>
+        <LI>Start with the <ExtLink href="https://claritypotion.com/2024/04/15/30-second-fun-focusing-principle/">30-second core loop</ExtLink>.</LI>
+        <LI>Build nested loops where small loops feed larger ones.</LI>
+      </OL>
     </div>
   );
 }

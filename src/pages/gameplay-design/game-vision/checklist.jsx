@@ -1,11 +1,17 @@
 import React from 'react';
-import { H1, P } from '@/components/ui.jsx';
+import { Breadcrumb, CheckItem, CheckList, H1 } from '@/components/ui.jsx';
+import { Icon } from '@/components/Icon.jsx';
 
-export default function Page() {
+export default function Page({ go }) {
   return (
     <div>
-      <H1>Checklist</H1>
-      <P style={{ color: 'var(--muted)', fontSize: 14 }}>Content to be filled.</P>
+      <Breadcrumb crumbs={[{ label: 'Gameplay Design', id: 'gameplay-design' }, { label: 'Game Vision' }]} go={go} />
+      <H1><Icon name="clipboard-check" className="page-icon" />Checklist</H1>
+      <CheckList>
+        <CheckItem>Target Audience</CheckItem>
+        <CheckItem>Game Length</CheckItem>
+        <CheckItem></CheckItem>
+      </CheckList>
     </div>
   );
 }
