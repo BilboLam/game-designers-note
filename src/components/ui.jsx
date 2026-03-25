@@ -3,13 +3,17 @@ import { Icon } from '@/components/Icon.jsx';
 import { usePageChrome } from '@/context/PageChromeContext.jsx';
 import uiStyles from './ui.module.css';
 
-const CALLOUT_ICONS = { info: 'circle-question', warn: 'triangle-exclamation', tip: 'lightbulb' };
+const CALLOUT_ICONS = { info: 'circle-question', warn: 'triangle-exclamation', tip: 'lightbulb', alarm: 'circle-exclamation' };
+const CALLOUT_BG = { alarm: 'rgba(192,120,64,.13)' };
+const CALLOUT_ICON_COLOR = { alarm: 'var(--accent)' };
 
 export function Callout({ type = "info", label, children }) {
   const icon = CALLOUT_ICONS[type] || CALLOUT_ICONS.info;
+  const bg = CALLOUT_BG[type] || 'var(--callout-bg)';
+  const iconColor = CALLOUT_ICON_COLOR[type] || 'var(--muted)';
   return (
-    <div style={{ background: "var(--callout-bg)", borderRadius: 8, padding: "12px 16px", margin: "16px 0", display: "flex", gap: 10, alignItems: "flex-start" }}>
-      <Icon name={icon} style={{ marginTop: 3, color: "var(--muted)", flexShrink: 0 }} />
+    <div style={{ background: bg, borderRadius: 8, padding: "12px 16px", margin: "16px 0", display: "flex", gap: 10, alignItems: "flex-start" }}>
+      <Icon name={icon} style={{ marginTop: 3, color: iconColor, flexShrink: 0 }} />
       <div style={{ color: "var(--text)", lineHeight: 1.65 }}>
         {label && <span style={{ marginRight: 6 }}>{label}</span>}
         {children}
@@ -19,11 +23,13 @@ export function Callout({ type = "info", label, children }) {
 }
 
 export function Blockquote({ children }) {
-  return (
-    <blockquote style={{ borderLeft: "3px solid var(--border)", padding: "2px 0 2px 16px", margin: "8px 0", color: "var(--text)", lineHeight: 1.65 }}>
-      {children}
-    </blockquote>
-  );
+  let content = children;
+  if (typeof children === 'string') {
+    const lines = children.split('\n').map(l => l.trim()).filter(Boolean);
+    if (lines.length > 0 && lines.every(l => l.startsWith('- ')))
+      content = <ul>{lines.map((l, i) => <li key={i}><span style={{ color: 'var(--text)' }}>{l.slice(2)}</span></li>)}</ul>;
+  }
+  return <blockquote className={uiStyles.blockquote}>{content}</blockquote>;
 }
 
 export function Code({ children }) {
@@ -129,6 +135,10 @@ export function H3({ id, children }) {
   return <h3 id={id} style={{ fontSize:17, fontWeight:600, color:"var(--text)", marginTop:28, marginBottom:8 }}>{children}</h3>;
 }
 
+export function H4({ id, children }) {
+  return <h4 id={id} style={{ fontSize:15, fontWeight:600, color:"var(--text)", marginTop:20, marginBottom:6 }}>{children}</h4>;
+}
+
 export function P({ children }) {
   return <p style={{ color:"var(--text)", marginBottom:12, lineHeight:1.75 }}>{children}</p>;
 }
@@ -141,10 +151,10 @@ export function UL({ children }) {
   return <ul style={{ paddingLeft:20, marginBottom:14 }}>{children}</ul>;
 }
 
-export function LI({ children }) {
+export function LI({ children, color }) {
   return (
     <li style={{ marginBottom:5, color:"var(--muted)", lineHeight:1.7 }}>
-      <span style={{ color:"var(--text)" }}>{children}</span>
+      <span className={color ? uiStyles[color] : undefined} style={color ? undefined : { color:"var(--text)" }}>{children}</span>
     </li>
   );
 }
@@ -176,6 +186,22 @@ export function InternalLink({ id, children, go }) {
   return <span onClick={()=>go(id)} style={{ color:"var(--link)", cursor:"pointer", textDecoration:"none" }}
     onMouseEnter={e=>e.target.style.textDecoration="underline"}
     onMouseLeave={e=>e.target.style.textDecoration="none"}>{children}</span>;
+}
+
+export function CrossLink({ pageId, anchor, children, go }) {
+  return <span onClick={()=>go(pageId, anchor)} style={{ color:"var(--link)", cursor:"pointer", textDecoration:"none" }}
+    onMouseEnter={e=>e.target.style.textDecoration="underline"}
+    onMouseLeave={e=>e.target.style.textDecoration="none"}>{children}</span>;
+}
+
+export function Figure({ src, caption, width }) {
+  const label = caption ?? src.split('/').pop().replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
+  return (
+    <figure style={{ margin: '20px 0', textAlign: 'center' }}>
+      <img src={src} alt={label} style={{ maxWidth: width ?? '480px', width: '100%', borderRadius: 8 }} />
+      <figcaption style={{ fontSize: 12, color: 'var(--muted)', marginTop: 6, textAlign: 'center' }}>{label}</figcaption>
+    </figure>
+  );
 }
 
 export function HR() {

@@ -11,10 +11,12 @@ export default function Page({ go }) {
       <Blockquote>Liminal spaces: Backrooms / Core aesthetic</Blockquote>
       <Blockquote>Humanoid</Blockquote>
       <H3 id="element-of-the-uncanny-valley">Element of the uncanny valley</H3>
-      <H3 id="unfamiliar">Unfamiliar</H3>
-      <Blockquote>a trace of wrongness in a comfortable environment, e.g.  g roup photo with friends—except there’s a stranger among them.</Blockquote>
-      <H3 id="beyond-comprehension">Beyond comprehension</H3>
-      <Blockquote>E.g. Rule-based Horror (destruction of order)</Blockquote>
+      <Blockquote>
+        <H3 id="unfamiliar">Unfamiliar</H3>
+        <Blockquote>a trace of wrongness in a comfortable environment, e.g.  g roup photo with friends—except there’s a stranger among them.</Blockquote>
+        <H3 id="beyond-comprehension">Beyond comprehension</H3>
+        <Blockquote>E.g. Rule-based Horror (destruction of order)</Blockquote>
+      </Blockquote>
     </div>
   );
 }

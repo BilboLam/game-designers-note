@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -9,12 +9,17 @@ export default function Page({ go }) {
       <H3 id="limited-information">Limited information</H3>
       <Blockquote>E.g. fog of war</Blockquote>
       <H3 id="different-certainties">Different certainties</H3>
-      <Blockquote>- Certain → Puzzle</Blockquote>
-      <Blockquote>- Uncertain → Strategy</Blockquote>
-      <Blockquote>- High complexity so players can't accurately predict — e.g. Civilization</Blockquote>
-      <Blockquote>- A little Randomness — e.g. Rogue</Blockquote>
-      <Blockquote>- game theory — PvP</Blockquote>
-      <Blockquote>- Unpredictable → Dice</Blockquote>
+      <UL>
+        <LI>Certain → Puzzle</LI>
+        <LI>Uncertain → Strategy
+          <UL>
+            <LI>High complexity so players can't accurately predict — e.g. Civilization</LI>
+            <LI>A little Randomness — e.g. Rogue</LI>
+            <LI>game theory — PvP</LI>
+          </UL>
+        </LI>
+        <LI>Unpredictable → Dice</LI>
+      </UL>
     </div>
   );
 }

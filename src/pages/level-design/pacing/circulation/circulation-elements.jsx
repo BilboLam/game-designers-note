@@ -1,5 +1,7 @@
 import React from 'react';
-import { Breadcrumb, ExtLink, H1, H2, P } from '@/components/ui.jsx';
+import { Breadcrumb, ExtLink, Figure, H1, H2, P } from '@/components/ui.jsx';
+
+const CHING_URL = "https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover";
 
 export default function Page({ go }) {
   return (
@@ -7,15 +9,17 @@ export default function Page({ go }) {
       <Breadcrumb auto go={go} />
       <H1>Circulation Elements</H1>
       <H2 id="approach">Approach</H2>
-      <P><ExtLink href="https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover">Architecture: Form, Space, and Order - Francis D. K. Ching</ExtLink></P>
+      <Figure src="/images/approach.png" />
       <H2 id="entrance">Entrance</H2>
-      <P><ExtLink href="https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover">Architecture: Form, Space, and Order - Francis D. K. Ching</ExtLink><ExtLink href="https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover">Architecture: Form, Space, and Order - Francis D. K. Ching</ExtLink></P>
+      <Figure src="/images/entrance.png" />
+      <Figure src="/images/entrance-2.png" />
       <H2 id="configuration-of-the-path">Configuration of the Path</H2>
-      <P><ExtLink href="https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover">Architecture: Form, Space, and Order - Francis D. K. Ching</ExtLink></P>
+      <Figure src="/images/configuration-of-the-path.png" />
       <H2 id="path-space-relationships">Path-space Relationships</H2>
-      <P><ExtLink href="https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover">Architecture: Form, Space, and Order - Francis D. K. Ching</ExtLink></P>
+      <Figure src="/images/path-space-relationships.png" />
       <H2 id="form-of-the-circulation-space">Form of the Circulation Space</H2>
-      <P><ExtLink href="https://books.google.com/books?id=eR1HAAAAQBAJ&printsec=frontcover">Architecture: Form, Space, and Order - Francis D. K. Ching</ExtLink></P>
+      <Figure src="/images/form-of-the-circulation-space.png" />
+      <P><ExtLink href={CHING_URL}>Architecture: Form, Space, and Order — Francis D. K. Ching</ExtLink></P>
     </div>
   );
 }

@@ -6,8 +6,7 @@ export default function Page({ go }) {
     <div>
       <Breadcrumb auto go={go} />
       <H1>Building Curiosity</H1>
-      <P>[</P>
-      <P>&amp;#xNAN;Sparking Curiosity-Driven Exploration Through Narrative in 'Outer Wilds'arrow-up-right](https://www.youtube.com/watch?v=QaGu9tGCNbI)</P>
+      <P><ExtLink href="https://www.youtube.com/watch?v=QaGu9tGCNbI">Sparking Curiosity-Driven Exploration Through Narrative in 'Outer Wilds'</ExtLink></P>
       <H3 id="get-players-invested-first">Get players invested first</H3>
       <Blockquote>Easier for players to get invested when understanding the story is a requirement for advancing</Blockquote>
       <H3 id="make-players-explore-intentionally">Make players explore intentionally</H3>

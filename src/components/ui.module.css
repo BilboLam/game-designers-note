@@ -30,3 +30,38 @@
   flex: 1;
   min-width: 0;
 }
+
+.blockquote {
+  border-left: 3px solid var(--border);
+  padding: 2px 0 2px 16px;
+  margin: 8px 0;
+  color: var(--text);
+  line-height: 1.65;
+}
+
+/* Merge consecutive blockquotes into one visual block */
+.blockquote + .blockquote {
+  margin-top: -8px;
+}
+
+/* Nested blockquote: same text color as outer, muted border for depth */
+.blockquote .blockquote {
+  border-left-color: var(--border);
+  margin: 4px 0;
+  color: var(--text);
+}
+
+.green { color: #358335; }
+.red   { color: #933939; }
+
+.blockquote ul {
+  margin: 2px 0;
+  padding-left: 14px;
+  list-style: disc;
+}
+
+.blockquote li {
+  margin-bottom: 5px;
+  color: var(--muted);
+  line-height: 1.7;
+}

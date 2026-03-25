@@ -1,11 +1,12 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, Callout, H1, H3, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, Figure, H1, H3, P } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Branching Structures</H1>
+      <Figure src="/images/branching-structures.png" />
       <H3 id="shrub">Shrub</H3>
       <Blockquote>E.g. Detroit</Blockquote>
       <H3 id="reconverging-branches">Reconverging branches</H3>
@@ -13,9 +14,8 @@ export default function Page({ go }) {
       <H3 id="reflective-choices">Reflective Choices</H3>
       <Blockquote>No consequence, merely create an illusion of choice</Blockquote>
       <Callout type="info">
+      <P>Make the meaning of player choices clear; e.g. if an option means declaring war, the wording should say so.</P>
       </Callout>
-      <H3 id="choice-clarity">Choice clarity</H3>
-      <P>Make the meaning of player choices clear; e.g. if an option means declaring war, the wording should say so</P>
     </div>
   );
 }

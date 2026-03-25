@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, CheckItem, CheckList, H1 } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, CheckItem, CheckList, H1, InternalLink } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -13,7 +13,7 @@ export default function Page({ go }) {
       <Blockquote>- If a mechanism is used only once, rethink (useful for board games, not that useful for video games)</Blockquote>
       <CheckList>
         <CheckItem>Are there systems that players easily ignore</CheckItem>
-        <CheckItem>Is the system intuitive</CheckItem>
+        <CheckItem>Is the system <InternalLink id="intuitive-design" go={go}>intuitive</InternalLink></CheckItem>
       </CheckList>
     </div>
   );

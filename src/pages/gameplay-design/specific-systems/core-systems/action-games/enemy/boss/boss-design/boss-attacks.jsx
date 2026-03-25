@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -9,10 +9,9 @@ export default function Page({ go }) {
       <H3 id="action-readability">Action Readability</H3>
       <UL>
         <LI>Wind-up pose</LI>
-        <LI>__BQ_OPEN__</LI>
       </UL>
-      <P>Even slow attacks should have a subtle cue before the hit</P>
-      <P>circle-exclamationAvoid counting frames to be the only solution</P>
+      <Blockquote>Even slow attacks should have a subtle cue before the hit</Blockquote>
+      <Callout type="alarm">Avoid counting frames to be the only solution</Callout>
       <UL>
         <LI>Avoid Frame-skipped attack</LI>
       </UL>

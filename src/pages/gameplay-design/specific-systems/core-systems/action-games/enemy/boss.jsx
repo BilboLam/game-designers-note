@@ -6,10 +6,10 @@ export default function Page({ go }) {
     <div>
       <Breadcrumb auto go={go} />
       <H1>Boss</H1>
-      <H3 id="boss-actions"><InternalLink id="boss-design" go={go}>Boss Actions</InternalLink></H3>
-      <P>The behavior of the boss.</P>
-      <H3 id="boss-types"><InternalLink id="boss-types" go={go}>Boss Types</InternalLink></H3>
-      <P>Common boss types.</P>
+      <H3 id="boss-design"><InternalLink id="boss-design" go={go}>Boss Design</InternalLink></H3>
+      <P>Design Considerations when designing boss actions.</P>
+      <H3 id="multiple-bosses"><InternalLink id="multiple-bosses" go={go}>Multiple Bosses</InternalLink></H3>
+      <P>Design considerations when fighting multiple bosses at once.</P>
     </div>
   );
 }

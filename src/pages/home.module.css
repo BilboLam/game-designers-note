@@ -1,3 +1,21 @@
+.homeRoot {
+  min-height: calc(100vh - var(--size-header));
+  background: var(--color-bg);
+  padding: 60px 40px 80px;
+  font-family: var(--font-sans);
+}
+
+.homeContent {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .homeRoot {
+    padding: 40px 20px 60px;
+  }
+}
+
 .infoBox {
   margin: 14px 0 26px;
   padding: 14px 16px;

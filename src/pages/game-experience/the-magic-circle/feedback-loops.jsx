@@ -7,34 +7,28 @@ export default function Page({ go }) {
       <Breadcrumb auto go={go} />
       <H1>Feedback Loops</H1>
       <H3 id="positive-feedback">Positive feedback</H3>
-      <P>+ Reinforces power fantasy</P>
-      <P>+ Strengthens skill expression</P>
-      <P>+ Improves clarity of progression</P>
       <UL>
-        <LI>Reduces tension once ahead</LI>
-      </UL>
-      <UL>
-        <LI>Flatten late-game decision-making</LI>
+        <LI color="green">Reinforces power fantasy</LI>
+        <LI color="green">Strengthens skill expression</LI>
+        <LI color="green">Improves clarity of progression</LI>
+        <LI color="red">Reduces tension once ahead</LI>
+        <LI color="red">Flatten late-game decision-making</LI>
       </UL>
       <H3 id="negative-feedback">Negative feedback</H3>
-      <P>+ Maintains tension and uncertainty</P>
-      <P>+ Encourages persistence in multiplayer</P>
-      <P>+ Keeps pacing more consistent</P>
       <UL>
-        <LI>Weakens sense of mastery</LI>
+        <LI color="green">Maintains tension and uncertainty</LI>
+        <LI color="green">Encourages persistence in multiplayer</LI>
+        <LI color="green">Keeps pacing more consistent</LI>
+        <LI color="red">Weakens sense of mastery</LI>
+        <LI color="red">Can feel controlled</LI>
+        <LI color="red">Can feel unfair</LI>
       </UL>
-      <UL>
-        <LI>Can feel controlled</LI>
-      </UL>
-      <UL>
-        <LI>Can feel unfair</LI>
-      </UL>
-      <Callout type="info">
-        <span>- Be aware of unintentional feedback</span>
+      <Callout type="tip">
+        <ul style={{ margin: 0, paddingLeft: 16 }}>
+          <li>Be aware of unintentional feedback</li>
+          <li>Combine the two feedbacks</li>
+        </ul>
       </Callout>
-      <UL>
-        <LI>Combine the two feedbacks</LI>
-      </UL>
     </div>
   );
 }

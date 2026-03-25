@@ -5,7 +5,7 @@ export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
-      <H1>Home</H1>
+      <H1>Home System</H1>
       <H3 id="application">Application</H3>
       <P>Players need to return to it frequently.</P>
       <UL>

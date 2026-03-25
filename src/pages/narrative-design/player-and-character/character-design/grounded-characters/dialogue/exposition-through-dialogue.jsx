@@ -9,7 +9,7 @@ export default function Page({ go }) {
       <H3 id="guide-character">Guide character</H3>
       <Blockquote>Fast and effective but unnatural, may causes player resistance</Blockquote>
       <H3 id="casual-world-building-through-daily-conversation">Casual world-building through daily conversation</H3>
-      <Blockquote>｜ Deliver information gradually and leave room for mystery</Blockquote>
+      <Blockquote> Deliver information gradually and leave room for mystery</Blockquote>
     </div>
   );
 }

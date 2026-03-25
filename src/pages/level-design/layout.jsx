@@ -8,6 +8,7 @@ export default function Page({ go }) {
       <H1>Layout</H1>
       <P>Layout is about how a level's physical space is structured and perceived. A good layout provides variety and adds depth to the core gameplay.</P>
       <Callout type="info">
+      <p>Learn from real-life buildings </p>
       </Callout>
       <H3 id="learn-from-real-life-buildings">Learn from real-life buildings</H3>
       <H3 id="level-components"><InternalLink id="level-components" go={go}>Level Components</InternalLink></H3>

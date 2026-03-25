@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Figure, H1, H3, P } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -10,6 +10,7 @@ export default function Page({ go }) {
       <Blockquote>Open space for moving, closed space for dwelling.</Blockquote>
       <H3 id="corner">Corner</H3>
       <P>Lack of vision in the corners slows down the player.</P>
+      <Figure src="/images/corner.jpg" />
       <H3 id="players-flow-through-levels-like-water">Players flow through levels like water</H3>
       <Blockquote>they enter the nearest room first</Blockquote>
       <H3 id="but-they-move-like-cars">But they move like cars</H3>

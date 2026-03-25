@@ -1,5 +1,5 @@
 import React from 'react';
-import { Annotation, Blockquote, Breadcrumb, H1, H3 } from '@/components/ui.jsx';
+import { Annotation, Blockquote, Breadcrumb, H1, H3, LI, OL, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -12,13 +12,23 @@ export default function Page({ go }) {
       <H3 id="safe-zones">Safe zones</H3>
       <Blockquote>Allow analysis</Blockquote>
       <H3 id="layering">Layering</H3>
-      <Blockquote>1. Introduce Rules/Mechanics in Isolation</Blockquote>
-      <Blockquote>- Remove Distractions</Blockquote>
-      <Blockquote>2. Remove Challenges</Blockquote>
-      <Blockquote>3. Layering this mechanics with other duress</Blockquote>
-      <Blockquote>- Physical Circumstance (Layout)</Blockquote>
-      <Blockquote>4. Combine with Mechanics (Such as Enemies)</Blockquote>
-      <Blockquote>5. Time Pressure (Use Sparingly)</Blockquote>
+      <Blockquote>
+        <OL>
+          <LI>Introduce Rules/Mechanics in Isolation
+            <UL>
+              <LI>Remove Distractions</LI>
+              <LI>Remove Challenges</LI>
+            </UL>
+          </LI>
+          <LI>Layering this mechanics with other duress
+            <UL>
+              <LI>Physical Circumstance (Layout)</LI>
+              <LI>Combine with Mechanics (Such as Enemies)</LI>
+              <LI>Time Pressure (Use Sparingly)</LI>
+            </UL>
+          </LI>
+        </OL>
+      </Blockquote>
       <H3 id="pace-breaking">Pace-breaking</H3>
       <Blockquote>Changing the dramatic arc</Blockquote>
       <H3 id="create-your-layout-modules">Create Your Layout Modules</H3>

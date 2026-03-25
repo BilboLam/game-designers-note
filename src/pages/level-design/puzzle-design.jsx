@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, Callout, H1, H3, InternalLink, LI, OL, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, CrossLink, H1, H3, LI, OL, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -26,7 +26,7 @@ export default function Page({ go }) {
       <Callout type="info">
         <span>Dont let puzzle game be a test, guide players to find the answer.</span>
       </Callout>
-      <H3 id="layering">Layering</H3>
+      <H3 id="layering"><CrossLink pageId="functional-patterns" anchor="layering" go={go}>Layering</CrossLink></H3>
       <Blockquote>Increase difficulty gradually</Blockquote>
       <H3 id="hint">Hint</H3>
       <Blockquote>Use hint carefully. They help and they spoil.</Blockquote>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, Callout, H1, H3, LI, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, CrossLink, H1, H3, LI, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -8,7 +8,7 @@ export default function Page({ go }) {
       <H1>Balancing</H1>
       <H3 id="power-sorting">Power Sorting</H3>
       <UL>
-        <LI>Power sort by tags</LI>
+        <LI>Power sort by <CrossLink pageId="card-design" anchor="categorize-cards" go={go}>tags</CrossLink></LI>
       </UL>
       <Callout type="info">
         <span>Underconstruction</span>

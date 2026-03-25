@@ -13,12 +13,13 @@ export function DocsHeader({
   theme,
   setTheme,
   searchRef,
+  hideMenu,
 }) {
   return (
     <header className={styles.headerBar}>
-      <button type="button" className={styles.menuToggle} onClick={onMenuClick} aria-label="Toggle sidebar">
+      {!hideMenu && <button type="button" className={styles.menuToggle} onClick={onMenuClick} aria-label="Toggle sidebar">
         <Icon name="bars" />
-      </button>
+      </button>}
       <span className={styles.brandTitle} onClick={onBrandClick}>
         <span className={styles.brandInner}>
           <Icon name="clone" className={styles.brandIcon} />
@@ -64,7 +65,7 @@ export function DocsHeader({
         )}
       </div>
       <button type="button" className={styles.themeToggle} onClick={() => setTheme((t) => (t === 'dark' ? 'light' : 'dark'))} aria-label="Toggle theme">
-        <Icon name={theme === 'dark' ? 'far:sun' : 'far:moon'} />
+        <Icon name={theme === 'dark' ? 'fas:sun' : 'far:moon'} />
       </button>
     </header>
   );

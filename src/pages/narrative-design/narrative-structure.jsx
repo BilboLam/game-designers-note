@@ -6,7 +6,7 @@ export default function Page({ go }) {
     <div>
       <Breadcrumb auto go={go} />
       <H1>Narrative Structure</H1>
-      <H3 id="narrative-patterns">Narrative Patterns</H3>
+      <H3 id="narrative-patterns"><InternalLink id="narrative-patterns" go={go}>Narrative Patterns</InternalLink></H3>
       <P>Different ways games deliver story.</P>
       <H3 id="narrative-elements"><InternalLink id="narrative-elements" go={go}>Narrative Elements</InternalLink></H3>
       <P>Unique narrative elements of games.</P>

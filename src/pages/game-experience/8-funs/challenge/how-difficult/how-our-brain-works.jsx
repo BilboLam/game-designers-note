@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H2, H3, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H2, H3, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -14,10 +14,16 @@ export default function Page({ go }) {
       <H3 id="reaction-time">Reaction time</H3>
       <P>0.3s in average, 0.1s for genius</P>
       <Blockquote>However, in games, players need more time to respond than a pure reaction test since</Blockquote>
-      <Blockquote>- Visual cues are gradual rather than sudden</Blockquote>
-      <Blockquote>- Complex environments demand three things simultaneously: Attention allocation</Blockquote>
-      <Blockquote>- Pattern recognition</Blockquote>
-      <Blockquote>- Behaviour logic comprehension</Blockquote>
+      <UL>
+        <LI>Visual cues are gradual rather than sudden</LI>
+        <LI>Complex environments demand three things simultaneously:
+          <UL>
+            <LI>Attention allocation</LI>
+            <LI>Pattern recognition</LI>
+            <LI>Behaviour logic comprehension</LI>
+          </UL>
+        </LI>
+      </UL>
     </div>
   );
 }

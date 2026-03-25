@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, ExtLink, H1, H3, P } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -15,6 +15,7 @@ export default function Page({ go }) {
       <Blockquote>NPCs and enemies can be designed to model the actions we want players to learn.</Blockquote>
       <H3 id="pre-teaching">Pre-teaching</H3>
       <Blockquote>Use mobs to pre-teach boss mechanics.</Blockquote>
+      <P><ExtLink href="https://www.slideshare.net/slideshow/level-design-workshop-gdc-china-2012/15306714">Level Design Workshop 2012 GDC China</ExtLink></P>
     </div>
   );
 }

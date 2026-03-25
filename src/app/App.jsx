@@ -3,11 +3,13 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import { pickIconForNavNode } from '@/config/nav-icon-policy.js';
 import { NAV, SEARCH_INDEX, idToPath, pathToId } from '@/config/nav.js';
 import { DocsShell } from '@/layouts/docs-shell/DocsShell.jsx';
+import { DocsHeader } from '@/layouts/docs-header/DocsHeader.jsx';
 import { PageChromeProvider } from '@/context/PageChromeContext.jsx';
 import { getAncestorIds, getBreadcrumbCrumbs, getNavNodeById, getPageNeighbors } from '@/utils/navigation.js';
 import { PageNav } from '@/components/ui.jsx';
 import { pages } from './pagesRegistry.js';
 import { ThemeColorRoot } from './ThemeColorRoot.jsx';
+import homeStyles from '@/pages/home.module.css';
 
 export default function App() {
   const navigate = useNavigate();
@@ -22,11 +24,12 @@ export default function App() {
   const searchRef = useRef(null);
 
   const go = useCallback(
-    (id) => {
+    (id, hash) => {
       if (!pages[id]) return;
       navigate(idToPath[id] || '/');
       setSidebarOpen(false);
       if (mainRef.current) mainRef.current.scrollTop = 0;
+      if (hash) setTimeout(() => document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth', block: 'start' }), 50);
     },
     [navigate],
   );
@@ -81,6 +84,34 @@ export default function App() {
     ? (navMeta.node.icon || pickIconForNavNode(navMeta.node, navMeta.depth))
     : null;
   const breadcrumbCrumbs = getBreadcrumbCrumbs(NAV, currentId);
+
+  // Home page: header (no hamburger) + full-width content, no sidebar
+  if (currentId === 'home') {
+    const HomeComponent = pages.home;
+    return (
+      <>
+        <ThemeColorRoot theme={theme} />
+        <DocsHeader
+          hideMenu
+          onBrandClick={() => go('home')}
+          search={search}
+          setSearch={setSearch}
+          searchOpen={searchOpen}
+          setSearchOpen={setSearchOpen}
+          results={results}
+          go={go}
+          theme={theme}
+          setTheme={setTheme}
+          searchRef={searchRef}
+        />
+        <div className={homeStyles.homeRoot}>
+          <div className={homeStyles.homeContent}>
+            <HomeComponent go={go} />
+          </div>
+        </div>
+      </>
+    );
+  }
 
   return (
     <>

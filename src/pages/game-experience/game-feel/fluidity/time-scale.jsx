@@ -8,9 +8,9 @@ export default function Page({ go }) {
       <H1>Time-scale</H1>
       <H3 id="slow-motion">Slow Motion</H3>
       <UL>
-        <LI>Extra reaction time</LI>
-        <LI>Amplifies the impact of key moments</LI>
-        <LI>Change rhythm</LI>
+        <LI color="green">Extra reaction time</LI>
+        <LI color="green">Amplifies the impact of key moments</LI>
+        <LI color="red">Change rhythm</LI>
       </UL>
       <Blockquote>E.g. Black Myth: Wukong's perfect dodge</Blockquote>
     </div>

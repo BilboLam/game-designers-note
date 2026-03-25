@@ -8,16 +8,11 @@ export default function Page({ go }) {
       <H1>Intuitive Design</H1>
       <P>Players should understand the game before they can explain it.</P>
       <H3 id="visual-intuitiveness">Visual intuitiveness</H3>
-      <Blockquote>- Color</Blockquote>
-      <Blockquote>- Size</Blockquote>
-      <Blockquote>- Form</Blockquote>
-      <Blockquote>A gun should look like it can shoot.</Blockquote>
+      <Blockquote>{`- Color\n- Size\n- Form`}</Blockquote>
+      <Blockquote><Blockquote>A gun should look like it can shoot.</Blockquote></Blockquote>
       <Blockquote>- Placement</Blockquote>
       <H3 id="rule-intuitiveness">Rule intuitiveness</H3>
-      <Blockquote>- Use real words.</Blockquote>
-      <Blockquote>- Use fewer words.</Blockquote>
-      <Blockquote>- Keep flavor text separate from rules.</Blockquote>
-      <Blockquote>- Revise, simplify, or cut anything players keep misunderstanding.</Blockquote>
+      <Blockquote>{`- Use real words.\n- Use fewer words.\n- Keep flavor text separate from rules.\n- Revise, simplify, or cut anything players keep misunderstanding.`}</Blockquote>
     </div>
   );
 }

@@ -8,7 +8,7 @@ export const LIGHT = {
 
 export const DARK = {
   bg: "#0f0e0c", sidebar: "#141310", surface: "#1a1916",
-  border: "#2a2824", text: "#e8e2d8", muted: "#8a8478",
+  border: "#2a2824", text: "rgb(242, 242, 241)", muted: "#8a8478",
   hint: "#8d867b", accent: "#d4915a", accentBg: "rgba(212,145,90,.12)",
   link: "#7eb8a4", codeBg: "#1e1c19", blockBg: "rgba(212,145,90,.08)",
   calloutBg: "#252220",

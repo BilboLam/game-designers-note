@@ -9,7 +9,6 @@ export default function Page({ go }) {
       <CheckList>
         <CheckItem>Target Audience</CheckItem>
         <CheckItem>Game Length</CheckItem>
-        <CheckItem></CheckItem>
       </CheckList>
     </div>
   );

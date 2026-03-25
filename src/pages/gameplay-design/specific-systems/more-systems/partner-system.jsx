@@ -25,8 +25,12 @@ export default function Page({ go }) {
         <LI>Reflect character growth</LI>
         <LI>Embody the need for each other</LI>
         <LI>Demonstrate difference in opinion</LI>
-        <LI>Character deathShatter something beautiful</LI>
-        <LI>Leave suspense if the death not confirmed</LI>
+        <LI>Character death
+          <UL>
+            <LI>Shatter something beautiful</LI>
+            <LI>Leave suspense if the death not confirmed</LI>
+          </UL>
+        </LI>
       </UL>
     </div>
   );
