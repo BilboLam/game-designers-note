@@ -1025,792 +1025,634 @@ export const SEARCH_INDEX = [
   {
     "id": "home",
     "title": "Game Designers' Note",
-    "text": "personal knowledge base game design level design book notes compiled structured"
   },
   {
     "id": "sys-home",
     "title": "Home",
-    "text": "supporting systems home core loop clarity fluidity"
   },
   {
     "id": "8-funs",
     "title": "8 Funs",
-    "text": "MDA framework aesthetic categories sensation fantasy narrative challenge fellowship discovery expression submission"
   },
   {
     "id": "achievement-system",
     "title": "Achievement System",
-    "text": "achievement system"
   },
   {
     "id": "action-games",
     "title": "Action Games",
-    "text": "player environment enemy three important aspects"
   },
   {
     "id": "actions",
     "title": "Actions",
-    "text": "active input performance spectrum fromsoft devil may cry ninja gaiden poise dodge roll parry ukemi depth emergent"
   },
   {
     "id": "animation-system",
     "title": "Animation System",
-    "text": "animation system"
   },
   {
     "id": "appendix",
     "title": "Appendix",
-    "text": "appendix"
   },
   {
     "id": "balancing",
     "title": "Balancing",
-    "text": "power sorting tags card rarity rare intricate power creep counter weaknesses"
   },
   {
     "id": "blockout",
     "title": "Blockout",
-    "text": "rough white box without final art placeholder geometry playtest scale"
   },
   {
     "id": "books-to-read",
     "title": "Books to Read",
-    "text": "level design workshop GDC china architecture form space order PDF"
   },
   {
     "id": "boss",
     "title": "Boss",
-    "text": "moves readable attack windows stagger system phase transitions boss interaction monster hunter flinch stunned drool"
   },
   {
     "id": "boss-attacks",
     "title": "Boss Attacks",
-    "text": "boss attacks"
   },
   {
     "id": "boss-design",
     "title": "Boss Design",
-    "text": "boss design"
   },
   {
     "id": "boss-reaction",
     "title": "Boss Reaction",
-    "text": "boss reaction"
   },
   {
     "id": "boss-types",
     "title": "Boss Types",
-    "text": "large monster biological human mind game"
   },
   {
     "id": "branching-structures",
     "title": "Branching Structures",
-    "text": "shrub detroit reconverging branches ending reflective choices illusion choice clarity declare war wording"
   },
   {
     "id": "bug-handling",
     "title": "Bug Handling",
-    "text": "keep bugs riven animation cancel bunny hopping KBD tekken dribbling basketball restructure instruction overriding"
   },
   {
     "id": "building-curiosity",
     "title": "Building Curiosity",
-    "text": "building curiosity"
   },
   {
     "id": "card-design",
     "title": "Card Design",
-    "text": "categorize cards type labels balatro early economy late chips mult slay spire attack defense cycling"
   },
   {
     "id": "card-games",
     "title": "Card Games",
-    "text": "lore define physics world duels emergent narrative"
   },
   {
     "id": "challenge",
     "title": "Challenge",
-    "text": "obstacle course how difficult depth gameplay flavors difficulty"
   },
   {
     "id": "character-design",
     "title": "Character Design",
-    "text": "action not just dialogue avatar blank project strong story abilities personality"
   },
   {
     "id": "character-through-dialogue",
     "title": "Character Through Dialogue",
-    "text": "speech patterns accent traits charisma motivation subtext"
   },
   {
     "id": "checklist",
     "title": "Checklist",
-    "text": "game vision clarity target audience game length clear"
   },
   {
     "id": "circulation",
     "title": "Circulation",
-    "text": "players move through space linear branching hub-and-spoke loop"
   },
   {
     "id": "circulation-elements",
     "title": "Circulation Elements",
-    "text": "architecture circulation path route"
   },
   {
     "id": "circulation-patterns",
     "title": "Circulation Patterns",
-    "text": "circulation patterns"
   },
   {
     "id": "coginitive-map-elements",
     "title": "Coginitive Map Elements",
-    "text": "coginitive map elements"
   },
   {
     "id": "cognitive-map",
     "title": "Cognitive Map",
-    "text": "mental model space legible landmarks distinct visual identity consistent"
   },
   {
     "id": "collectibles",
     "title": "Collectibles",
-    "text": "thorough explorers paths secrets visible just-out-of-reach"
   },
   {
     "id": "common-beat-elements",
     "title": "Common Beat Elements",
-    "text": "combat choreo cinematic exploration puzzles beat"
   },
   {
     "id": "complex-systems",
     "title": "Complex Systems",
-    "text": "emergent gameplay distinct parts affect each other stone soup effect persist"
   },
   {
     "id": "control-difficulty",
     "title": "Control Difficulty",
-    "text": "control difficulty"
   },
   {
     "id": "core-systems",
     "title": "Core Systems",
-    "text": "main gameplay action tactic puzzle detective card"
   },
   {
     "id": "creating-unease",
     "title": "Creating Unease",
-    "text": "techniques creating unease dread"
   },
   {
     "id": "curiosity",
     "title": "Curiosity",
-    "text": "curiosity"
   },
   {
     "id": "death-system",
     "title": "Death System",
-    "text": "death system"
   },
   {
     "id": "depth-of-gameplay",
     "title": "Depth of Gameplay",
-    "text": "decision space replay value"
   },
   {
     "id": "descrimination",
     "title": "Descrimination",
-    "text": "descrimination"
   },
   {
     "id": "design-beat-by-need",
     "title": "Design Beat by Need",
-    "text": "it takes two cooperative puzzle boss open exploration"
   },
   {
     "id": "design-process",
     "title": "Design Process",
-    "text": "plan sketch blockout review sequence new level"
   },
   {
     "id": "detective-games",
     "title": "Detective Games",
-    "text": "clue-driven tests information integration inference"
   },
   {
     "id": "dialogue",
     "title": "Dialogue",
-    "text": "reveal character common dialogue grounded characters"
   },
   {
     "id": "dice-system",
     "title": "Dice System",
-    "text": "dice system"
   },
   {
     "id": "discovery",
     "title": "Discovery",
-    "text": "uncharted territory game as"
   },
   {
     "id": "emergent-gameplay",
     "title": "Emergent Gameplay",
-    "text": "complex simple rules unscripted player experiences"
   },
   {
     "id": "emergent-narrative",
     "title": "Emergent Narrative",
-    "text": "emergent narrative"
   },
   {
     "id": "emotional-link",
     "title": "Emotional Link",
-    "text": "charisma knowledge interests values presence visible journey small interactions petting RDR2 horse bond"
   },
   {
     "id": "end-turn-resolution",
     "title": "End-turn Resolution",
-    "text": "readability notify resolution order calculation balatro reduce downtime adjustable settlement speed"
   },
   {
     "id": "enemy",
     "title": "Enemy",
-    "text": "enemy readability locate read quickly the finals clean bright visual style"
   },
   {
     "id": "engineering-system",
     "title": "Engineering System",
-    "text": "engineering system"
   },
   {
     "id": "expectation-management",
     "title": "Expectation Management",
-    "text": "expectations genre conventions marketing early gameplay subvert escalate"
   },
   {
     "id": "exposition-through-dialogue",
     "title": "Exposition Through Dialogue",
-    "text": "guide character unnatural resistance casual world-building daily conversation mystery"
   },
   {
     "id": "expression",
     "title": "Expression",
-    "text": "self-discovery game as"
   },
   {
     "id": "extra-content",
     "title": "Extra Content",
-    "text": "extra content"
   },
   {
     "id": "feedback-loops",
     "title": "Feedback Loops",
-    "text": "positive negative feedback loop tension flow state engagement"
   },
   {
     "id": "flavors-of-difficulty",
     "title": "Flavors of Difficulty",
-    "text": "different kinds challenges"
   },
   {
     "id": "flow-state",
     "title": "Flow State",
-    "text": "immersion energized focus challenge skill balance boredom anxiety clear goals immediate feedback"
   },
   {
     "id": "fluidity",
     "title": "Fluidity",
-    "text": "fluidity"
   },
   {
     "id": "fragmented-narrative",
     "title": "Fragmented Narrative",
-    "text": "dead cells souls scattered pieces weak guidance art direction"
   },
   {
     "id": "functional-patterns",
     "title": "Functional Patterns",
-    "text": "functional patterns"
   },
   {
     "id": "game-beat",
     "title": "Game Beat",
-    "text": "level patterns tension resolution wonder tutorial beat"
   },
   {
     "id": "game-beat-examples",
     "title": "Game Beat Examples",
-    "text": "general peak-end non-linear levels pacing flow"
   },
   {
     "id": "game-development",
     "title": "Game Development",
-    "text": "game-development"
   },
   {
     "id": "game-experience",
     "title": "Game Experience",
-    "text": "game-experience"
   },
   {
     "id": "game-feel",
     "title": "Game Feel",
-    "text": "juice tactile sensation responsive moment-to-moment"
   },
   {
     "id": "game-loop",
     "title": "Game Loop",
-    "text": "30-second core loop nested loops small large feed"
   },
   {
     "id": "game-vision",
     "title": "Game Vision",
-    "text": "game vision"
   },
   {
     "id": "gameplay-design",
     "title": "Gameplay Design",
-    "text": "gameplay-design"
   },
   {
     "id": "grounded-characters",
     "title": "Grounded Characters",
-    "text": "dialogue behavior values character reveal actions habits"
   },
   {
     "id": "guidance",
     "title": "Guidance",
-    "text": "macro micro tutorial orient attention landmark lighting"
   },
   {
     "id": "horror-and-discomfort",
     "title": "Horror And Discomfort",
-    "text": "horror core fear discomfort"
   },
   {
     "id": "how-difficult",
     "title": "How Difficult",
-    "text": "tuning difficulty target audience brain works control"
   },
   {
     "id": "how-our-brain-works",
     "title": "How our Brain Works",
-    "text": "how our brain works"
   },
   {
     "id": "input-and-controls",
     "title": "Input And Controls",
-    "text": "input and controls"
   },
   {
     "id": "intuitive-design",
     "title": "Intuitive Design",
-    "text": "intuitive mental model player confusion tutorial"
   },
   {
     "id": "juice-elements",
     "title": "Juice Elements",
-    "text": "squash stretch screen shake particles hitstop coyote time audio punchy"
   },
   {
     "id": "layout",
     "title": "Layout",
-    "text": "physical space structured perceived variety depth real-life buildings"
   },
   {
     "id": "layout-patterns",
     "title": "Layout Patterns",
-    "text": "reusable structures circulation functional patterns guidance pacing challenge"
   },
   {
     "id": "level-components",
     "title": "Level Components",
-    "text": "reusable spatial pieces rooms corridors arenas hubs junctions"
   },
   {
     "id": "level-design",
     "title": "Level Design",
-    "text": "level-design"
   },
   {
     "id": "level-elements",
     "title": "Level Elements",
-    "text": "avatar boss collectible enemy environment hazard mechanic power-up projectiles"
   },
   {
     "id": "linear-narrative",
     "title": "Linear Narrative",
-    "text": "ki-sho-ten-ketsu four-act three-act dramatic structure smaller arcs curiosity development turn resolution"
   },
   {
     "id": "lock-and-key",
     "title": "Lock And Key",
-    "text": "lock and key"
   },
   {
     "id": "macro-guidance",
     "title": "Macro Guidance",
-    "text": "level scale orient landmark silhouettes lighting direction funneling sound objectives"
   },
   {
     "id": "map-hierarchy",
     "title": "Map Hierarchy",
-    "text": "multiple spaces primary secondary optional reward-gated"
   },
   {
     "id": "map-system",
     "title": "Map System",
-    "text": "map system"
   },
   {
     "id": "match-difficulty-with-player-growth",
     "title": "Match Difficulty with Player Growth",
-    "text": "match difficulty with player growth"
   },
   {
     "id": "micro-guidance",
     "title": "Micro Guidance",
-    "text": "object moment scale color contrast motion light sound enemy placement"
   },
   {
     "id": "minigame-system",
     "title": "Minigame System",
-    "text": "minigame system"
   },
   {
     "id": "mob",
     "title": "Mob",
-    "text": "stack enemies interruptible ninja gaiden executions walls many-vs-one"
   },
   {
     "id": "moral",
     "title": "Moral",
-    "text": "validates behavior encourages discrimination violence"
   },
   {
     "id": "more-systems",
     "title": "More Systems",
-    "text": "secondary texture variety multiplayer minigame dice partner negotiation engineering"
   },
   {
     "id": "moving-system",
     "title": "Moving System",
-    "text": "moving system"
   },
   {
     "id": "multi-thread-narrative",
     "title": "Multi-thread Narrative",
-    "text": "parallel threads full picture player-driven AI branching structures"
   },
   {
     "id": "multiplayer",
     "title": "Multiplayer",
-    "text": "multiplayer"
   },
   {
     "id": "multiple-bosses",
     "title": "Multiple Bosses",
-    "text": "multiple bosses"
   },
   {
     "id": "narrative-design",
     "title": "Narrative Design",
-    "text": "narrative-design"
   },
   {
     "id": "narrative-design-world-building",
     "title": "World Building",
-    "text": "world building"
   },
   {
     "id": "narrative-elements",
     "title": "Narrative Elements",
-    "text": "interactivity repetition embodiment persistence death retry inhabits"
   },
   {
     "id": "narrative-patterns",
     "title": "Narrative Patterns",
-    "text": "linear multi-thread fragmented emergent parallel story"
   },
   {
     "id": "narrative-structure",
     "title": "Narrative Structure",
-    "text": "patterns elements timing suspense"
   },
   {
     "id": "narrative-timing",
     "title": "Narrative Timing",
-    "text": "bad interrupts great enhances lore exploring not fighting audio logs cutscenes"
   },
   {
     "id": "negotiation-system",
     "title": "Negotiation System",
-    "text": "negotiation system"
   },
   {
     "id": "objects-of-curiosity",
     "title": "Objects of Curiosity",
-    "text": "objects of curiosity"
   },
   {
     "id": "open-world",
     "title": "Open world",
-    "text": "soft guiding checklist interest points predict player movement breath of the wild"
   },
   {
     "id": "other-experience",
     "title": "Other Experience",
-    "text": "other experience horror curiosity"
   },
   {
     "id": "pace-control",
     "title": "Pace Control",
-    "text": "pacing flow psychology"
   },
   {
     "id": "pacing",
     "title": "Pacing",
-    "text": "rhythm intensity challenge rest sequenced over time"
   },
   {
     "id": "parallel-presence",
     "title": "Parallel Presence",
-    "text": "parallel presence"
   },
   {
     "id": "partner-system",
     "title": "Partner System",
-    "text": "partner system"
   },
   {
     "id": "physical",
     "title": "Physical",
-    "text": "physical"
   },
   {
     "id": "plan",
     "title": "Plan",
-    "text": "level concept before building core experience mechanics emotional arc tension relief wonder"
   },
   {
     "id": "platformer",
     "title": "Platformer",
-    "text": "celeste game feel tricks coyote time jump buffering halved gravity corner correction lift momentum wall jump buffer"
   },
   {
     "id": "player",
     "title": "Player",
-    "text": "player"
   },
   {
     "id": "player-agency",
     "title": "Player Agency",
-    "text": "encourage enforce control freedom restriction combo style meter devil may cry basketball"
   },
   {
     "id": "player-and-character",
     "title": "Player And Character",
-    "text": "harder films novels psychology avatar character strong"
   },
   {
     "id": "player-progression",
     "title": "Player Progression",
-    "text": "player progression"
   },
   {
     "id": "progression-system",
     "title": "Progression System",
-    "text": "progression system"
   },
   {
     "id": "protagonist-tone",
     "title": "Protagonist Tone",
-    "text": "expressive immersive protagonist avatar player separate embodiment"
   },
   {
     "id": "psychology",
     "title": "Psychology",
-    "text": "psychology"
   },
   {
     "id": "puzzle-design",
     "title": "Puzzle Design",
-    "text": "self-contained challenge discoverable solution rules test inevitable teach"
   },
   {
     "id": "puzzle-games",
     "title": "Puzzle Games",
-    "text": "rule-driven tests abstract thinking puzzle design"
   },
   {
     "id": "randomness",
     "title": "Randomness",
-    "text": "randomness"
   },
   {
     "id": "readability",
     "title": "Readability",
-    "text": "readability"
   },
   {
     "id": "reasoning",
     "title": "Reasoning",
-    "text": "reasoning"
   },
   {
     "id": "review",
     "title": "Review",
-    "text": "level meets design goals getting lost confused pacing difficulty curve"
   },
   {
     "id": "reward-and-exploration",
     "title": "Reward And Exploration",
-    "text": "reward-and-exploration"
   },
   {
     "id": "rewarding-exploration",
     "title": "Rewarding Exploration",
-    "text": "rewarding exploration"
   },
   {
     "id": "rewards",
     "title": "Rewards",
-    "text": "functional narrative aesthetic upgrades weapons abilities lore cosmetics"
   },
   {
     "id": "self-check",
     "title": "Self-check",
-    "text": "flowchart design mechanism used once rethink intuitive side branch"
   },
   {
     "id": "sensation",
     "title": "Sensation",
-    "text": "sense-pleasure game as"
   },
   {
     "id": "sketch",
     "title": "Sketch",
-    "text": "explore space quickly multiple variations flow shape landmarks entry exit"
   },
   {
     "id": "specific-systems",
     "title": "Specific Systems",
-    "text": "core secondary supporting systems overview"
   },
   {
     "id": "stagger-system",
     "title": "Stagger System",
-    "text": "stagger system"
   },
   {
     "id": "stairs",
     "title": "Stairs",
-    "text": "connecting spaces different verticality tips"
   },
   {
     "id": "structure",
     "title": "Structure",
-    "text": "stone soup qframework modular architecture ViewController System Utility details emerge naturally"
   },
   {
     "id": "submission",
     "title": "Submission",
-    "text": "pastime game as"
   },
   {
     "id": "supporting-systems",
     "title": "Supporting Systems",
-    "text": "core loop clarity fluidity randomness moving death map progression achievement animation"
   },
   {
     "id": "suspense",
     "title": "Suspense",
-    "text": "information asymmetry foreshadowing dramatic irony countdown withholding unanswered"
   },
   {
     "id": "system-review",
     "title": "System Review",
-    "text": "system review"
   },
   {
     "id": "tactic-system",
     "title": "Tactic System",
-    "text": "prioritize tactics shadow tactics desperados RTT pause reaction decision-making"
   },
   {
     "id": "the-eureka-moment",
     "title": "The Eureka Moment",
-    "text": "the eureka moment"
   },
   {
     "id": "the-magic-circle",
     "title": "The Magic Circle",
-    "text": "keep player interested expectation flow state game contents"
   },
   {
     "id": "time-scale",
     "title": "Time-scale",
-    "text": "time-scale"
   },
   {
     "id": "tools",
     "title": "Tools",
-    "text": "floorplanner pinterest milanote figma articy draft level design moodboard narrative"
   },
   {
     "id": "tutorial-levels",
     "title": "Tutorial Levels",
-    "text": "teach mechanics level structure pop-up text safe low-stakes invisible"
   },
   {
     "id": "types-of-fear",
     "title": "Types of Fear",
-    "text": "emotional flavors horror target"
   },
   {
     "id": "uncanny-valley",
     "title": "Uncanny Valley",
-    "text": "uncanny valley"
   },
   {
     "id": "unknown",
     "title": "Unknown",
-    "text": "unknown"
   },
   {
     "id": "verticality",
     "title": "Verticality",
-    "text": "height elevation layered routes tactical depth high ground"
   },
   {
     "id": "violence",
     "title": "Violence",
-    "text": "tool intentional design what does violence mean rewards communicate"
   },
   {
     "id": "waytracking-disruptions",
     "title": "Waytracking Disruptions",
-    "text": "decision stacking pickups flow disruption mixing bowls"
   },
   {
     "id": "where-to-start",
     "title": "Where to Start",
-    "text": "conflict question image rule entry points world building"
   },
   {
     "id": "world-authenticity",
     "title": "World Authenticity",
-    "text": "internal consistency rules coherent fantastical lived-in history"
   },
   {
     "id": "world-building",
     "title": "World Building",
-    "text": "authenticity logic environmental storytelling level narrative where to start"
   },
   {
     "id": "world-building-level-design",
     "title": "Level Design",
-    "text": "level design"
   }
 ];
 

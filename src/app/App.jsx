@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { pickIconForNavNode } from '@/config/nav-icon-policy.js';
-import { NAV, SEARCH_INDEX, idToPath, pathToId } from '@/config/nav.js';
+import { NAV, idToPath, pathToId } from '@/config/nav.js';
+import { SEARCH_DOCS_INDEX } from '@/config/search-index-runtime.js';
 import { DocsShell } from '@/layouts/docs-shell/DocsShell.jsx';
 import { DocsHeader } from '@/layouts/docs-header/DocsHeader.jsx';
 import { PageChromeProvider } from '@/context/PageChromeContext.jsx';
@@ -22,6 +23,32 @@ export default function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const mainRef = useRef(null);
   const searchRef = useRef(null);
+
+  const query = search.trim().toLowerCase();
+
+  function getMatchBlock(blocks, q) {
+    if (!q) return null;
+    return blocks?.find((block) => block.text.toLowerCase().includes(q)) ?? null;
+  }
+
+  // Build a compact preview from the matched block only.
+  const makeSnippet = useCallback((text, q) => {
+    if (!text || !q) return '';
+    const lower = text.toLowerCase();
+    const i = lower.indexOf(q);
+    if (i === -1) return '';
+    const before = Math.max(0, i - 45);
+    const after = Math.min(text.length, i + q.length + 70);
+    const head = before > 0 ? '…' : '';
+    const tail = after < text.length ? '…' : '';
+    return `${head}${text.slice(before, after).replace(/\s+/g, ' ').trim()}${tail}`;
+  }, []);
+
+  const formatBreadcrumb = useCallback((crumbs) => {
+    if (crumbs.length === 0) return '';
+    if (crumbs.length <= 2) return crumbs.map((c) => c.label).join(' > ');
+    return `${crumbs[0].label} > ... > ${crumbs.at(-1).label}`;
+  }, []);
 
   const go = useCallback(
     (id, hash) => {
@@ -69,11 +96,20 @@ export default function App() {
     });
   }, [currentId]);
 
-  const results = search.trim()
-    ? SEARCH_INDEX.filter((p) => {
-        const q = search.toLowerCase();
-        return p.title.toLowerCase().includes(q) || p.text.toLowerCase().includes(q);
-      }).slice(0, 8)
+  const results = query
+    ? SEARCH_DOCS_INDEX.filter((p) => {
+        const titleHit = p.title?.toLowerCase().includes(query);
+        const textHit = !!getMatchBlock(p.blocks, query);
+        return titleHit || textHit;
+      })
+        .slice(0, 8)
+        .map((p) => {
+          const crumbs = getBreadcrumbCrumbs(NAV, p.id);
+          const breadcrumb = formatBreadcrumb(crumbs);
+          const matchBlock = getMatchBlock(p.blocks, query);
+          const snippet = matchBlock ? makeSnippet(matchBlock.text, query) : '';
+          return { ...p, breadcrumb, snippet };
+        })
     : [];
 
   const PageComponent = pages[currentId] || pages.home;
@@ -107,6 +143,7 @@ export default function App() {
         <div className={homeStyles.homeRoot}>
           <div className={homeStyles.homeContent}>
             <HomeComponent go={go} />
+            <PageNav next={nextId} nextLabel={nextLabel} go={go} />
           </div>
         </div>
       </>

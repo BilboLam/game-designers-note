@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H2, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -7,7 +7,7 @@ export default function Page({ go }) {
       <Breadcrumb auto go={go} />
       <H1>Dice System</H1>
       <P>E.g. DnD's six abilities, Disco Elysium's twenty-four personalities</P>
-      <H3 id="roll-transparency">Roll Transparency</H3>
+      <H2 id="roll-transparency">Roll Transparency</H2>
       <UL>
         <LI>Active roll — player initiates the roll &amp; what's being checked</LI>
       </UL>

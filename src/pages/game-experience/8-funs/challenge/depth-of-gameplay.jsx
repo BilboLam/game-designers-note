@@ -1,12 +1,12 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, ExtLink, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, ExtLink, H1, H2, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Depth of Gameplay</H1>
-      <H3 id="enrich-strategy-space">Enrich Strategy Space</H3>
+      <H2 id="enrich-strategy-space">Enrich Strategy Space</H2>
       <P>total sum of decisions available to players</P>
       <UL>
         <LI>Different balanced choices
@@ -15,7 +15,7 @@ export default function Page({ go }) {
         <LI>Interactions between Actions — e.g. Mario's hat jump</LI>
         <LI>Emergent depth from stacking simple rules</LI>
       </UL>
-      <H3 id="complex-system">Complex system</H3>
+      <H2 id="complex-system">Complex system</H2>
       <Blockquote><ExtLink href="https://www.youtube.com/watch?v=C5FUtrmO7gI&t=1685s">"Systems answer questions."</ExtLink></Blockquote>
     </div>
   );

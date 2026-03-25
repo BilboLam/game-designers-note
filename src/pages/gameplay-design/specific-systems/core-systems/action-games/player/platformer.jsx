@@ -1,12 +1,12 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, Callout, CheckItem, CheckList, ExtLink, Figure, H1, H3 } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, CheckItem, CheckList, ExtLink, Figure, H1, H2 } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Platformer</H1>
-      <H3 id="celeste-game-feel-tricks">Celeste Game Feel Tricks</H3>
+      <H2 id="celeste-game-feel-tricks">Celeste Game Feel Tricks</H2>
       <CheckList>
         <CheckItem>Coyote time</CheckItem>
       </CheckList>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Breadcrumb, Callout, H1, H2, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Feedback Loops</H1>
-      <H3 id="positive-feedback">Positive feedback</H3>
+      <H2 id="positive-feedback">Positive feedback</H2>
       <UL>
         <LI color="green">Reinforces power fantasy</LI>
         <LI color="green">Strengthens skill expression</LI>
@@ -14,7 +14,7 @@ export default function Page({ go }) {
         <LI color="red">Reduces tension once ahead</LI>
         <LI color="red">Flatten late-game decision-making</LI>
       </UL>
-      <H3 id="negative-feedback">Negative feedback</H3>
+      <H2 id="negative-feedback">Negative feedback</H2>
       <UL>
         <LI color="green">Maintains tension and uncertainty</LI>
         <LI color="green">Encourages persistence in multiplayer</LI>

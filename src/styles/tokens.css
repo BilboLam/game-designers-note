@@ -2,7 +2,7 @@
  * Static design tokens (not theme-dependent).
  * Theme colors are injected at runtime via ThemeColorRoot (see app/ThemeColorRoot.jsx).
  *
- * Layout breakpoint (docs shell / header): 768px — max-width mobile, min-width 769px desktop.
+ * Layout breakpoint (docs shell / header): 1070px — max-width mobile, min-width 1071px desktop.
  * See layouts/docs-shell/DocsShell.module.css and layouts/docs-header/DocsHeader.module.css.
  */
 :root {

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, H1, H2, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>The Eureka Moment</H1>
-      <H3 id="when">When</H3>
+      <H2 id="when">When</H2>
       <UL>
         <LI>Systems — Learning something genuinely interesting about the system, like physical Law</LI>
       </UL>
@@ -23,7 +23,7 @@ export default function Page({ go }) {
       <Callout type="info">
         <span>Maybe try design the eureka moments first, then build the puzzle</span>
       </Callout>
-      <H3 id="juice-it">Juice It</H3>
+      <H2 id="juice-it">Juice It</H2>
       <P>Add juice to the Eureka moments to strengthen them.</P>
     </div>
   );

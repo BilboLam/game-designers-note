@@ -1,5 +1,5 @@
 import React from 'react';
-import { Breadcrumb, Callout, H1, H3, InternalLink, P } from '@/components/ui.jsx';
+import { Breadcrumb, Callout, H1, H2, InternalLink, P } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -10,7 +10,7 @@ export default function Page({ go }) {
       <Callout type="info">
         <span>Player-driven narrative might be a greater need in the era of AI Game Development</span>
       </Callout>
-      <H3 id="branching-structure"><InternalLink id="branching-structures" go={go}>Branching Structure</InternalLink></H3>
+      <H2 id="branching-structure"><InternalLink id="branching-structures" go={go}>Branching Structure</InternalLink></H2>
       <P>Different structure of branching choices.</P>
     </div>
   );

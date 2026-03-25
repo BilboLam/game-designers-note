@@ -1,12 +1,12 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3, LI, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H2, LI, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Map System</H1>
-      <H3 id="control-map-elements">Control Map Elements</H3>
+      <H2 id="control-map-elements">Control Map Elements</H2>
       <UL>
         <LI>Auto-annotate as players explore</LI>
       </UL>

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Breadcrumb, H1, H3, InternalLink, LI, UL } from '@/components/ui.jsx';
+import { Breadcrumb, H1, H2, InternalLink, LI, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Negotiation System</H1>
-      <H3 id="making-negotiation-fun">Making negotiation fun</H3>
+      <H2 id="making-negotiation-fun">Making negotiation fun</H2>
       <UL>
         <LI><InternalLink id="detective-games" go={go}>Inference from Information</InternalLink> — weave negotiation into narrative
           <UL>

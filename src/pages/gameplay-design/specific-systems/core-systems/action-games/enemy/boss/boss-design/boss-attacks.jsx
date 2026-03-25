@@ -1,12 +1,12 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, Callout, H1, H3, LI, P, UL } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, Callout, H1, H2, LI, P, UL } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
     <div>
       <Breadcrumb auto go={go} />
       <H1>Boss Attacks</H1>
-      <H3 id="action-readability">Action Readability</H3>
+      <H2 id="action-readability">Action Readability</H2>
       <UL>
         <LI>Wind-up pose</LI>
       </UL>
@@ -16,7 +16,7 @@ export default function Page({ go }) {
         <LI>Avoid Frame-skipped attack</LI>
       </UL>
       <Blockquote>Attack animation accelerating sharply mid-swing can be hard for learning the attack rythm. Tweaking the easing curve or add wind-up pose for visual cue.</Blockquote>
-      <H3 id="leave-moderate-attack-windows-for-players">Leave moderate attack windows for players</H3>
+      <H2 id="leave-moderate-attack-windows-for-players">Leave moderate attack windows for players</H2>
     </div>
   );
 }

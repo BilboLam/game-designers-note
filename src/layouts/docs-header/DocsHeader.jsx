@@ -59,7 +59,9 @@ export function DocsHeader({
                     setSearchOpen(false);
                   }}
                 >
+                  {r.breadcrumb && <div className={styles.resultBreadcrumb}>{r.breadcrumb}</div>}
                   <div className={styles.resultTitle}>{r.title}</div>
+                  {r.snippet ? <div className={styles.resultSnippet}>{r.snippet}</div> : null}
                 </div>
               ))}
             </div>

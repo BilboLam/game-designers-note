@@ -1,5 +1,5 @@
 import React from 'react';
-import { Blockquote, Breadcrumb, H1, H3, P } from '@/components/ui.jsx';
+import { Blockquote, Breadcrumb, H1, H2, P } from '@/components/ui.jsx';
 
 export default function Page({ go }) {
   return (
@@ -7,8 +7,8 @@ export default function Page({ go }) {
       <Breadcrumb auto go={go} />
       <H1>Map Hierarchy</H1>
       <P>For multiple Levels</P>
-      <H3 id="style-consistency-between-areas">Style consistency between areas</H3>
-      <H3 id="narrative-links-between-maps">Narrative links between maps</H3>
+      <H2 id="style-consistency-between-areas">Style consistency between areas</H2>
+      <H2 id="narrative-links-between-maps">Narrative links between maps</H2>
       <Blockquote>E.g. the rain in City of Tears comes from the blue lake (Hollow Knight)</Blockquote>
     </div>
   );

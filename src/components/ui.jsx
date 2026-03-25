@@ -194,11 +194,85 @@ export function CrossLink({ pageId, anchor, children, go }) {
     onMouseLeave={e=>e.target.style.textDecoration="none"}>{children}</span>;
 }
 
+// Show a fullscreen preview for content images.
+export function ZoomableImage({ src, alt, width, loading = 'lazy' }) {
+  const [open, setOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!open) return undefined;
+    const onKeyDown = (e) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [open]);
+
+  return (
+    <>
+      <img
+        src={src}
+        alt={alt}
+        loading={loading}
+        onClick={() => setOpen(true)}
+        style={{ maxWidth: width ?? '480px', width: '100%', borderRadius: 8, cursor: 'zoom-in', display: 'block' }}
+      />
+      {open && (
+        <div
+          role="button"
+          tabIndex={-1}
+          aria-label="Close image preview"
+          onClick={() => setOpen(false)}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            background: 'rgba(0, 0, 0, 0.82)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: 24,
+            zIndex: 1000,
+          }}
+        >
+          <button
+            type="button"
+            aria-label="Close image preview"
+            onClick={(e) => {
+              e.stopPropagation();
+              setOpen(false);
+            }}
+            style={{
+              position: 'fixed',
+              top: 18,
+              right: 18,
+              width: 38,
+              height: 38,
+              border: '1px solid rgba(255, 255, 255, 0.2)',
+              borderRadius: 999,
+              background: 'rgba(0, 0, 0, 0.48)',
+              color: '#fff',
+              cursor: 'pointer',
+            }}
+          >
+            <Icon name="xmark" style={{ fontSize: 15 }} />
+          </button>
+          <img
+            src={src}
+            alt={alt}
+            onClick={(e) => e.stopPropagation()}
+            style={{ maxWidth: 'min(92vw, 1400px)', maxHeight: '88vh', borderRadius: 12, boxShadow: '0 18px 60px rgba(0, 0, 0, 0.45)' }}
+          />
+        </div>
+      )}
+    </>
+  );
+}
+
+// Render images with caption and click-to-zoom preview.
 export function Figure({ src, caption, width }) {
   const label = caption ?? src.split('/').pop().replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
   return (
     <figure style={{ margin: '20px 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <img src={src} alt={label} style={{ maxWidth: width ?? '480px', width: '100%', borderRadius: 8 }} />
+      <ZoomableImage src={src} alt={label} width={width} />
       <figcaption style={{ fontSize: 12, color: 'var(--muted)', marginTop: 6, textAlign: 'center' }}>{label}</figcaption>
     </figure>
   );
