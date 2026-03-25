@@ -58,3 +58,8 @@
 .expandToggleOpen {
   transform: rotate(90deg);
 }
+
+.childrenGroup {
+  border-left: 1px solid var(--color-border);
+  margin-left: 18px;
+}

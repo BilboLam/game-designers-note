@@ -25,10 +25,11 @@
   --space-4xl: 52px;
   --space-5xl: 56px;
 
-  --size-header: 50px;
-  --width-sidebar: 260px;
+  --size-header: 62px;
+  --width-sidebar: 340px;
   --width-reading: 720px;
   --width-search-max: 320px;
+  --width-max: 1520px;
 
   --z-overlay: 90;
   --z-sidebar: 95;

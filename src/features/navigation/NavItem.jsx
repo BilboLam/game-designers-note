@@ -6,7 +6,7 @@ export function NavItem({ node, currentId, onNavRowClick, depth = 0, expandedIds
   const isActive = node.id === currentId;
   const hasChildren = node.children && node.children.length > 0;
   const showChildren = hasChildren && expandedIds.has(node.id);
-  const indentPx = 16 + depth * 12;
+  const indentPx = depth === 0 ? 16 : 8;
   const rowClass = [
     styles.row,
     depth === 0 && styles.rowDepthRoot,
@@ -37,7 +37,7 @@ export function NavItem({ node, currentId, onNavRowClick, depth = 0, expandedIds
         )}
       </div>
       {hasChildren && showChildren && (
-        <div>
+        <div className={styles.childrenGroup}>
           {node.children.map((child) => (
             <NavItem
               key={child.path ?? child.id}

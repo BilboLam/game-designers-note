@@ -197,7 +197,7 @@ export function CrossLink({ pageId, anchor, children, go }) {
 export function Figure({ src, caption, width }) {
   const label = caption ?? src.split('/').pop().replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
   return (
-    <figure style={{ margin: '20px 0', textAlign: 'center' }}>
+    <figure style={{ margin: '20px 0', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <img src={src} alt={label} style={{ maxWidth: width ?? '480px', width: '100%', borderRadius: 8 }} />
       <figcaption style={{ fontSize: 12, color: 'var(--muted)', marginTop: 6, textAlign: 'center' }}>{label}</figcaption>
     </figure>
