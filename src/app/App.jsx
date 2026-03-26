@@ -15,7 +15,9 @@ import homeStyles from '@/pages/home.module.css';
 export default function App() {
   const navigate = useNavigate();
   const location = useLocation();
-  const currentId = pathToId[location.pathname] || 'home';
+  const rawPath = location.pathname;
+  const normalizedPath = rawPath !== '/' && rawPath.endsWith('/') ? rawPath.slice(0, -1) : rawPath;
+  const currentId = pathToId[normalizedPath] || 'home';
   const [theme, setTheme] = useState('light');
   const [search, setSearch] = useState('');
   const [searchOpen, setSearchOpen] = useState(false);
