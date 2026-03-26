@@ -21,4 +21,6 @@ for (const route of routes) {
   count++;
 }
 
+fs.writeFileSync(path.join(docsDir, 'robots.txt'), 'User-agent: *\nAllow: /\n');
+
 console.log(`Prerendered ${count} routes.`);
