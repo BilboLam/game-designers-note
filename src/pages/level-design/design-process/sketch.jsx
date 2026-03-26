@@ -24,7 +24,7 @@ export default function Page({ go }) {
       <H2 id="id-4.-fillers">4. <InternalLink id="level-elements" go={go}>Fillers</InternalLink></H2>
       <P>In this note, "<strong>fillers</strong>" refers to the game elements. Once the floor plan is finished, you can add fillers to create a clearer image of the entire level. However, don't over-design in this phase, as detailed designs often change during build and testing, and too much content will make the level diagram clutter.</P>
       <Figure src="/images/final-layout-diagram.png" caption="Example of a final layout diagram" />
-      <P><ExtLink href="https://steamcommunity.com/sharedfiles/filedetails/?id=258249342">Example diagram<link rel="stylesheet" href="" /></ExtLink></P>
+      <P><ExtLink href="https://steamcommunity.com/sharedfiles/filedetails/?id=258249342">Example diagram</ExtLink></P>
     </div>
   );
 }

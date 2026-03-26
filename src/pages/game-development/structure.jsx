@@ -8,7 +8,7 @@ export default function Page({ go }) {
       <H1>Structure</H1>
       <P>A strong foundation lets later details take care of themselves.</P>
       <H2 id="stone-soup"><ExtLink href="https://www.gdcvault.com/play/1025655/Stone-Soup-Procedurally-Mixing-Student">Stone Soup</ExtLink></H2>
-      <Blockquote>Build a flexible structure where individual components are designed in isolation. The interactions between components are not pre-coded, but can sometimes be surprisingly interesting.</Blockquote>
+      <Blockquote>Build a <strong>flexible structure</strong> where individual components are designed in isolation. The interactions between components are not pre-coded, but can sometimes be surprisingly interesting.</Blockquote>
       <Callout type="info">
         <span>Encourage bugs, encouraging messiness.</span>
       </Callout>
