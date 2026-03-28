@@ -1024,7 +1024,7 @@ export const NAV = decorateNavTree(NAV_SOURCE);
 export const SEARCH_INDEX = [
   {
     "id": "home",
-    "title": "Game Designers' Note",
+    "title": "Game Design Brew Log",
   },
   {
     "id": "sys-home",

@@ -38,12 +38,12 @@ const HOME_CARDS = [
 export default function Page({ go }) {
   return (
     <div>
-      <H1>Game Designers' Note</H1>
+      <H1>Game Design Brew Log</H1>
       <P>
-        <strong>Game Designers&apos; Note</strong> is a personal knowledge base for game design, inspired by{' '}
-        <ExtLink href="https://book.leveldesignbook.com/"><em>The Level Design Book</em></ExtLink>, and aims to compile my
-        scribbled game design notes into a structured collection. These are simply my personal views, shared as a
-        starting point for thinking, not as definitive answers.
+        <strong>Game Design Brew Log</strong> is a personal knowledge base for game design. Inspired by{' '}
+        <ExtLink href="https://book.leveldesignbook.com/"><em>The Level Design Book</em></ExtLink>, this is an ongoing attempt to 
+        turn scattered notes and half-finished thoughts into something structured and useful. 
+        These are personal views and starting points for thinking, not definitive answers.
       </P>
       <Callout type="info">
         <P style={{ marginBottom: 0, color: 'var(--muted)' }}>

@@ -24,7 +24,7 @@ export function DocsHeader({
         <span className={styles.brandTitle} onClick={onBrandClick}>
           <span className={styles.brandInner}>
             <Icon name="clone" className={styles.brandIcon} />
-            <span>Game Designers' Note</span>
+            <span>Game Design Brew Log</span>
           </span>
         </span>
         <div className={styles.searchRegion} ref={searchRef}>
