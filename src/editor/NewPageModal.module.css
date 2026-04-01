@@ -1,0 +1,83 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 8px;
+  padding: 24px 28px;
+  width: 440px;
+  max-width: 95vw;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 20px;
+  color: #1c1a16;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.field span {
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+}
+
+.field input, .field select {
+  padding: 7px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  outline: none;
+}
+.field input:focus, .field select:focus { border-color: #c07840; }
+
+.error {
+  color: #c04040;
+  font-size: 13px;
+  margin-bottom: 12px;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.cancel {
+  padding: 7px 18px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+}
+.cancel:hover { background: #f0ede8; }
+
+.create {
+  padding: 7px 18px;
+  border: 1px solid #c07840;
+  border-radius: 5px;
+  background: #c07840;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+.create:hover { background: #a06030; }
+.create:disabled { opacity: 0.6; cursor: default; }

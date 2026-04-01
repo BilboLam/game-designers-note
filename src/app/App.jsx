@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, Suspense } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { pickIconForNavNode } from '@/config/nav-icon-policy.js';
 import { NAV, idToPath, pathToId } from '@/config/nav.js';
@@ -144,7 +144,7 @@ export default function App() {
         />
         <div className={homeStyles.homeRoot}>
           <div className={homeStyles.homeContent}>
-            <HomeComponent go={go} />
+            <Suspense><HomeComponent go={go} /></Suspense>
             <PageNav next={nextId} nextLabel={nextLabel} go={go} />
           </div>
         </div>
@@ -176,7 +176,7 @@ export default function App() {
         searchRef={searchRef}
       >
         <PageChromeProvider value={{ titleIconName, breadcrumbCrumbs }}>
-          <PageComponent go={go} />
+          <Suspense><PageComponent go={go} /></Suspense>
           <PageNav prev={prevId} prevLabel={prevLabel} next={nextId} nextLabel={nextLabel} go={go} />
         </PageChromeProvider>
       </DocsShell>

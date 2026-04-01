@@ -1,0 +1,139 @@
+import { useState, useEffect } from 'react';
+import styles from './EditorToolbar.module.css';
+
+const ToolBtn = ({ active, title, onClick, children }) => (
+  <button
+    title={title}
+    onClick={onClick}
+    className={`${styles.btn} ${active ? styles.active : ''}`}
+  >
+    {children}
+  </button>
+);
+
+const Sep = () => <span className={styles.sep} />;
+
+const CALLOUT_TYPES = [
+  { type: 'info',  icon: 'ℹ' },
+  { type: 'tip',   icon: '✦' },
+  { type: 'alarm', icon: '⚠' },
+];
+
+// Floating panel for choosing link type, anchored below the trigger button
+function LinkTypePopup({ anchor, onExternal, onInternal, onClose }) {
+  return (
+    <>
+      <div className={styles.popupOverlay} onClick={onClose} />
+      <div className={styles.linkPopup} style={{ left: anchor.x, top: anchor.y }}>
+        <button onClick={onExternal}>External 🔗</button>
+        <button onClick={onInternal}>Internal ⌁</button>
+      </div>
+    </>
+  );
+}
+
+export function EditorToolbar({ editor, onInsertFigure }) {
+  // Force re-render when cursor moves so isActive() reflects current position
+  const [, forceUpdate] = useState(0);
+  const [linkAnchor, setLinkAnchor] = useState(null);
+
+  useEffect(() => {
+    if (!editor) return;
+    const update = () => forceUpdate((n) => n + 1);
+    editor.on('selectionUpdate', update);
+    editor.on('transaction', update);
+    return () => { editor.off('selectionUpdate', update); editor.off('transaction', update); };
+  }, [editor]);
+
+  if (!editor) return null;
+
+  const chain = () => editor.chain().focus();
+
+  const isLinkActive = editor.isActive('link') || editor.isActive('internalLink');
+
+  const handleLinkBtn = (e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setLinkAnchor({ x: rect.left, y: rect.bottom + 4 });
+  };
+
+  const handleExternal = () => {
+    const url = window.prompt('URL', editor.getAttributes('link').href ?? 'https://');
+    if (url === null) { setLinkAnchor(null); return; }
+    if (url === '') chain().unsetLink().run();
+    else chain().setLink({ href: url, target: '_blank' }).run();
+    setLinkAnchor(null);
+  };
+
+  const handleInternal = () => {
+    const id = window.prompt('Page ID (optionally with #anchor)', editor.getAttributes('internalLink').id ?? '');
+    if (id === null) { setLinkAnchor(null); return; }
+    if (id === '') chain().unsetMark('internalLink').run();
+    else chain().setMark('internalLink', { id }).run();
+    setLinkAnchor(null);
+  };
+
+  return (
+    <div className={styles.toolbar}>
+      <ToolBtn title="Bold" active={editor.isActive('bold')} onClick={() => chain().toggleBold().run()}>
+        <b>B</b>
+      </ToolBtn>
+      <ToolBtn title="Italic" active={editor.isActive('italic')} onClick={() => chain().toggleItalic().run()}>
+        <i>I</i>
+      </ToolBtn>
+      <ToolBtn title="Code" active={editor.isActive('code')} onClick={() => chain().toggleCode().run()}>
+        {'</>'}
+      </ToolBtn>
+
+      <Sep />
+
+      <ToolBtn title="Heading 1" active={editor.isActive('heading', { level: 1 })} onClick={() => chain().toggleHeading({ level: 1 }).run()}>H1</ToolBtn>
+      <ToolBtn title="Heading 2" active={editor.isActive('heading', { level: 2 })} onClick={() => chain().toggleHeading({ level: 2 }).run()}>H2</ToolBtn>
+      <ToolBtn title="Heading 3" active={editor.isActive('heading', { level: 3 })} onClick={() => chain().toggleHeading({ level: 3 }).run()}>H3</ToolBtn>
+      <ToolBtn title="Heading 4" active={editor.isActive('heading', { level: 4 })} onClick={() => chain().toggleHeading({ level: 4 }).run()}>H4</ToolBtn>
+
+      <Sep />
+
+      <ToolBtn title="Bullet list" active={editor.isActive('bulletList')} onClick={() => chain().toggleBulletList().run()}>≡</ToolBtn>
+      <ToolBtn title="Ordered list" active={editor.isActive('orderedList')} onClick={() => chain().toggleOrderedList().run()}>1.</ToolBtn>
+      <ToolBtn title="Task list" active={editor.isActive('taskList')} onClick={() => chain().toggleTaskList().run()}>☑</ToolBtn>
+
+      <Sep />
+
+      <ToolBtn title="Blockquote" active={editor.isActive('blockquote')} onClick={() => chain().toggleBlockquote().run()}>"</ToolBtn>
+      {CALLOUT_TYPES.map(({ type, icon }) => (
+        <ToolBtn
+          key={type}
+          title={`Callout (${type})`}
+          active={editor.isActive('callout', { calloutType: type })}
+          onClick={() => chain().insertContent({
+            type: 'callout',
+            attrs: { calloutType: type },
+            content: [{ type: 'paragraph' }],
+          }).run()}
+        >
+          {icon}
+        </ToolBtn>
+      ))}
+      <ToolBtn title="Insert figure" onClick={onInsertFigure}>⬜</ToolBtn>
+
+      <Sep />
+
+      <ToolBtn title="Divider" onClick={() => chain().setHorizontalRule().run()}>―</ToolBtn>
+      <ToolBtn title="Link" active={isLinkActive} onClick={handleLinkBtn}>🔗</ToolBtn>
+
+      <Sep />
+
+      <ToolBtn title="Undo" onClick={() => chain().undo().run()}>↩</ToolBtn>
+      <ToolBtn title="Redo" onClick={() => chain().redo().run()}>↪</ToolBtn>
+
+      {linkAnchor && (
+        <LinkTypePopup
+          anchor={linkAnchor}
+          onExternal={handleExternal}
+          onInternal={handleInternal}
+          onClose={() => setLinkAnchor(null)}
+        />
+      )}
+    </div>
+  );
+}

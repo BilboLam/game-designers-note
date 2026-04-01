@@ -1,8 +1,16 @@
-import { SEARCH_INDEX as NAV_SEARCH_INDEX, pathToId } from './nav.js';
+import { NAV, pathToId } from './nav.js';
 
 const rawPages = import.meta.glob('../pages/**/*.jsx', { eager: true, query: '?raw', import: 'default' });
 
-const titleById = Object.fromEntries(NAV_SEARCH_INDEX.map((p) => [p.id, p.title]));
+// Build id→title map by walking the nav tree
+function collectTitles(nodes, out = {}) {
+  for (const n of nodes) {
+    out[n.id] = n.label;
+    if (n.children) collectTitles(n.children, out);
+  }
+  return out;
+}
+const titleById = collectTitles(NAV);
 
 function normalizeSpace(s) {
   return s.replace(/\s+/g, ' ').trim();
